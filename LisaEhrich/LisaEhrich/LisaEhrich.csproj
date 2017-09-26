@@ -1,353 +1,247 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D3B03C5-F7EC-40D9-B1EA-CDA81F615902}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LisaEhrich</RootNamespace>
+    <AssemblyName>LisaEhrich</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
-
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
-    <None Remove="service.html" />
-    <None Remove="wwwroot\css\style - Copy.css" />
-    <None Remove="onepage_v5_2.html" />
-    <None Remove="onepage_v6.html" />
-    <None Remove="project_v1.html" />
-    <None Remove="project_v2.html" />
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
-    <PackageReference Include="Microsoft.AspNetCore.StaticFilesEx" Version="1.0.0.4" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.2" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
   </ItemGroup>
-
   <ItemGroup>
-    <None Include="wwwroot\css\fontello.css" />
-    <None Include="wwwroot\css\jquery.fullpage.min.css" />
-    <None Include="wwwroot\css\jquery.range.css" />
-    <None Include="wwwroot\css\style.css" />
-    <None Include="wwwroot\css\swiper.min.css" />
-    <None Include="wwwroot\favicon.ico" />
-    <None Include="wwwroot\font\dinot\DINOT-Black.otf" />
-    <None Include="wwwroot\font\dinot\DINOT-Bold.otf" />
-    <None Include="wwwroot\font\dinot\DINOT-CondBlack.otf" />
-    <None Include="wwwroot\font\dinot\DINOT-Light.otf" />
-    <None Include="wwwroot\font\fontello.eot" />
-    <None Include="wwwroot\font\fontello.svg" />
-    <None Include="wwwroot\font\fontello.ttf" />
-    <None Include="wwwroot\font\fontello.woff" />
-    <None Include="wwwroot\font\fontello.woff2" />
-    <None Include="wwwroot\font\montserrat-black.ttf" />
-    <None Include="wwwroot\font\montserrat-black.woff" />
-    <None Include="wwwroot\font\montserrat-hairline-webfont.eot" />
-    <None Include="wwwroot\font\montserrat-hairline-webfont.ttf" />
-    <None Include="wwwroot\font\montserrat-hairline-webfont.woff" />
-    <None Include="wwwroot\font\montserrat-hairline-webfont.woff2" />
-    <None Include="wwwroot\font\montserrat-light.ttf" />
-    <None Include="wwwroot\font\montserrat-light.woff" />
-    <None Include="wwwroot\font\montserrat-thin-webfont.woff" />
-    <None Include="wwwroot\font\montserrat-thin-webfont.woff2" />
-    <None Include="wwwroot\font\stylesheet.css" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Bold.eot" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Bold.ttf" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Bold.woff" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Light.eot" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Light.ttf" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Light.woff" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Regular.eot" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Regular.ttf" />
-    <None Include="wwwroot\font\walsheim\GT-Walsheim-Pro-Regular.woff" />
-    <None Include="wwwroot\img\about_main_image.jpg" />
-    <None Include="wwwroot\img\about_main_image_2.jpg" />
-    <None Include="wwwroot\img\about_slider_img_1.jpg" />
-    <None Include="wwwroot\img\about_slider_img_2.jpg" />
-    <None Include="wwwroot\img\about_slider_img_3.jpg" />
-    <None Include="wwwroot\img\arrow_down.png" />
-    <None Include="wwwroot\img\author_img.png" />
-    <None Include="wwwroot\img\blog_bg_img_1.jpg" />
-    <None Include="wwwroot\img\blog_bg_img_2.jpg" />
-    <None Include="wwwroot\img\blog_full_img_1.jpg" />
-    <None Include="wwwroot\img\blog_full_img_2.jpg" />
-    <None Include="wwwroot\img\blog_item_img_1.jpg" />
-    <None Include="wwwroot\img\blog_item_img_2.jpg" />
-    <None Include="wwwroot\img\blog_item_img_3.jpg" />
-    <None Include="wwwroot\img\blog_post_img.jpg" />
-    <None Include="wwwroot\img\box_image_1.jpg" />
-    <None Include="wwwroot\img\box_main_slider_1.jpg" />
-    <None Include="wwwroot\img\box_slide_1.jpg" />
-    <None Include="wwwroot\img\box_slide_2.jpg" />
-    <None Include="wwwroot\img\box_team.jpg" />
-    <None Include="wwwroot\img\check.png" />
-    <None Include="wwwroot\img\client_1.png" />
-    <None Include="wwwroot\img\client_2.png" />
-    <None Include="wwwroot\img\client_3.png" />
-    <None Include="wwwroot\img\client_4.png" />
-    <None Include="wwwroot\img\client_5.png" />
-    <None Include="wwwroot\img\client_img_1.png" />
-    <None Include="wwwroot\img\client_img_2.png" />
-    <None Include="wwwroot\img\client_img_3.png" />
-    <None Include="wwwroot\img\client_img_4.png" />
-    <None Include="wwwroot\img\client_img_5.png" />
-    <None Include="wwwroot\img\client_img_6.png" />
-    <None Include="wwwroot\img\client_man_1.png" />
-    <None Include="wwwroot\img\clip_bg.jpg" />
-    <None Include="wwwroot\img\close.png" />
-    <None Include="wwwroot\img\close_2.png" />
-    <None Include="wwwroot\img\close_index_popup.png" />
-    <None Include="wwwroot\img\close_item.png" />
-    <None Include="wwwroot\img\close_item_2.png" />
-    <None Include="wwwroot\img\comment_img.png" />
-    <None Include="wwwroot\img\cursor_item.png" />
-    <None Include="wwwroot\img\drag.png" />
-    <None Include="wwwroot\img\few_step_bg.jpg" />
-    <None Include="wwwroot\img\fullpage_top_slide_img_1.jpg" />
-    <None Include="wwwroot\img\fullpage_top_slide_img_2.jpg" />
-    <None Include="wwwroot\img\fullpage_top_slide_img_3.jpg" />
-    <None Include="wwwroot\img\full_about_bg.png" />
-    <None Include="wwwroot\img\full_project_1.jpg" />
-    <None Include="wwwroot\img\full_project_2.jpg" />
-    <None Include="wwwroot\img\full_project_3.jpg" />
-    <None Include="wwwroot\img\full_project_4.jpg" />
-    <None Include="wwwroot\img\full_serv_bg.jpg" />
-    <None Include="wwwroot\img\full_serv_icon_1.png" />
-    <None Include="wwwroot\img\full_serv_icon_2.png" />
-    <None Include="wwwroot\img\full_serv_icon_3.png" />
-    <None Include="wwwroot\img\full_serv_icon_4.png" />
-    <None Include="wwwroot\img\full_serv_icon_5.png" />
-    <None Include="wwwroot\img\full_serv_icon_6.png" />
-    <None Include="wwwroot\img\gallery_slide_1.jpg" />
-    <None Include="wwwroot\img\gallery_slide_2.jpg" />
-    <None Include="wwwroot\img\gallery_slide_3.jpg" />
-    <None Include="wwwroot\img\history_slider_image_1.png" />
-    <None Include="wwwroot\img\image68.jpg" />
-    <None Include="wwwroot\img\image73.jpg" />
-    <None Include="wwwroot\img\index_team_1.jpg" />
-    <None Include="wwwroot\img\index_team_2.jpg" />
-    <None Include="wwwroot\img\index_team_3.jpg" />
-    <None Include="wwwroot\img\index_team_4.jpg" />
-    <None Include="wwwroot\img\inside_image_1.png" />
-    <None Include="wwwroot\img\inside_image_2.png" />
-    <None Include="wwwroot\img\inst_img_1.jpg" />
-    <None Include="wwwroot\img\inst_img_2.jpg" />
-    <None Include="wwwroot\img\inst_img_3.jpg" />
-    <None Include="wwwroot\img\inst_img_4.jpg" />
-    <None Include="wwwroot\img\inst_img_5.jpg" />
-    <None Include="wwwroot\img\inst_img_6.jpg" />
-    <None Include="wwwroot\img\item_img_1.jpg" />
-    <None Include="wwwroot\img\item_img_2.jpg" />
-    <None Include="wwwroot\img\item_img_3.jpg" />
-    <None Include="wwwroot\img\laptop.png" />
-    <None Include="wwwroot\img\laptop2.png" />
-    <None Include="wwwroot\img\link_plus.png" />
-    <None Include="wwwroot\img\logo.jpg" />
-    <None Include="wwwroot\img\logo.svg" />
-    <None Include="wwwroot\img\logo_mini.jpg" />
-    <None Include="wwwroot\img\logo_mobile.jpg" />
-    <None Include="wwwroot\img\logo_onepage_5.png" />
-    <None Include="wwwroot\img\logo_onepage_6.png" />
-    <None Include="wwwroot\img\main_logo.jpg" />
-    <None Include="wwwroot\img\marker.png" />
-    <None Include="wwwroot\img\marker2.jpg" />
-    <None Include="wwwroot\img\mini_about_img.jpg" />
-    <None Include="wwwroot\img\mini_blog_item1.jpg" />
-    <None Include="wwwroot\img\mini_blog_item2.jpg" />
-    <None Include="wwwroot\img\mini_blog_item3.jpg" />
-    <None Include="wwwroot\img\mini_blog_post.jpg" />
-    <None Include="wwwroot\img\mini_contact.jpg" />
-    <None Include="wwwroot\img\mini_project_detail_img_1.jpg" />
-    <None Include="wwwroot\img\mini_project_detail_img_2.jpg" />
-    <None Include="wwwroot\img\mini_project_detail_img_3.jpg" />
-    <None Include="wwwroot\img\mini_project_detail_img_4.jpg" />
-    <None Include="wwwroot\img\mini_services_img.jpg" />
-    <None Include="wwwroot\img\mini_slider_img_1.jpg" />
-    <None Include="wwwroot\img\modern_about_bg.jpg" />
-    <None Include="wwwroot\img\no_avatar.png" />
-    <None Include="wwwroot\img\onepage6_about_bg.jpg" />
-    <None Include="wwwroot\img\onepage6_bg.jpg" />
-    <None Include="wwwroot\img\onepage6_contact_bg.jpg" />
-    <None Include="wwwroot\img\onepage6_project_bg.jpg" />
-    <None Include="wwwroot\img\people_img_1.png" />
-    <None Include="wwwroot\img\play.png" />
-    <None Include="wwwroot\img\popup_bg.jpg" />
-    <None Include="wwwroot\img\popup_bg.png" />
-    <None Include="wwwroot\img\prev_full_project_1.jpg" />
-    <None Include="wwwroot\img\prev_full_project_2.jpg" />
-    <None Include="wwwroot\img\prev_full_project_3.jpg" />
-    <None Include="wwwroot\img\prev_full_project_4.jpg" />
-    <None Include="wwwroot\img\prev_full_project_5.jpg" />
-    <None Include="wwwroot\img\prev_full_project_6.jpg" />
-    <None Include="wwwroot\img\product_image_1.jpg" />
-    <None Include="wwwroot\img\product_image_2.jpg" />
-    <None Include="wwwroot\img\product_image_3.jpg" />
-    <None Include="wwwroot\img\project_1.jpg" />
-    <None Include="wwwroot\img\project_2.jpg" />
-    <None Include="wwwroot\img\project_3.jpg" />
-    <None Include="wwwroot\img\project_4.jpg" />
-    <None Include="wwwroot\img\project_5.jpg" />
-    <None Include="wwwroot\img\project_6.jpg" />
-    <None Include="wwwroot\img\project_full_1.jpg" />
-    <None Include="wwwroot\img\project_full_2.jpg" />
-    <None Include="wwwroot\img\project_mini_img_1.jpg" />
-    <None Include="wwwroot\img\project_mini_img_2.jpg" />
-    <None Include="wwwroot\img\project_sm_1.jpg" />
-    <None Include="wwwroot\img\project_sm_10.jpg" />
-    <None Include="wwwroot\img\project_sm_11.jpg" />
-    <None Include="wwwroot\img\project_sm_12.jpg" />
-    <None Include="wwwroot\img\project_sm_13.jpg" />
-    <None Include="wwwroot\img\project_sm_14.jpg" />
-    <None Include="wwwroot\img\project_sm_15.jpg" />
-    <None Include="wwwroot\img\project_sm_16.jpg" />
-    <None Include="wwwroot\img\project_sm_17.jpg" />
-    <None Include="wwwroot\img\project_sm_18.jpg" />
-    <None Include="wwwroot\img\project_sm_19.jpg" />
-    <None Include="wwwroot\img\project_sm_2.jpg" />
-    <None Include="wwwroot\img\project_sm_20.jpg" />
-    <None Include="wwwroot\img\project_sm_21.jpg" />
-    <None Include="wwwroot\img\project_sm_22.jpg" />
-    <None Include="wwwroot\img\project_sm_23.jpg" />
-    <None Include="wwwroot\img\project_sm_3.jpg" />
-    <None Include="wwwroot\img\project_sm_4.jpg" />
-    <None Include="wwwroot\img\project_sm_5.jpg" />
-    <None Include="wwwroot\img\project_sm_6.jpg" />
-    <None Include="wwwroot\img\project_sm_7.jpg" />
-    <None Include="wwwroot\img\project_sm_8.jpg" />
-    <None Include="wwwroot\img\project_sm_9.jpg" />
-    <None Include="wwwroot\img\radio.png" />
-    <None Include="wwwroot\img\reg_main_image.jpg" />
-    <None Include="wwwroot\img\scroll_down.png" />
-    <None Include="wwwroot\img\scroll_down_lg.png" />
-    <None Include="wwwroot\img\search.png" />
-    <None Include="wwwroot\img\service_bg.png" />
-    <None Include="wwwroot\img\service_clip.jpg" />
-    <None Include="wwwroot\img\service_icon_1.png" />
-    <None Include="wwwroot\img\service_icon_1_hover.png" />
-    <None Include="wwwroot\img\service_icon_2.png" />
-    <None Include="wwwroot\img\service_icon_2_hover.png" />
-    <None Include="wwwroot\img\service_icon_3.png" />
-    <None Include="wwwroot\img\service_icon_3_hover.png" />
-    <None Include="wwwroot\img\service_icon_4.png" />
-    <None Include="wwwroot\img\service_icon_4_hover.png" />
-    <None Include="wwwroot\img\service_icon_5.png" />
-    <None Include="wwwroot\img\service_icon_5_hover.png" />
-    <None Include="wwwroot\img\service_icon_6.png" />
-    <None Include="wwwroot\img\service_icon_6_hover.png" />
-    <None Include="wwwroot\img\service_image_1.jpg" />
-    <None Include="wwwroot\img\service_image_2.jpg" />
-    <None Include="wwwroot\img\service_item_1.jpg" />
-    <None Include="wwwroot\img\service_item_2.jpg" />
-    <None Include="wwwroot\img\service_item_3.jpg" />
-    <None Include="wwwroot\img\service_item_4.jpg" />
-    <None Include="wwwroot\img\service_layer.png" />
-    <None Include="wwwroot\img\service_logo.png" />
-    <None Include="wwwroot\img\service_popup_img.jpg" />
-    <None Include="wwwroot\img\shop.png" />
-    <None Include="wwwroot\img\shop_block_image_1.jpg" />
-    <None Include="wwwroot\img\shop_block_image_2.jpg" />
-    <None Include="wwwroot\img\shop_block_image_3.jpg" />
-    <None Include="wwwroot\img\shop_block_image_4.jpg" />
-    <None Include="wwwroot\img\shop_block_image_5.jpg" />
-    <None Include="wwwroot\img\shop_block_image_6.jpg" />
-    <None Include="wwwroot\img\shop_item_img_1.jpg" />
-    <None Include="wwwroot\img\shop_item_img_2.jpg" />
-    <None Include="wwwroot\img\shop_item_img_3.jpg" />
-    <None Include="wwwroot\img\shop_slider_img_1.jpg" />
-    <None Include="wwwroot\img\shop_slider_img_2.jpg" />
-    <None Include="wwwroot\img\sidebar_slide_img_1.jpg" />
-    <None Include="wwwroot\img\signature.png" />
-    <None Include="wwwroot\img\signature2.png" />
-    <None Include="wwwroot\img\single2_slide_1.jpg" />
-    <None Include="wwwroot\img\single2_slide_2.jpg" />
-    <None Include="wwwroot\img\single2_slide_3.jpg" />
-    <None Include="wwwroot\img\single3_point_1.jpg" />
-    <None Include="wwwroot\img\single3_point_1.png" />
-    <None Include="wwwroot\img\single3_point_2.jpg" />
-    <None Include="wwwroot\img\single3_point_2.png" />
-    <None Include="wwwroot\img\single3_point_3.jpg" />
-    <None Include="wwwroot\img\single3_point_3.png" />
-    <None Include="wwwroot\img\single3_point_4.jpg" />
-    <None Include="wwwroot\img\single3_point_4.png" />
-    <None Include="wwwroot\img\single3_slide_1.jpg" />
-    <None Include="wwwroot\img\single_page_bg.jpg" />
-    <None Include="wwwroot\img\single_point_1.png" />
-    <None Include="wwwroot\img\single_point_2.png" />
-    <None Include="wwwroot\img\single_point_3.png" />
-    <None Include="wwwroot\img\single_point_4.png" />
-    <None Include="wwwroot\img\slider_dot.png" />
-    <None Include="wwwroot\img\slider_point_1.png" />
-    <None Include="wwwroot\img\slider_point_2.png" />
-    <None Include="wwwroot\img\slider_point_3.png" />
-    <None Include="wwwroot\img\solo_main_img.png" />
-    <None Include="wwwroot\img\solo_page2_main_img.jpg" />
-    <None Include="wwwroot\img\solo_page3_main_img.jpg" />
-    <None Include="wwwroot\img\solo_project_1.jpg" />
-    <None Include="wwwroot\img\solo_project_2.jpg" />
-    <None Include="wwwroot\img\solo_project_3.jpg" />
-    <None Include="wwwroot\img\solo_project_4.jpg" />
-    <None Include="wwwroot\img\splash.png" />
-    <None Include="wwwroot\img\step_icon_1.png" />
-    <None Include="wwwroot\img\step_icon_1_hover.png" />
-    <None Include="wwwroot\img\step_icon_2.png" />
-    <None Include="wwwroot\img\step_icon_2_hover.png" />
-    <None Include="wwwroot\img\step_icon_3.png" />
-    <None Include="wwwroot\img\step_icon_3_hover.png" />
-    <None Include="wwwroot\img\step_icon_4.png" />
-    <None Include="wwwroot\img\step_icon_4_hover.png" />
-    <None Include="wwwroot\img\step_slider_left_img_1.png" />
-    <None Include="wwwroot\img\submit_bg.png" />
-    <None Include="wwwroot\img\team_1.jpg" />
-    <None Include="wwwroot\img\team_2.jpg" />
-    <None Include="wwwroot\img\team_3.jpg" />
-    <None Include="wwwroot\img\team_4.jpg" />
-    <None Include="wwwroot\img\team_bg.jpg" />
-    <None Include="wwwroot\img\team_image_1.jpg" />
-    <None Include="wwwroot\img\team_image_2.jpg" />
-    <None Include="wwwroot\img\team_image_3.jpg" />
-    <None Include="wwwroot\img\team_image_4.jpg" />
-    <None Include="wwwroot\img\testi_bg_image.jpg" />
-    <None Include="wwwroot\img\timeline_bg.png" />
-    <None Include="wwwroot\img\tumbs_point_1.jpg" />
-    <None Include="wwwroot\img\tumbs_point_2.jpg" />
-    <None Include="wwwroot\img\tumbs_point_3.jpg" />
-    <None Include="wwwroot\img\tumbs_point_4.jpg" />
-    <None Include="wwwroot\img\video_bg.jpg" />
-    <None Include="wwwroot\img\word_wave.png" />
-    <None Include="wwwroot\img\word_wave_sm.png" />
-    <None Include="wwwroot\index.html" />
-    <None Include="wwwroot\js\all.js" />
-    <None Include="wwwroot\js\anchors.nav.js" />
-    <None Include="wwwroot\js\googlemap.js" />
-    <None Include="wwwroot\js\hover.js" />
-    <None Include="wwwroot\js\isotope.pkgd.min.js" />
-    <None Include="wwwroot\js\jarallax.js" />
-    <None Include="wwwroot\js\jquery-ui.min.js" />
-    <None Include="wwwroot\js\jquery.circliful.min.js" />
-    <None Include="wwwroot\js\jquery.countTo.js" />
-    <None Include="wwwroot\js\jquery.fullpage.min.js" />
-    <None Include="wwwroot\js\jquery.min.js" />
-    <None Include="wwwroot\js\jquery.mousewheel.min.js" />
-    <None Include="wwwroot\js\jquery.parallax-scroll.js" />
-    <None Include="wwwroot\js\jquery.range-min.js" />
-    <None Include="wwwroot\js\map.js" />
-    <None Include="wwwroot\js\scrollreveal.min.js" />
-    <None Include="wwwroot\js\swiper.jquery.min.js" />
-    <None Include="wwwroot\js\typed.min.js" />
-    <None Include="wwwroot\js\wow.min.js" />
-    <None Include="wwwroot\sass\style.scss" />
-    <None Include="wwwroot\sass\_about.scss" />
-    <None Include="wwwroot\sass\_blog.scss" />
-    <None Include="wwwroot\sass\_bootstrap.scss" />
-    <None Include="wwwroot\sass\_contact.scss" />
-    <None Include="wwwroot\sass\_fullpage.scss" />
-    <None Include="wwwroot\sass\_index.scss" />
-    <None Include="wwwroot\sass\_main.scss" />
-    <None Include="wwwroot\sass\_mini.scss" />
-    <None Include="wwwroot\sass\_onepage_5.scss" />
-    <None Include="wwwroot\sass\_onepage_6.scss" />
-    <None Include="wwwroot\sass\_page.scss" />
-    <None Include="wwwroot\sass\_project.scss" />
-    <None Include="wwwroot\sass\_reset.scss" />
-    <None Include="wwwroot\sass\_shop.scss" />
-    <None Include="wwwroot\sass\_single.scss" />
-    <None Include="wwwroot\sass\_solo.scss" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64479</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64479/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
 </Project>
