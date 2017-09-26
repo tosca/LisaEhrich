@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="service.html" />
     <None Remove="wwwroot\css\style - Copy.css" />
     <None Remove="onepage_v5_2.html" />
     <None Remove="onepage_v6.html" />
