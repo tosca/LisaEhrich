@@ -497,7 +497,7 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 .title-counter { text-align: center; padding-bottom: 45px; position: relative; }
 .title-counter .title { padding-bottom: 25px; }
 .title-counter span { position: relative; display: inline-block; width: 32px; height: 32px; font-size: 10px; color: #fff; background: #4d4d4e; line-height: 32px; border-radius: 50%; font-weight: 700; vertical-align: middle; }
-.title-counter.no-padd { padding-bottom: 0px; }
+.title-counter.no-padd { padding-bottom: 0px; padding-top:30px; }
 .title-counter i { font-size: 30px; line-height: 55px; display: inline-block; vertical-align: bottom; }
 .title-counter.col-white { color: #fff; }
 .title-counter.col-white.col-white .title { color: #fff; }
@@ -1010,7 +1010,7 @@ nav li { position: relative; }
 
 .main-content { position: relative; border: 90px solid #fff; height: 100%; padding: 45px 0px 20px; border-bottom: 0px none; }
 .main-content.no-top { padding: 0px; border-top-width: 0px; }
-.main-content.no-padd { padding: 45px 0px 0px; }
+.main-content.no-padd { padding: 30px 0px 0px; } /*tosca*/
 
 .card-item { position: relative; width: 100%; z-index: 2; overflow: hidden; border-radius: 5px; background: #fff; text-align: center; margin-bottom: 30px; -webkit-transition: all 300ms ease-out; -moz-transition: all 300ms ease-out; -ms-transition: all 300ms ease-out; transition: all 300ms ease-out; }
 .card-item.full { min-height: 380px; text-align: left; }
@@ -1944,7 +1944,7 @@ nav li { position: relative; }
   .slider-list-desc .title { font-size: 26px; line-height: 32px; } }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 23. PRICE PAGE */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------
 .price-wrap { margin-top: 25px; }
 
 .price-item { position: relative; display: inline-block; width: 100%; background: #fff; padding: 50px 35px 35px; text-align: center; }
@@ -2031,10 +2031,10 @@ nav li { position: relative; }
   .range-bar-start { font-size: 80px; line-height: 80px; }
   .total-price { font-size: 50px; line-height: 50px; }
   .total-price i { line-height: 50px; } }
-@media (max-width: 380px) { .range-bar-start { font-size: 40px; line-height: 40px; } }
+@media (max-width: 380px) { .range-bar-start { font-size: 40px; line-height: 40px; } }*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 24. REGISTRETION PAGE */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------
 .reg-form { position: relative; display: block; margin: 0 auto; text-align: center; padding: 50px 40px 35px; max-width: 480px; background: #fff; }
 .reg-form .title { font-size: 44px; line-height: 50px; padding-bottom: 50px; }
 .reg-form .input-entry { margin-bottom: 30px; }
@@ -2063,11 +2063,11 @@ nav li { position: relative; }
 @media (max-width: 992px) { .reg-input { height: 55px; border-radius: 25px; } }
 @media (max-width: 480px) { .reg-form { padding: 30px 15px; }
   .reg-form .title { font-size: 34px; line-height: 40px; padding-bottom: 30px; }
-  .reg-form .label-text, .reg-form .sub-title { font-size: 11px; } }
+  .reg-form .label-text, .reg-form .sub-title { font-size: 11px; } }*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 25. SERVICE PAGE */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.service-nav { position: relative; margin: 0 auto; background: #fff; width: 345px; text-align: center; z-index: 5; }
+.service-nav { position: relative; margin: -150px auto; background: #fff; width: 345px; text-align: center; z-index: 5; }
 .service-nav li { font-size: 25px; line-height: 55px; color: #7f7f7f; position: relative; cursor: pointer; -webkit-transition: all 0.65s ease-out; -moz-transition: all 0.65s ease-out; -ms-transition: all 0.65s ease-out; transition: all 0.65s ease-out; }
 .service-nav li span { position: absolute; left: 0px; top: 0px; background: #7f7f7f; width: 100%; height: 100%; z-index: -1; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; -ms-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .service-nav li.active { color: #fff; }
@@ -2091,7 +2091,7 @@ nav li { position: relative; }
 .service-desc .simple-text p { font-size: 17px; line-height: 25px; color: #4d4d4e; padding-bottom: 25px; }
 
 .service-caption { padding: 0px 110px 0px 65px; color: #fff; }
-.service-caption .sub-title { font-size: 13px; letter-spacing: 2.8px; padding-bottom: 10px; }
+.service-caption .sub-title { font-size: 13px; letter-spacing: 2.8px; padding-bottom: 10px; font-weight:400}
 
 .right .service-caption { text-align: right; padding: 0px 65px 0px 110px; }
 
@@ -2100,7 +2100,7 @@ nav li { position: relative; }
 .main-baner-align.padd-bottom { padding-bottom: 95px; }
 
 @media (max-width: 1700px) { .service-desc { padding: 130px 40px 95px 180px; }
-  .service-nav { width: 300px; }
+  .service-nav { width: 210px; }
   .service-nav li { font-size: 18px; line-height: 46px; }
   .left .service-desc { padding: 130px 180px 95px 40px; }
   .service-desc .simple-text { margin-bottom: 20px; }
@@ -3588,7 +3588,7 @@ body.overflowh { overflow: hidden; }
 .scroll-down-section { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-size: 14px; line-height: 14px; color: rgba(255, 255, 255, 0.5); width: auto; position: absolute; left: 40px; bottom: 130px; cursor: pointer; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; -ms-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .scroll-down-section:hover { color: #fff; }
 
-.open-all-project { position: absolute; width: 60px; height: 60px; text-align: center; line-height: 60px; font-size: 20px; color: rgba(255, 255, 255, 0.25); left: 50%; margin-left: -30px; top: 50px; cursor: pointer; z-index: 120; }
+.open-all-project { position: absolute; width: 60px; height: 60px; text-align: center; line-height: 60px; font-size: 20px; color: rgba(255, 255, 255, 0.5); left: 50%; margin-left: -30px; top: 50px; cursor: pointer; z-index: 120; }
 .open-all-project.act i:before { content: '\e800'; }
 
 .project-item-wr { position: absolute; overflow: hidden; left: 50%; top: 50%; padding: 0px 100px; width: 100%; z-index: 55; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; -ms-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
