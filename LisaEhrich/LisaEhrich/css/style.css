@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------
-
+  
 Template:Interio
 Version: 1.2.0
 Last change:16/05/17 [fixed bug, zn]
@@ -2162,7 +2162,7 @@ nav li { position: relative; }
 
 .main-baner-align.padd-bottom { padding-bottom: 95px; }
 
-@media (max-width: 1700px) { .service-desc { padding: 130px 40px 95px 180px; }
+@media (max-width: 1700px) { .service-desc { padding: 130px 40px 95px 150px; }
   .service-nav { width: 210px; }
   .service-nav li { font-size: 18px; line-height: 46px; }
   .left .service-desc { padding: 130px 180px 95px 40px; }
@@ -3619,7 +3619,7 @@ body.overflowh { overflow: hidden; }
     top: 0px;
     width: 130px;
     height: 100%;
-    background: #adadad;
+    background: #a0ac6e;
     z-index: 500;
     -webkit-transition: all 0.35s ease-out;
     -moz-transition: all 0.35s ease-out;
@@ -3687,7 +3687,7 @@ body.overflowh { overflow: hidden; }
 .project-author { font-size: 16px; }
 
 .about-layer.bg, .about-layer.service-layer {
-    opacity: 0.07;
+    opacity: 0.5;
     background-size: contain;
     left: 0px;
     bottom: 0px;
@@ -3697,7 +3697,7 @@ body.overflowh { overflow: hidden; }
 .full-about-wr { position: relative; width: 100%; }
 
 .full-about-item { position: relative; max-width: 990px; width: 100%; display: block; margin: 0 auto; }
-.full-about-item p { font-size: 20px; line-height: 34px; font-weight: 300; color: #fffefe; padding-bottom: 40px; }
+.full-about-item p { font-size: 24px; line-height: 34px; font-weight: 400; color: #fffefe; padding-bottom: 40px; }
 
 .signature { position: relative; float: right; }
 .signature img { margin-bottom: 15px; }

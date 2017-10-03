@@ -154,6 +154,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\LE\farmers-branch-01.jpg" />
+    <Content Include="img\LE\fb-station-01.jpg" />
+    <Content Include="img\LE\fb-station-02.jpg" />
+    <Content Include="img\LE\fb-station-03.jpg" />
+    <Content Include="img\LE\fb-station-04.jpg" />
+    <Content Include="img\LE\fb-station-05.jpg" />
+    <Content Include="img\LE\fb-station-06.jpg" />
     <Content Include="img\project_tall_1.jpg" />
     <Content Include="img\project_tall_2.jpg" />
     <Content Include="img\project_tall_3.jpg" />
