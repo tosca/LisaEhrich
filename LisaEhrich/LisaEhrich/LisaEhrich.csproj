@@ -151,6 +151,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -161,6 +162,7 @@
     <Content Include="img\LE\fb-station-04.jpg" />
     <Content Include="img\LE\fb-station-05.jpg" />
     <Content Include="img\LE\fb-station-06.jpg" />
+    <Content Include="img\LE\publications.jpg" />
     <Content Include="img\project_tall_1.jpg" />
     <Content Include="img\project_tall_2.jpg" />
     <Content Include="img\project_tall_3.jpg" />
@@ -171,6 +173,7 @@
     <Content Include="img\project_tall_8.jpg" />
     <Content Include="img\project_tall_9.jpg" />
     <Content Include="index.html" />
+    <Content Include="lisaehrich-logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
