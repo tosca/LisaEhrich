@@ -163,6 +163,15 @@
     <Content Include="img\LE\fb-station-05.jpg" />
     <Content Include="img\LE\fb-station-06.jpg" />
     <Content Include="img\LE\publications.jpg" />
+    <Content Include="img\LE\rocks-01.jpg" />
+    <Content Include="img\LE\rocks-02.jpg" />
+    <Content Include="img\LE\rocks-03.jpg" />
+    <Content Include="img\LE\vessel-group-01.jpg" />
+    <Content Include="img\LE\vessel-group-02.jpg" />
+    <Content Include="img\LE\vessel-group-03.jpg" />
+    <Content Include="img\LE\vessel-group-04.jpg" />
+    <Content Include="img\LE\vessel-group-05.jpg" />
+    <Content Include="img\LE\vessel-group-06.jpg" />
     <Content Include="img\project_tall_1.jpg" />
     <Content Include="img\project_tall_2.jpg" />
     <Content Include="img\project_tall_3.jpg" />

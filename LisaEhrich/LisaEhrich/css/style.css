@@ -1925,7 +1925,7 @@ nav li { position: relative; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .main-list-content { position: relative; width: 100%; overflow: hidden; padding: 0px 0px 50px; }
 
-.project-list { height: auto; padding: 20px 0px; overflow: visible; }
+.project-list { height: auto; padding: 40px 0px; overflow: visible; }
 .project-list .swiper-slide { width: auto; height: auto; }
 .project-list .swiper-slide:first-child .bg, .project-list .swiper-slide:first-child .service-layer { transform-origin: left center; -webkit-transform-origin: left center; -moz-transform-origin: left center; -ms-transform-origin: left center; }
 .project-list .swiper-slide:last-child .bg, .project-list .swiper-slide:last-child .service-layer { transform-origin: right center; -webkit-transform-origin: right center; -moz-transform-origin: right center; -ms-transform-origin: right center; }
@@ -1967,6 +1967,38 @@ nav li { position: relative; }
         height: auto;
     }
 
+.project-item-wide {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 210px;
+    margin: 0px 20px;
+}
+
+    .project-item-wide .layer {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: 5;
+        opacity: 0;
+        background: rgba(77, 77, 78, 0.7);
+        backface-visibility: hidden;
+    }
+
+    .project-item-wide .bg, .project-item-wide .service-layer {
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+    }
+
+    .project-item-wide .main-img {
+        max-width: 100%;
+        height: auto;
+    }
+
 .slider-list-container { position: relative; width: 100%; display: inline-block; }
 
 .slider-list-desc { position: absolute; left: 0px; top: 0px; width: 300px; height: 100%; padding: 20px 20px 0px 0px; background: #eceeeb; z-index: 5; font-size: 0px; }
@@ -1978,10 +2010,11 @@ nav li { position: relative; }
 .first-list .slider-list-desc { top: -20px; padding-top: 40px; }
 
 @media (min-width: 992px) {
-    .project-item-2:hover .layer, .project-item-tall:hover .layer {
+    .project-item-2:hover .layer, .project-item-tall:hover .layer, .project-item-wide:hover .layer {
         opacity: 1;
     }
-    .project-item-2:hover .bg, .project-item-2:hover .service-layer, .project-item-tall:hover .bg, .project-item-tall:hover .service-layer {
+
+    .project-item-2:hover .bg, .project-item-2:hover .service-layer, .project-item-tall:hover .bg, .project-item-tall:hover .service-layer, .project-item-wide:hover .bg, .project-item-wide:hover .service-layer {
         -webkit-transform: scale(1.37);
         -moz-transform: scale(1.37);
         -ms-transform: scale(1.37);
@@ -1989,13 +2022,22 @@ nav li { position: relative; }
         box-shadow: 0px 59px 89px rgba(5, 5, 6, 0.75);
         z-index: 1;
     }
-  .project-item-2:hover .vertical-align img, .project-item-2:hover .search-panel.popup .close img, .search-panel.popup .project-item-2:hover .close img, .project-item-2:hover .amount-wrap .val img, .amount-wrap .project-item-2:hover .val img, .project-item-2:hover .inside-img img img, .inside-img .project-item-2:hover img img, .project-item-2:hover .skill-line img { -webkit-transform: scale(0.63); -moz-transform: scale(0.63); -ms-transform: scale(0.63); transform: scale(0.63); } 
-.project-item-tall:hover .vertical-align img, .project-item-tall:hover .search-panel.popup .close img, .search-panel.popup .project-item-tall:hover .close img, .project-item-tall:hover .amount-wrap .val img, .amount-wrap .project-item-tall:hover .val img, .project-item-tall:hover .inside-img img img, .inside-img .project-item-tall2:hover img img, .project-item-tall:hover .skill-line img {
-    -webkit-transform: scale(0.63);
-    -moz-transform: scale(0.63);
-    -ms-transform: scale(0.63);
-    transform: scale(0.63);
-}
+
+    .project-item-2:hover .vertical-align img, .project-item-2:hover .search-panel.popup .close img, .search-panel.popup .project-item-2:hover .close img, .project-item-2:hover .amount-wrap .val img, .amount-wrap .project-item-2:hover .val img, .project-item-2:hover .inside-img img img, .inside-img .project-item-2:hover img img, .project-item-2:hover .skill-line img {
+        -webkit-transform: scale(0.63);
+        -moz-transform: scale(0.63);
+        -ms-transform: scale(0.63);
+        transform: scale(0.63);
+    }
+
+    .project-item-tall:hover .vertical-align img, .project-item-tall:hover .search-panel.popup .close img, .search-panel.popup .project-item-tall:hover .close img, .project-item-tall:hover .amount-wrap .val img, .amount-wrap .project-item-tall:hover .val img, .project-item-tall:hover .inside-img img img, .inside-img .project-item-tall:hover img img, .project-item-tall:hover .skill-line img,
+    .project-item-wide:hover .vertical-align img, .project-item-wide:hover .search-panel.popup .close img, .search-panel.popup .project-item-wide:hover .close img, .project-item-wide:hover .amount-wrap .val img, .amount-wrap .project-item-wide:hover .val img, .project-item-wide:hover .inside-img img img, .inside-img .project-item-wide:hover img img, .project-item-wide:hover .skill-line img
+    {
+        -webkit-transform: scale(0.63);
+        -moz-transform: scale(0.63);
+        -ms-transform: scale(0.63);
+        transform: scale(0.63);
+    }
 }
 
 
@@ -2004,7 +2046,30 @@ nav li { position: relative; }
   .slider-list-desc .title { text-align: center; }
   .slider-list-gallery { padding-left: 0px; } }
 @media (max-width: 768px) { .project-item-2 { width: 150px; height: 150px; margin: 0 10px; }
-  .slider-list-desc .title { font-size: 26px; line-height: 32px; } }
+  .slider-list-desc .title { font-size: 26px; line-height: 32px; }
+    @media (max-width: 768px) {
+        .project-item-tall {
+            width: 150px;
+            height: 350px;
+            margin: 0 10px;
+        }
+        .slider-list-desc .title {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+    @media (max-width: 768px) {
+        .project-item-wide {
+            width: 350px;
+            height: 150px;
+            margin: 0 10px;
+        }
+        .slider-list-desc .title {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 23. PRICE PAGE */
 /*-------------------------------------------------------------------------------------------------------------------------------
