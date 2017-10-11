@@ -163,6 +163,12 @@
     <Content Include="img\LE\fb-station-05.jpg" />
     <Content Include="img\LE\fb-station-06.jpg" />
     <Content Include="img\home-leaves.jpg" />
+    <Content Include="img\LE\leaf-03.jpg" />
+    <Content Include="img\LE\leaf-04.jpg" />
+    <Content Include="img\LE\leaf-05.jpg" />
+    <Content Include="img\LE\leaf-06.jpg" />
+    <Content Include="img\LE\leaf-07.jpg" />
+    <Content Include="img\LE\leaf-08.jpg" />
     <Content Include="img\LE\tiles.jpg" />
     <Content Include="img\LE\leaves-wide.jpg" />
     <Content Include="img\LE\publications.jpg" />
@@ -309,7 +315,7 @@
     <Content Include="img\project_full_2.jpg" />
     <Content Include="img\project_mini_img_1.jpg" />
     <Content Include="img\project_mini_img_2.jpg" />
-    <Content Include="img\project_sm_1.jpg" />
+    <Content Include="img\LE\leaf-01.jpg" />
     <Content Include="img\project_sm_10.jpg" />
     <Content Include="img\project_sm_11.jpg" />
     <Content Include="img\project_sm_12.jpg" />
@@ -320,7 +326,7 @@
     <Content Include="img\project_sm_17.jpg" />
     <Content Include="img\project_sm_18.jpg" />
     <Content Include="img\project_sm_19.jpg" />
-    <Content Include="img\project_sm_2.jpg" />
+    <Content Include="img\LE\leaf-02.jpg" />
     <Content Include="img\project_sm_20.jpg" />
     <Content Include="img\project_sm_21.jpg" />
     <Content Include="img\project_sm_22.jpg" />
