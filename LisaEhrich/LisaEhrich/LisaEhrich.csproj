@@ -169,6 +169,17 @@
     <Content Include="img\LE\leaf-06.jpg" />
     <Content Include="img\LE\leaf-07.jpg" />
     <Content Include="img\LE\leaf-08.jpg" />
+    <Content Include="img\LE\sculpture-01.jpg" />
+    <Content Include="img\LE\sculpture-02.jpg" />
+    <Content Include="img\LE\sculpture-03.jpg" />
+    <Content Include="img\LE\sculpture-04.jpg" />
+    <Content Include="img\LE\sculpture-05.jpg" />
+    <Content Include="img\LE\sculpture-06.jpg" />
+    <Content Include="img\LE\sculpture-07.jpg" />
+    <Content Include="img\LE\sculpture-08.jpg" />
+    <Content Include="img\LE\sculpture-09.jpg" />
+    <Content Include="img\LE\sculpture-10.jpg" />
+    <Content Include="img\LE\sculpture-11.jpg" />
     <Content Include="img\LE\tiles.jpg" />
     <Content Include="img\LE\leaves-wide.jpg" />
     <Content Include="img\LE\publications.jpg" />
