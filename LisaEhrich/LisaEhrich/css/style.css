@@ -3652,7 +3652,7 @@ body.overflowh { overflow: hidden; }
 
 .project-author { font-size: 16px; }
 
-.about-layer.bg, .about-layer.service-layer {
+.about-layer.bg, .about-layer.service-layer, .bio-layer.bg {
     opacity: 0.5;
     background-size: contain;
     left: 0px;
