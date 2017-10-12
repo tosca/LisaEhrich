@@ -192,15 +192,6 @@
     <Content Include="img\LE\vessel-group-04.jpg" />
     <Content Include="img\LE\vessel-group-05.jpg" />
     <Content Include="img\LE\vessel-group-06.jpg" />
-    <Content Include="img\project_tall_1.jpg" />
-    <Content Include="img\project_tall_2.jpg" />
-    <Content Include="img\project_tall_3.jpg" />
-    <Content Include="img\project_tall_4.jpg" />
-    <Content Include="img\project_tall_5.jpg" />
-    <Content Include="img\project_tall_6.jpg" />
-    <Content Include="img\project_tall_7.jpg" />
-    <Content Include="img\project_tall_8.jpg" />
-    <Content Include="img\project_tall_9.jpg" />
     <Content Include="index.html" />
     <Content Include="lisaehrich-logo.png" />
     <Content Include="Scripts\bootstrap.js" />
