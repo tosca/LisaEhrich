@@ -1064,12 +1064,13 @@ nav li { position: relative; }
 .card-item.type-2 .image { height: 285px; }
 
 .sub-title {
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 400;
     display: block;
     letter-spacing: 1.6px;
- }
+    font-family: 'Julius Sans One', sans-serif;
+}
 
 .sidebar-item { position: relative; background: #fff; border-radius: 5px; margin-bottom: 15px; }
 .sidebar-item .title { border-bottom: 1px solid #d2d2d3; padding: 20px 15px; }
