@@ -193,6 +193,9 @@
     <Content Include="img\LE\vessel-group-04.jpg" />
     <Content Include="img\LE\vessel-group-05.jpg" />
     <Content Include="img\LE\vessel-group-06.jpg" />
+    <Content Include="img\LE\vleaf-01.jpg" />
+    <Content Include="img\LE\wall-sculpt-01.jpg" />
+    <Content Include="img\LE\wall-sculpt-02.jpg" />
     <Content Include="index.html" />
     <Content Include="lisaehrich-logo.png" />
     <Content Include="Scripts\bootstrap.js" />

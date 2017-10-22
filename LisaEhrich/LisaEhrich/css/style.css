@@ -1995,8 +1995,8 @@ nav li { position: relative; }
 .project-item-wide {
     position: relative;
     display: block;
-    width: 324px;
-    height: 216px;
+    width: 400px;
+    height: 210px;
     margin: 0px 20px;
 }
 
@@ -2085,8 +2085,8 @@ nav li { position: relative; }
     }
     @media (max-width: 768px) {
         .project-item-wide {
-            width: 324px;
-            height: 216px;
+            width: 400px;
+            height: 210px;
             margin: 0 10px;
         }
         .slider-list-desc .title {
