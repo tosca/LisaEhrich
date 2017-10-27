@@ -392,6 +392,10 @@ input::-webkit-input-placeholder, input::-moz-placeholder, input:-moz-placeholde
 
 .pull-left { float: left !important; }
 
+
+
+
+
 .hide { display: none !important; }
 
 .show { display: block !important; }
@@ -2105,7 +2109,7 @@ nav li { position: relative; }
 /* 25. SERVICE PAGE */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .service-nav { position: relative; margin: -150px auto; background: #fff; width: 210px; opacity: 0.8; text-align: center; z-index: 5; }
-.service-nav li { font-size: 25px; line-height: 45px; color: #7f7f7f; position: relative; cursor: pointer; -webkit-transition: all 0.65s ease-out; -moz-transition: all 0.65s ease-out; -ms-transition: all 0.65s ease-out; transition: all 0.65s ease-out; }
+.service-nav li { font-size: 28px; line-height: 32px; color: #342d2d; position: relative; cursor: pointer; -webkit-transition: all 0.65s ease-out; -moz-transition: all 0.65s ease-out; -ms-transition: all 0.65s ease-out; transition: all 0.65s ease-out; }
 .service-nav li span { position: absolute; left: 0px; top: 0px; background: #7f7f7f; width: 100%; height: 100%; z-index: -1; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; -ms-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .service-nav li.active { color: #fff; }
 
@@ -2192,18 +2196,46 @@ nav li { position: relative; }
   .price-item.year .price-value b { font-size: 50px; line-height: 60px; }
   .price-item.year .price-value { font-size: 20px; }
   .main-baner-align .service-desc .cell-view { display: block; } }
-@media (max-width: 480px) { .service-desc .simple-text p { padding-bottom: 15px; }
-  .service-nav li { font-size: 16px; line-height: 36px; }
-  .mobile-toggle-slide.service-toggle .slide-lidt-text { font-size: 16px; display: inline-block; }
-  .service-caption .title { font-size: 35px; }
-  .mobile-toggle-slide.service-toggle { max-width: 280px; margin-left: -140px; top: 70px; }
-  .mobile-toggle-slide.service-toggle ul { max-width: 280px; min-width: 100%; } }
+@media (max-width: 480px) {
+    .service-desc .simple-text p {
+        padding-bottom: 15px;
+    }
+
+    .service-nav li {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .bio-section .mobile-toggle-slide.service-toggle .slide-lidt-text {
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .bio-section .mobile-toggle-slide.service-toggle .slide-lidt-text {
+        display: none;
+    }
+
+    .service-caption .title {
+        font-size: 35px;
+    }
+
+    .bio-section .mobile-toggle-slide.service-toggle {
+        max-width: 280px;
+        margin-left: -140px;
+        top: 70px;
+    }
+
+        .bio-section .mobile-toggle-slide.service-toggle ul {
+            max-width: 280px;
+            min-width: 100%;
+        }
+}
+
 .service-item.type-4 .image { width: 220px; height: 220px; margin: 0px auto 55px; }
 .service-item.type-4 .image img { min-width: 65px; }
 .service-item.type-4 .simple-text { max-width: 250px; margin: 0 auto; display: block; }
 
-.service-panel { position: fixed; right: 0px; top: 0px; width: 100%; overflow-y: auto; max-width: 740px; background: #fff; height: 100%; z-index: 550; -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; transition: all 0.5s; }
-
+.service-panel { position: fixed; right: 0px; top: 0px; width: 100%; overflow-y: auto; max-width: 740px; background: #fff; height: 100%; z-index: 550; -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
 .service-popup-wrap { position: relative; }
 .service-popup-wrap .image-bg { text-align: center; height: 530px; position: relative; width: 100%; }
 .service-popup-wrap .text { padding: 45px 65px; }
@@ -3617,7 +3649,7 @@ body.overflowh { overflow: hidden; }
 .right-navigation .menu-scrol { position: relative; text-align: center; width: 100%; height: 100%; right: 0px; margin: 0px !important; top: 0px; padding: 60px 9%; }
 .right-navigation .menu-scrol li { display: block; margin: 0px 15px; width: auto; height: auto; float: left; }
     .right-navigation .menu-scrol li a {
-        font-size: 16px;
+        font-size: 20px;
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
         color: rgba(255, 254, 254, 0.6);
@@ -3692,7 +3724,7 @@ body.overflowh { overflow: hidden; }
 .project-author { font-size: 16px; }
 
 .about-layer.bg, .about-layer.service-layer, .bio-layer.bg {
-    opacity: 0.5;
+    opacity: 0.6;
    background-size: cover;
     left: 0px;
     bottom: 0px;
