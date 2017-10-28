@@ -161,6 +161,8 @@
     <Content Include="img\LE\dwbowl-03.jpg" />
     <Content Include="img\LE\dwbowl-04.jpg" />
     <Content Include="img\LE\dwbowl-05.jpg" />
+    <Content Include="img\LE\dwbowl-06.jpg" />
+    <Content Include="img\LE\dwbowl-07.jpg" />
     <Content Include="img\LE\farmers-branch-01.jpg" />
     <Content Include="img\LE\fb-station-01.jpg" />
     <Content Include="img\LE\fb-station-02.jpg" />
@@ -172,6 +174,9 @@
     <Content Include="img\LE\leaf-04.jpg" />
     <Content Include="img\LE\leaf-12.jpg" />
     <Content Include="img\LE\leaf-13.jpg" />
+    <Content Include="img\LE\leaf-14.jpg" />
+    <Content Include="img\LE\leaf-15.jpg" />
+    <Content Include="img\LE\leaf-16.jpg" />
     <Content Include="img\LE\rocks-04.jpg" />
     <Content Include="img\LE\rocks-05.jpg" />
     <Content Include="img\LE\leaf-10.jpg" />
