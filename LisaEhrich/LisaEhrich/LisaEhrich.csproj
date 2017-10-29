@@ -186,6 +186,11 @@
     <Content Include="img\LE\Lisa-portrait.jpg" />
     <Content Include="img\LE\rocks-08.jpg" />
     <Content Include="img\LE\rocks-09.jpg" />
+    <Content Include="img\LE\sculpt-11.jpg" />
+    <Content Include="img\LE\sculpt-12.jpg" />
+    <Content Include="img\LE\sculpt-13.jpg" />
+    <Content Include="img\LE\sculpt-14.jpg" />
+    <Content Include="img\LE\sculpt-15.jpg" />
     <Content Include="img\LE\sculpture-01.jpg" />
     <Content Include="img\LE\sculpture-02.jpg" />
     <Content Include="img\LE\sculpture-03.jpg" />
@@ -212,6 +217,7 @@
     <Content Include="img\LE\leaf-01.jpg" />
     <Content Include="img\LE\wall-sculpt-01.jpg" />
     <Content Include="img\LE\wall-sculpt-02.jpg" />
+    <Content Include="img\LE\wall-sculpt-03.jpg" />
     <Content Include="index.html" />
     <Content Include="lisaehrich-logo.png" />
     <Content Include="Scripts\bootstrap.js" />
