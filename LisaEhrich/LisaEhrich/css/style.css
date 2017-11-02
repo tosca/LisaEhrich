@@ -629,7 +629,7 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
     height: 100vmin;
     min-height: 650px;
     overflow-y: auto;
-    /* max-height: 100vh;*/
+     max-height: 100vh;/*tosca*/
 }
 .content-bg { padding: 160px 0px 180px; position: relative; }
 
@@ -666,8 +666,7 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 
 .layer-bg-1 { background: rgba(104, 106, 176, 0.54); backface-visibility: hidden; }
 .layer-bg-1 {
-    background: rgb(154, 160, 182);
-    backface-visibility: hidden;
+    background: rgba(209, 210, 215, 0.42)
 }
 
 .layer-bg-2 { background: rgba(49, 46, 73, 0.6); backface-visibility: hidden; }
@@ -3001,7 +3000,7 @@ nav li { position: relative; }
   .box-type-7 { margin-bottom: 130px; }
   .box-type-7 .text .box-title { letter-spacing: 5px; margin-left: 0px; }
   .box-type-7 .square-box { display: none; }
-  .button-type-2.style-2 { letter-spacing: 3px; } }
+  .button-type-2.style-2 { letter-spacing: 3px; } } 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 32. Mini */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -3724,7 +3723,7 @@ body.overflowh { overflow: hidden; }
 .project-author { font-size: 16px; }
 
 .about-layer.bg, .about-layer.service-layer, .bio-layer.bg {
-    opacity: 0.6;
+    opacity: 0.5;
    background-size: cover;
     left: 0px;
     bottom: 0px;

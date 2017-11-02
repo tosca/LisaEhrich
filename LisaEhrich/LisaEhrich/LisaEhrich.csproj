@@ -177,6 +177,7 @@
     <Content Include="img\LE\leaf-14.jpg" />
     <Content Include="img\LE\leaf-15.jpg" />
     <Content Include="img\LE\leaf-16.jpg" />
+    <Content Include="img\LE\leafshelf-sm.jpg" />
     <Content Include="img\LE\LisaEhrich-01.png" />
     <Content Include="img\LE\lisaehrich-logo-01.png" />
     <Content Include="img\LE\lisaehrich-logo.png" />
@@ -420,6 +421,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="TEST.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
