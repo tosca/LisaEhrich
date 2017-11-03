@@ -3621,6 +3621,7 @@ body.overflowh { overflow: hidden; }
     font-weight: 400;
     background: #2d333c;
     background: #9b98a3;
+    background:rgba(255, 255, 255, 0.5)
 }
 
 .header.right-style { position: relative; width: 100%; overflow: hidden; }
@@ -3629,7 +3630,7 @@ body.overflowh { overflow: hidden; }
 .header.right-style .burger i:after, .header.right-style .burger i:before { background: #fff; }
 .header.right-style .burger.active { -webkit-transform: translate(0%, -50%); -moz-transform: translate(0%, -50%); -ms-transform: translate(0%, -50%); transform: translate(0%, -50%); top: 50%; padding: 9px 0px; background: none; }
 
-.logo-left { left: 100px; top: 60px; z-index: 150; position: fixed; }
+.logo-left { left: 100px; top: 40px; z-index: 150; position: fixed; }
 
 .right-navigation {
     position: fixed;
@@ -3638,7 +3639,8 @@ body.overflowh { overflow: hidden; }
     width: 130px;
     height: 100%;
     background: #a0ac6e;
-    background: #8a868c;
+    background: #7fadbf;
+    background: #97adb3;
     z-index: 500;
     -webkit-transition: all 0.35s ease-out;
     -moz-transition: all 0.35s ease-out;
@@ -3651,7 +3653,7 @@ body.overflowh { overflow: hidden; }
         font-size: 20px;
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
-        color: rgba(255, 254, 254, 0.6);
+        color: rgba(255, 254, 254, 0.7);
         position: relative;
         display: block;
     }
@@ -3668,16 +3670,15 @@ body.overflowh { overflow: hidden; }
 .folow.grey a:after { color: #fff; }
 
 .full-section {
-    background-image: -moz-linear-gradient(bottom left, #2D333C 20%, #3C4359 40%, #464C6C 50%, #757EC8 100%); /* Opera */
-    background-image: -o-linear-gradient(bottom left, #2D333C 20%, #3C4359 40%, #464C6C 50%, #757EC8 100%); /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(20, #2D333C), color-stop(40, #3C4359), color-stop(50, #464C6C), color-stop(100, #757EC8)); /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(bottom left, #2D333C 20%, #3C4359 40%, #464C6C 50%, #757EC8 100%); /* W3C Markup */
-    background-image: linear-gradient(to top right, #2D333C 20%, #3C4359 40%, #464C6C 50%, #757EC8 100%);
-    background-image: linear-gradient(to top right, #2D333C 20%, #3C4359 40%, #464C6C 50%, rgba(57, 154, 255, 0.82) 100% );
-    background-image: linear-gradient(to top right, #E5EEC2 20%, #A0AC6E 40%, #A0AC6E 50%, #CCD6A3 100% );
-    background-image: linear-gradient(to top right, #CCD6A3 20%, #B5C187 40%, #B5C187 50%, #E5EEC2 100% );
-    background-image: linear-gradient(to top right, #9b98a3 20%, #989aaa 40%, #9dabcb 50%, #bcbecf 100% );
+    background-image: -moz-linear-gradient(bottom left, #9b98a3 20%, #989aaa 40%, #9dabcb 50%, #bcbecf 100%); /* Opera */
+    background-image: -o-linear-gradient(bottom left, #9b98a3 20%, #989aaa 40%, #9dabcb 50%, #bcbecf 100%); /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(20, #9b98a3), color-stop(40, #989aaa), color-stop(50, #9dabcb), color-stop(100, #bcbecf)); /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(bottom left, #9b98a3 20%, #989aaa 40%, #9dabcb 50%, #bcbecf 100%); /* W3C Markup */
+    background-image: linear-gradient(to top right, #2D333C 20%, #3C4359 40%, #464C6C 50%, #757EC8 70%);
+    background-image: linear-gradient(to top right, #d4d5d6 20%, #719ebd 30%, #82bbcc 40%, #a7ddf7 50% );
+    background-image: linear-gradient(to top right, #9b98a3 20%, #989aaa 40%, #9dabcb 50%, #bcbecf 100% )
 }
+
 .full-section-wrap { padding-right: 130px; }
 
 .full-section {
@@ -3733,7 +3734,7 @@ body.overflowh { overflow: hidden; }
 .full-about-wr { position: relative; width: 100%; }
 
 .full-about-item { position: relative; max-width: 990px; width: 100%; display: block; margin: 0 auto; }
-.full-about-item p { font-size: 22px; line-height: 34px; font-weight: 400; color: #fffefe; padding-bottom: 32px; font-family: 'Quicksand', sans-serif }
+.full-about-item p { font-size: 20px; line-height: 32px; font-weight: 400; color: #fffefe; padding-bottom: 30px; font-family: 'Quicksand', sans-serif }
 
 .signature { position: relative; float: right; }
 .signature img { margin-bottom: 15px; }
@@ -3741,7 +3742,7 @@ body.overflowh { overflow: hidden; }
 
 .full-contact-item { position: relative; text-align: center; }
 .full-contact-item .title-h2 { font-size: 105px; line-height: 134px; font-weight: 300; letter-spacing: -0.8px; color: #fffefe; }
-.full-contact-item p { font-size: 31px; line-height: 42px; color: rgba(255, 254, 254, 0.5); padding-top: 35px; }
+.full-contact-item p { font-size: 31px; line-height: 42px; color: rgba(255, 254, 254, 0.8); padding-top: 35px; }
 .full-contact-item p a { color: inherit; }
 .full-contact-item p a:hover { color: #fff; }
 
@@ -3782,7 +3783,7 @@ body.overflowh { overflow: hidden; }
   .full-project-item .image { height: 350px; }
   .open-all-project { top: 15px; }
   .full-about-item p { font-size: 22px; line-height: 32px; padding-bottom: 20px; }
-  .signature img { max-width: 130px; }
+  .signature img { max-width: 150px; }
   .full-contact-item .title-h2 { font-size: 60px; line-height: 70px; }
   .full-contact-item p { font-size: 20px; line-height: 32px; }
   .contact-footer-link { bottom: 30px; } }
