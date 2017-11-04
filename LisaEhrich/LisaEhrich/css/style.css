@@ -433,13 +433,20 @@ input::-webkit-input-placeholder, input::-moz-placeholder, input:-moz-placeholde
 
 .preload.version2 {
     background: #8a868c;
-    /* background: rgba(77, 77, 78, 0.3);*/
+    background: #989aaa;
 }
 .preload.version2 .load-wave { position: absolute; width: 0%; height: 10px; top: 50%; left: 0px; animation: wave .7s infinite alternate ease-in-out; }
 /*.preload.version2 .load-wave:before { content: ''; position: absolute; left: 0px; bottom: 0px; height: 8px; width: 100%; background: url(../img/word_wave.png) repeat-x; }
 */
-@keyframes wave { 0% { width: 0; }
-  100% { width: 100%; } }
+@keyframes wave {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
 @-webkit-keyframes wave { 0% { width: 0; }
   100% { width: 100%; } }
 @-moz-keyframes wave { 0% { width: 0; }
@@ -629,7 +636,7 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
     height: 100vmin;
     min-height: 650px;
     overflow-y: auto;
-     max-height: 100vh;/*tosca*/
+     /*max-height: 100vh;tosca*/
 }
 .content-bg { padding: 160px 0px 180px; position: relative; }
 
@@ -3737,7 +3744,7 @@ body.overflowh { overflow: hidden; }
 .full-about-item p { font-size: 20px; line-height: 32px; font-weight: 400; color: #fffefe; padding-bottom: 30px; font-family: 'Quicksand', sans-serif }
 
 .signature { position: relative; float: right; }
-.signature img { margin-bottom: 15px; }
+.signature img { margin-bottom: 25px; }
 .signature span { display: block; font-size: 16px; line-height: 16px; text-transform: uppercase; color: #fffefe; }
 
 .full-contact-item { position: relative; text-align: center; }
@@ -3782,8 +3789,8 @@ body.overflowh { overflow: hidden; }
   .right-navigation .copy { bottom: 30px; }
   .full-project-item .image { height: 350px; }
   .open-all-project { top: 15px; }
-  .full-about-item p { font-size: 22px; line-height: 32px; padding-bottom: 20px; }
-  .signature img { max-width: 150px; }
+  .full-about-item p { font-size: 18px; line-height: 26px; padding-bottom: 18px; }
+  .signature img { max-width: 300px; }
   .full-contact-item .title-h2 { font-size: 60px; line-height: 70px; }
   .full-contact-item p { font-size: 20px; line-height: 32px; }
   .contact-footer-link { bottom: 30px; } }
