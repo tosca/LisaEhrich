@@ -244,11 +244,6 @@
     <Content Include="font\stylesheet.css" />
     <Content Include="img\arrow_down.png" />
     <Content Include="img\author_img.png" />
-    <Content Include="img\box_image_1.jpg" />
-    <Content Include="img\box_main_slider_1.jpg" />
-    <Content Include="img\box_slide_1.jpg" />
-    <Content Include="img\box_slide_2.jpg" />
-    <Content Include="img\box_team.jpg" />
     <Content Include="img\close.png" />
     <Content Include="img\close_2.png" />
     <Content Include="img\close_index_popup.png" />
@@ -259,8 +254,6 @@
     <Content Include="img\drag.png" />
     <Content Include="img\few_step_bg.jpg" />
     <Content Include="img\fullpage_top_slide_img_1.jpg" />
-    <Content Include="img\fullpage_top_slide_img_2.jpg" />
-    <Content Include="img\fullpage_top_slide_img_3.jpg" />
     <Content Include="img\full_about_bg.png" />
     <Content Include="img\full_project_1.jpg" />
     <Content Include="img\full_project_2.jpg" />

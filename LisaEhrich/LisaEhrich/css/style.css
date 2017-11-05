@@ -635,7 +635,7 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
     height: 100vmin;
     min-height: 650px;
     overflow-y: auto;
-     /*max-height: 100vh;tosca*/
+     max-height: 100vh;
 }
 .content-bg { padding: 160px 0px 180px; position: relative; }
 
@@ -3745,6 +3745,9 @@ body.overflowh { overflow: hidden; }
 @media (max-width: 480px) { .right-navigation .menu-scrol li a { font-size: 13px; }
   .right-navigation .menu-scrol li { margin: 0px 10px; }
   .header.right-style .burger { right: 20px; }
+    .wrapper-full-scroll {
+        padding-top: 74px;
+    }
   .title-h1 { font-size: 24px; line-height: 34px; }
   .word-anime { padding-bottom: 10px; }
   .word-anime:before { background: url(../img/word_wave_sm.png) repeat-x; height: 4px; }
@@ -3756,7 +3759,7 @@ body.overflowh { overflow: hidden; }
   .full-about-item { padding: 100px 20px; }
   .about-layer.bg, .about-layer.service-layer { background-size: cover; }
   .signature span { font-size: 13px; line-height: 13px; }
-  .full-contact-item .title-h2 { font-size: 20px; line-height: 32px; }
+  .full-contact-item .title-h2 { font-size: 20px; line-height: 32px; padding-top: 70px; }/*tosca*/
   .full-contact-item p { font-size: 15px; line-height: 22px; padding-top: 15px; }
   .contact-footer-link a { font-size: 12px; margin: 0 10px 10px; }
   .contact-footer-link h4 { font-size: 20px; line-height: 20px; }
