@@ -188,9 +188,10 @@
     <Content Include="img\LE\leaf-08.jpg" />
     <Content Include="img\LE\Lisa-portrait.jpg" />
     <Content Include="img\LE\rocks-08.jpg" />
-    <Content Include="img\LE\rocks-09.jpg" />
     <Content Include="img\LE\rocks-11.jpg" />
     <Content Include="img\LE\rocks-12.jpg" />
+    <Content Include="img\LE\rocks-13.jpg" />
+    <Content Include="img\LE\rocks-14.jpg" />
     <Content Include="img\LE\sculpt-11.jpg" />
     <Content Include="img\LE\sculpt-12.jpg" />
     <Content Include="img\LE\sculpt-13.jpg" />
@@ -210,8 +211,6 @@
     <Content Include="img\LE\tiles.jpg" />
     <Content Include="img\LE\leaves-wide.jpg" />
     <Content Include="img\LE\publications.jpg" />
-    <Content Include="img\LE\rocks-01.jpg" />
-    <Content Include="img\LE\rocks-02.jpg" />
     <Content Include="img\LE\rocks-03.jpg" />
     <Content Include="img\LE\vessel-group-01.jpg" />
     <Content Include="img\LE\vessel-group-02.jpg" />
