@@ -203,8 +203,6 @@
     <Content Include="img\LE\sculpture-07.jpg" />
     <Content Include="img\LE\sculpture-08.jpg" />
     <Content Include="img\LE\sculpture-09.jpg" />
-    <Content Include="img\LE\rocks-06.jpg" />
-    <Content Include="img\LE\rocks-07.jpg" />
     <Content Include="img\LE\signature-sm.png" />
     <Content Include="img\LE\signature.png" />
     <Content Include="img\LE\tiles.jpg" />
