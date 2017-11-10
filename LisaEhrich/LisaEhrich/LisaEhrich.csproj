@@ -182,6 +182,12 @@
     <Content Include="img\LE\leaf-17.jpg" />
     <Content Include="img\LE\leaf-18.jpg" />
     <Content Include="img\LE\leaf-19.jpg" />
+    <Content Include="img\LE\leaf-20.jpg" />
+    <Content Include="img\LE\leaf-21.jpg" />
+    <Content Include="img\LE\leaf-22.jpg" />
+    <Content Include="img\LE\leaf-23.jpg" />
+    <Content Include="img\LE\leaf-24.jpg" />
+    <Content Include="img\LE\leaf-25.jpg" />
     <Content Include="img\LE\leafshelf-sm.jpg" />
     <Content Include="img\LE\LisaEhrich.png" />
     <Content Include="img\LE\rocks-04.jpg" />
@@ -226,6 +232,8 @@
     <Content Include="img\LE\wall-sculpt-01.jpg" />
     <Content Include="img\LE\wall-sculpt-02.jpg" />
     <Content Include="img\LE\wall-sculpt-03.jpg" />
+    <Content Include="img\LE\wall-sculpt-04.jpg" />
+    <Content Include="img\LE\wall-sculpt-05.jpg" />
     <Content Include="index.html" />
     <Content Include="js\all.js" />
     <Content Include="js\anchors.nav.js" />
