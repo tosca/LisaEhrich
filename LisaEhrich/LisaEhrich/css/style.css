@@ -629,11 +629,11 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 .section-fullpage { position: relative; padding: 70px 0px 80px; }
 .section-fullpage.full { height: 1080px; height: 100vmin; min-height: 800px; }
 
-.full-h-section { height: 700px; height: 100vmin; min-height: 650px; }
+.full-h-section { height: 700px; height: 100vmin; min-height: 700px; }
 .full-h-portfolio {
     height: 700px;
     height: 100vmin;
-    min-height: 650px;
+    min-height: 700px;
     overflow-y: auto;
      max-height: 100vh;
 }
@@ -3522,8 +3522,8 @@ body.overflowh { overflow: hidden; }
   .full-project-item .image { height: 150px; }
   .project-section { padding: 40px 0; }
   .full-project-item { padding-bottom: 50px; }
-  .full-about-item p { font-size: 15px; line-height: 23px; }
-  .full-about-item { padding: 100px 20px; }
+  .full-about-item p { font-size: 16px; line-height: 28px; }
+  .full-about-item { padding: 40px 20px; }
   .about-layer.bg, .about-layer.service-layer { background-size: cover; }
   .signature span { font-size: 13px; line-height: 13px; }
   .full-contact-item .title-h2 { font-size: 20px; line-height: 32px; padding-top: 70px; }/*tosca*/
