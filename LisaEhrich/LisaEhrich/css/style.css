@@ -629,11 +629,11 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 .section-fullpage { position: relative; padding: 70px 0px 80px; }
 .section-fullpage.full { height: 1080px; height: 100vmin; min-height: 800px; }
 
-.full-h-section { height: 700px; height: 100vmin; min-height: 700px; }
+.full-h-section { height: 700px; height: 100vmin; min-height: 650px; }
 .full-h-portfolio {
     height: 700px;
     height: 100vmin;
-    min-height: 700px;
+    min-height: 650px;
     overflow-y: auto;
      max-height: 100vh;
 }
