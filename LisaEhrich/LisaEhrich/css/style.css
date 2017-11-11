@@ -3363,6 +3363,8 @@ body.overflowh { overflow: hidden; }
     background-image: -webkit-linear-gradient(bottom left, #9b98a3 20%, #989aaa 30%, #7097a3 40%, #c3c0c0 100% ); /* W3C Markup */
     background-image: linear-gradient(to top right, #9b98a3 20%, #989aaa 40%, #9dabcb 50%, #bcbecf 100% );
     background-image: linear-gradient(to top right, #9b98a3 20%, #989aaa 30%, #7097a3 40%, #c3c0c0 100% );
+    background-image: linear-gradient(to top right, #387396 20%, #64809c 40%, #64809c 50%, #a5a9b1 100% );
+    background-image: linear-gradient(to top right, #a5acb1 20%, #83b1cc 40%, #6890a2 50%, #a5a9b1 100% );
 }
 
 .full-section-wrap { padding-right: 130px; }
@@ -3515,6 +3517,9 @@ body.overflowh { overflow: hidden; }
    /* .wrapper-full-scroll {
         padding-top: 74px;
     }*/
+    .vertical-align {
+        top: 40%;
+    }
   .title-h1 { font-size: 24px; line-height: 34px; }
   .word-anime { padding-bottom: 10px; }
   .word-anime:before { background: url(../img/word_wave_sm.png) repeat-x; height: 4px; }
