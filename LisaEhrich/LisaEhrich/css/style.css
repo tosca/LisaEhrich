@@ -3327,7 +3327,7 @@ body.overflowh { overflow: hidden; }
     height: 100%;
     background: #a0ac6e;
     background: #7fadbf;
-    background: #97adb3;
+    background: #80a0af;
     z-index: 500;
     -webkit-transition: all 0.35s ease-out;
     -moz-transition: all 0.35s ease-out;
@@ -3496,7 +3496,7 @@ body.overflowh { overflow: hidden; }
   .right-navigation .menu-scrol { padding: 26px 0px; height: auto; }
   .right-navigation .menu-scrol li { float: none; display: inline-block; }
     .header.right-style.bg-scroll {
-        background: #8a8b88;
+        background: #dbdbdd;
     }
   .logo-left { left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); top: 20px; }
   .full-section-wrap { padding-right: 0px; }
