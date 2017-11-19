@@ -3705,7 +3705,7 @@ body.overflowh { overflow: hidden; }
   .full-contact-item { padding: 60px 15px 80px; }
   .right-navigation .menu-scrol { padding: 26px 30px 26px 0px; } }
 @media (max-height: 910px) and (min-width: 1024px) { .contact-footer-link { bottom: 30px; }
-  .full-contact-item .title-h2, .title-h1 { font-size: 60px; line-height: 70px; } }
+  .full-contact-item .title-h2, .title-h1 { font-size: 60px; line-height: 70px; padding: 80px 40px } }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 35. INDEX (Dark version)
 /*-------------------------------------------------------------------------------------------------------------------------------*/

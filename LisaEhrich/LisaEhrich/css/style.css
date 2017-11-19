@@ -1961,7 +1961,7 @@ nav li { position: relative; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 23. PROJECT LIST SLIDER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.main-list-content { position: relative; width: 100%; overflow: hidden; padding: 0px 0px 50px; }
+.main-list-content { position: relative; width: 100%; overflow: hidden; padding: 0px 0px 0px; }
 
 .project-list { height: auto; padding: 40px 0px; overflow: visible; }
 .project-list .swiper-slide { width: auto; height: auto; }
@@ -3409,9 +3409,15 @@ body.overflowh { overflow: hidden; }
 .full-project-item .project-author { padding-left: 30px; }
 
 .project-author { font-size: 16px; }
-
+.home-layer.bg {
+    opacity: 0.4;
+    background-size: cover;
+    left: 0px;
+    bottom: 0px;
+    background-position: 50% 50%;
+}
 .about-layer.bg, .about-layer.service-layer, .bio-layer.bg {
-    opacity: 0.2;
+    opacity: 0.6;
    background-size: cover;
     left: 0px;
     bottom: 0px;
@@ -3545,7 +3551,7 @@ body.overflowh { overflow: hidden; }
   .full-contact-item { padding: 60px 15px 80px; }
   .right-navigation .menu-scrol { padding: 26px 30px 26px 0px; } }
 @media (max-height: 910px) and (min-width: 1024px) { .contact-footer-link { bottom: 30px; }
-  .full-contact-item .title-h2, .title-h1 { font-size: 40px; line-height: 52px; } }
+  .full-contact-item .title-h2, .title-h1 { font-size: 52px; line-height: 62px; } }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 35. INDEX (Dark version)
 /*-------------------------------------------------------------------------------------------------------------------------------*/
