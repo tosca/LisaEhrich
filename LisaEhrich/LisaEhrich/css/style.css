@@ -2147,9 +2147,13 @@ nav li { position: relative; }
         font-weight: 400;
     }
 
-.service-caption a{
-    font-weight:500;
-    color: #80a0af;
+ .blog-post-desc .service-caption{
+     padding: 15px;
+ }
+
+.service-caption a {
+    font-weight: 500;
+    color: #527383;
 }
 .right .service-caption { text-align: right; padding: 0px 65px 0px 110px; }
 
@@ -3421,7 +3425,7 @@ body.overflowh { overflow: hidden; }
     background-position: 50% 50%;
 }
 .about-layer.bg, .about-layer.service-layer, .bio-layer.bg {
-    opacity: 0.3;
+    opacity: 0.6;
    background-size: cover;
     left: 0px;
     bottom: 0px;
