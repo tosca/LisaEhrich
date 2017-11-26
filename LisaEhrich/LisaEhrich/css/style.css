@@ -473,7 +473,7 @@ body.full-h, html.full-h { height: 100%; }
 body {
     font-family: 'Playfair Display', serif;
     color: #8f9967;
-    color: #98989b;
+    color: #7b7b7c;
 }
 body.overflow { overflow: hidden; }
 
