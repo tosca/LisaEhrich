@@ -635,8 +635,9 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
     height: 100vmin;
     min-height: 650px;
     overflow-y: auto;
-     max-height: 100vh;
+   /*  max-height: 100vh;*/
 }
+
 .content-bg { padding: 160px 0px 180px; position: relative; }
 
 .main-baner-align { padding-top: 90px; position: relative; width: 100%; display: table; height: 100%; }
