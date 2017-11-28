@@ -168,6 +168,7 @@
     <Content Include="img\LE\dwbowl-07.jpg" />
     <Content Include="img\LE\edteaching.jpg" />
     <Content Include="img\LE\fall-home.jpg" />
+    <Content Include="img\LE\hand-formed-ceramics.png" />
     <Content Include="img\LE\home-bg.jpg" />
     <Content Include="img\LE\leaf-04.jpg" />
     <Content Include="img\LE\leaf-05.jpg" />
@@ -187,6 +188,10 @@
     <Content Include="img\LE\leaf-25.jpg" />
     <Content Include="img\LE\leafshelf-sm.jpg" />
     <Content Include="img\LE\LisaEhrich.png" />
+    <Content Include="img\LE\master-craft.png" />
+    <Content Include="img\LE\mastering-craft.png" />
+    <Content Include="img\LE\NCECA.png" />
+    <Content Include="img\LE\new-ceramic-art.png" />
     <Content Include="img\LE\rocks-04.jpg" />
     <Content Include="img\LE\rocks-05.jpg" />
     <Content Include="img\LE\leaf-10.jpg" />
