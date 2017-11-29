@@ -55,6 +55,8 @@ body{
     height: 100%;
     width: 100%;
     overflow: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -413,12 +415,12 @@ input::-webkit-input-placeholder, input::-moz-placeholder, input:-moz-placeholde
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 2. FONTS   font-family: 'Julius Sans One', sans-serif;*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------
 @font-face { font-family: 'montserratthin'; src: url("../font/montserrat-hairline-webfont.woff2") format("woff2"), url("../font/montserrat-hairline-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'montserratthin'; src: url("../font/montserrat-thin-webfont.woff2") format("woff2"), url("../font/montserrat-thin-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'Montserrat Black'; font-style: normal; font-weight: 400; src: local("Montserrat Black"), local("Montserrat-Black"), url(../font/montserrat-black.woff) format("woff"), url(../font/montserrat-black.ttf) format("truetype"); }
 @font-face { font-family: 'Montserrat Light'; font-style: normal; font-weight: 400; src: local("Montserrat Light"), local("Montserrat-Light"), url(../font/montserrat-light.woff) format("woff"), url(../fonts/montserrat-light.ttf) format("truetype"); }
-/*-------------------------------------------------------------------------------------------------------------------------------*/
+*//*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 3. MIXINS*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .preload {
@@ -639,8 +641,8 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
     height: 700px;
     height: 100vmin;
     overflow-y: auto;
-  /*   min-height: 650px; 
-    max-height: 100vh;*/
+   min-height: 650px; 
+  /*max-height: 100vh;*/      
 }
 
 .content-bg { padding: 160px 0px 180px; position: relative; }

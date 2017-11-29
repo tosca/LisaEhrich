@@ -247,6 +247,7 @@
     <Content Include="js\anchors.nav.js" />
     <Content Include="js\jquery-ui.min.js" />
     <Content Include="js\jquery.range-min.js" />
+    <Content Include="js\map.js" />
     <Content Include="js\wow.min.js" />
     <Content Include="lisaehrich-logo-01.png" />
     <Content Include="Scripts\bootstrap.js" />
