@@ -159,6 +159,9 @@
     <Content Include="img\LE\about-bg.jpg" />
     <Content Include="img\LE\bio-exhibit.jpg" />
     <Content Include="img\LE\bio-studio.jpg" />
+    <Content Include="img\LE\ceramics-art.jpg" />
+    <Content Include="img\LE\ceramics-master.jpg" />
+    <Content Include="img\LE\ceramics-urban.jpg" />
     <Content Include="img\LE\circleleaves.jpg" />
     <Content Include="img\LE\dwbowl-02.jpg" />
     <Content Include="img\LE\dwbowl-03.jpg" />
@@ -168,6 +171,7 @@
     <Content Include="img\LE\dwbowl-07.jpg" />
     <Content Include="img\LE\edteaching.jpg" />
     <Content Include="img\LE\fall-home.jpg" />
+    <Content Include="img\LE\hand-form-ceramics.jpg" />
     <Content Include="img\LE\hand-formed-ceramics.png" />
     <Content Include="img\LE\home-bg.jpg" />
     <Content Include="img\LE\leaf-04.jpg" />
@@ -191,7 +195,9 @@
     <Content Include="img\LE\master-craft.png" />
     <Content Include="img\LE\mastering-craft.png" />
     <Content Include="img\LE\NCECA.png" />
+    <Content Include="img\LE\new-ceramic-art.jpg" />
     <Content Include="img\LE\new-ceramic-art.png" />
+    <Content Include="img\LE\pub-bg.jpg" />
     <Content Include="img\LE\rocks-04.jpg" />
     <Content Include="img\LE\rocks-05.jpg" />
     <Content Include="img\LE\leaf-10.jpg" />

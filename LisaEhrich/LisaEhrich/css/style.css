@@ -656,6 +656,10 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 
 .bg-grey2 { background: #f1f1f1; }
 
+.bg-turquois {
+    background: #80a0af
+}
+
 .bg-section-1 { background: #484848; }
 
 .bg-section-2 { background: #ededed; }
@@ -1059,7 +1063,7 @@ nav li { position: relative; }
 
 .main-content { position: relative; border: 0px solid #fff; height: 100%; padding: 45px 0px 20px; border-bottom: 0px none; }
 .main-content.no-top { padding: 0px; border-top-width: 0px; }
-.main-content.no-padd { padding: 00px 0px 0px; } /*tosca*/
+.main-content.no-padd { padding: 0px 0px 0px; } /*tosca*/
 
 .card-item { position: relative; width: 100%; z-index: 2; overflow: hidden; border-radius: 5px; background: #fff; text-align: center; margin-bottom: 30px; -webkit-transition: all 300ms ease-out; -moz-transition: all 300ms ease-out; -ms-transition: all 300ms ease-out; transition: all 300ms ease-out; }
 .card-item.full { min-height: 380px; text-align: left; }
