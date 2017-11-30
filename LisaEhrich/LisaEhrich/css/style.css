@@ -636,9 +636,10 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 .full-h-portfolio {
     height: 700px;
     height: 100vmin;
-    overflow-y: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
    min-height: 650px; 
-  /*max-height: 100vh;*/      
+  max-height: 100vh;      
 }
 
 .content-bg { padding: 160px 0px 180px; position: relative; }
@@ -1928,7 +1929,6 @@ nav li { position: relative; }
 /* 23. PROJECT LIST SLIDER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .main-list-content { position: relative; width: 100%; overflow: hidden; padding: 0px 0px 0px; }
-
 .project-list { height: auto; padding: 40px 0px; overflow: visible; }
 .project-list .swiper-slide { width: auto; height: auto; }
 .project-list .swiper-slide:first-child .bg, .project-list .swiper-slide:first-child .service-layer { transform-origin: left center; -webkit-transform-origin: left center; -moz-transform-origin: left center; -ms-transform-origin: left center; }
