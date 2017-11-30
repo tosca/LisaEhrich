@@ -3478,6 +3478,7 @@ body.overflowh { overflow: hidden; }
   .full-contact-item { display: inline-block; padding: 100px 30px; width: 100%; }
   .contact-footer-link { position: relative; display: inline-block; padding: 0px 0px 60px; bottom: 0px; }
   .contact-section .vertical-align.full, .contact-section .search-panel.popup .full.close, .search-panel.popup .contact-section .full.close, .contact-section .amount-wrap .full.val, .amount-wrap .contact-section .full.val, .contact-section .inside-img img.full, .inside-img .contact-section img.full, .contact-section .full.skill-line { position: relative; -webkit-transform: translate(0%, 0%); -moz-transform: translate(0%, 0%); -ms-transform: translate(0%, 0%); transform: translate(0%, 0%); top: 0px; } }
+
 @media (max-width: 992px) { .right-navigation { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); width: 100%; height: 66px; }
   .right-navigation.slide { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); }
   .right-navigation .copy, .right-navigation .folow { display: none; }
