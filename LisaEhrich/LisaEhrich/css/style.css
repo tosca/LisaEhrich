@@ -634,12 +634,13 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 
 .full-h-section { height: 700px; height: 100vmin; min-height: 650px; }
 .full-h-portfolio {
-    height: 700px;
+    height: 100%;
     height: 100vmin;
+    min-height: 650px;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-   min-height: 650px; 
-  max-height: 100vh;      
+ /*   -webkit-overflow-scrolling: touch;*/
+    
+/*max-height: 100vh; */     
 }
 
 .content-bg { padding: 160px 0px 180px; position: relative; }
@@ -2127,7 +2128,7 @@ nav li { position: relative; }
 
 .main-baner-align.padd-bottom { padding-bottom: 95px; }
 
-@media (max-width: 1700px) { .service-desc { padding: 130px 40px 95px 150px; }
+@media (max-width: 1700px) { .service-desc { padding: 130px 40px 95px 110px; }
   .service-nav { width: 210px; }
   .service-nav li { font-size: 18px; line-height: 46px; }
   .left .service-desc { padding: 130px 180px 95px 40px; }
