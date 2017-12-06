@@ -250,7 +250,6 @@
     <Content Include="js\map.js" />
     <Content Include="js\wow.min.js" />
     <Content Include="lisaehrich-logo-01.png" />
-    <Content Include="project_v2.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -283,16 +282,10 @@
     <Content Include="img\LE\leaves-render-04.jpg" />
     <Content Include="img\LE\leaves-render-05.jpg" />
     <Content Include="img\LE\leaves-render.jpg" />
-    <Content Include="img\mini_about_img.jpg" />
-    <Content Include="img\mini_contact.jpg" />
-    <Content Include="img\mini_project_detail_img_1.jpg" />
-    <Content Include="img\mini_services_img.jpg" />
-    <Content Include="img\mini_slider_img_1.jpg" />
     <Content Include="img\onepage6_about_bg.jpg" />
     <Content Include="img\onepage6_bg.jpg" />
     <Content Include="img\onepage6_contact_bg.jpg" />
     <Content Include="img\onepage6_project_bg.jpg" />
-    <Content Include="img\people_img_1.png" />
     <Content Include="img\play.png" />
     <Content Include="img\popup_bg.jpg" />
     <Content Include="img\project_1.jpg" />
@@ -318,7 +311,6 @@
     <Content Include="img\single_page_bg.jpg" />
     <Content Include="img\slider_dot.png" />
     <Content Include="img\slider_point_1.png" />
-    <Content Include="img\solo_main_img.png" />
     <Content Include="img\word_wave.png" />
     <Content Include="img\word_wave_sm.png" />
     <Content Include="js\isotope.pkgd.min.js" />
