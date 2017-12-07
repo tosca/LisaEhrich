@@ -322,6 +322,7 @@
     <Content Include="js\scrollreveal.min.js" />
     <Content Include="js\swiper.jquery.min.js" />
     <Content Include="js\typed.min.js" />
+    <Content Include="css\jquery.fullpage.min.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
