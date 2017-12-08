@@ -481,7 +481,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: #7b7b7c;
 }
-body.overflow { overflow: hidden; }
+/*body.overflowh { overflow: hidden; }*/
 
 input, textarea { font-family: 'Montserrat', sans-serif; }
 
@@ -2967,7 +2967,7 @@ nav li { position: relative; }
 .blog-item-title .title a { color: #fff; }
 .blog-item-title .title a:hover { color: #39b2ff; }
 
-body.overflowh { overflow: hidden; }
+/*body.overflowh { overflow: hidden; }*/
 
 .popup-ajax { position: fixed; right: 0px; top: 0px; width: 100%; height: 100%; z-index: 50; overflow: hidden; visibility: hidden; opacity: 0; }
 .popup-ajax .image { width: 100%; height: 640px; position: relative; }
