@@ -57,7 +57,7 @@ html {
 body {
     height: 100%;
     width: 100%;
-   /*min-height: 100vh; 
+  /* min-height: 100vh;
     overflow: auto;*/
     overflow-y: initial;
     -webkit-overflow-scrolling: touch;
@@ -481,11 +481,13 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: #7b7b7c;
 }
-/*body.overflowh { overflow: hidden; }*/
+body.overflow { overflow: hidden; }
 
 input, textarea { font-family: 'Montserrat', sans-serif; }
 
-.font-type-1, .questions input, .step-slider-item .title i { font-family: 'Playfair Display', serif; }
+.font-type-1, .questions input, .step-slider-item .title i {
+    font-family: font-family: 'Julius Sans One', sans-serif;    
+}
 
 .font-type-2, .loader, .h13, .title-counter span, .title-second.type-2 .title, .button-type-1, .button-type-2, .button-type-3, .button-type-4, .tag-link-2, .pagination.style-type-2 .swiper-pagination-bullet i, .nav-menu > ul > li a, .header-icon a span, .mobile-footer .copyright, .copyright, .shop-item .price-val, .shop-total .title-numb, .sub-title, .sidebar-item .title a, .label-text, .tab-room a, .amount-wrap input, .amount-wrap .val, .drop-down.type-1, .top-shop-item .title, .page-pagination a, .range-theme-2 .slider-container .back-bar .pointer-label, .date-line, .like-item, .load-more, .search-input .input-text, .list-toggle li a, .post-share .share span, .block-comment .caption, .comment-wrapper .title-comment, .main-title.type-1 .h14, .circle-item .title, .skill-line, .mini-title, .addr-item .addr-list li, .addr-item .link, .number-step span, .error-message, .marker-tooltip h5, .no-faound-title b, .price-item .title, .price-period-check, .price-value, .slider-range.type-2 .amount-start, .amount-wrap, .wide-sub-title, .range-bar-start, .total-price, .back-price-step, .sub-caption, .pricelist ul, .price-val.type-2, .item-type-1, .service-item.type-3, .project-item.type-2, .step-swich-link li .title, .step-slider-item, .single-desc .folow span, .solo-header nav, .solo-button.button-type-2.style-2, .solo-sub-title, .circle-solo-point.point-circle-slider .slide-point span { font-family: 'Montserrat', sans-serif; }
 
@@ -1366,11 +1368,11 @@ nav li { position: relative; }
 
 @media (max-width: 1500px) { .post-navigation .right-post-nav { padding: 0px 50px 0px 0px; }
   .post-navigation .left-post-nav { padding: 0px 0px 0px 50px; }
-  .blog-post-desc { padding: 10px 30px; }
+  .blog-post-desc { padding: 30px 30px; }
   .quote-text .bq { left: 0px; }
   .block-comment .text .button-type-1 { margin-bottom: 0px; } }
-@media (max-width: 1400px) { .blog-post-desc { top: 10px; } }
-@media (max-width: 1200px) { .blog-post-desc { padding: 10px 30px; }
+@media (max-width: 1400px) { .blog-post-desc { top: 40px; } }
+@media (max-width: 1200px) { .blog-post-desc { padding: 40px 30px; }
   .post-share .share span { font-size: 11px; letter-spacing: 1.4px; } }
 @media (max-width: 992px) { .blog-post-img { width: 100%; height: 450px; margin-top: 0px; }
   .blog-post-desc { position: relative; width: 100%; top: auto; }
@@ -2967,7 +2969,7 @@ nav li { position: relative; }
 .blog-item-title .title a { color: #fff; }
 .blog-item-title .title a:hover { color: #39b2ff; }
 
-/*body.overflowh { overflow: hidden; }*/
+/*body.overflow { overflow: hidden; }*/
 
 .popup-ajax { position: fixed; right: 0px; top: 0px; width: 100%; height: 100%; z-index: 50; overflow: hidden; visibility: hidden; opacity: 0; }
 .popup-ajax .image { width: 100%; height: 640px; position: relative; }
@@ -3234,9 +3236,10 @@ nav li { position: relative; }
 
 .onepagev6 {
     font-weight: 400;
-    background: #d2d2d3;
-     background: rgba(189, 210, 243, 0.20)
     
+    background: rgba(189, 210, 243, 0.20);
+    background: #d2d2d3;
+    background: none;
 }
 
 .header.right-style { position: relative; width: 100%; overflow: hidden; }
@@ -3380,7 +3383,7 @@ nav li { position: relative; }
 .full-section.active .word-anime:before { width: 100%; }
 .full-section.active .full-project-item { opacity: 1; }
 
-.works-section{ height:100vmin !important}
+/*.works-section{ height:100vmin !important}*/
 .works-section .main-content { overflow-y:scroll } 
 
 .all-full-project { position: relative; width: 100%; height: inherit; z-index: 5; opacity: 0; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; -ms-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
@@ -4568,7 +4571,7 @@ nav li { position: relative; }
 
         ::-webkit-scrollbar { 
             -webkit-appearance: none;
-            width: 7px;
+            width: 8px;
         }
         ::-webkit-scrollbar-thumb { 
             border-radius: 4px;
