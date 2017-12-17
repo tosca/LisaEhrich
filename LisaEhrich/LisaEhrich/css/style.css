@@ -409,7 +409,8 @@ input::-webkit-input-placeholder, input::-moz-placeholder, input:-moz-placeholde
 @font-face { font-family: 'montserratthin'; src: url("../font/montserrat-thin-webfont.woff2") format("woff2"), url("../font/montserrat-thin-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'Montserrat Black'; font-style: normal; font-weight: 400; src: local("Montserrat Black"), local("Montserrat-Black"), url(../font/montserrat-black.woff) format("woff"), url(../font/montserrat-black.ttf) format("truetype"); }
 @font-face { font-family: 'Montserrat Light'; font-style: normal; font-weight: 400; src: local("Montserrat Light"), local("Montserrat-Light"), url(../font/montserrat-light.woff) format("woff"), url(../fonts/montserrat-light.ttf) format("truetype"); }
-*//*-------------------------------------------------------------------------------------------------------------------------------*/
+*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 3. MIXINS*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .preload {
@@ -422,18 +423,11 @@ input::-webkit-input-placeholder, input::-moz-placeholder, input:-moz-placeholde
     z-index: 5000;
 }
 
-.loader { width: 250px; height: 50px; line-height: 50px; text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-transform: uppercase; font-weight: 900; color: #7f7f7f; letter-spacing: 0.2em; }
-.loader::before, .loader::after { content: ""; display: block; width: 15px; height: 15px; background: #7f7f7f; position: absolute; animation: load .7s infinite alternate ease-in-out; -webkit-animation: load .7s infinite alternate ease-in-out; }
+.loader { width: 250px; height: 50px; line-height: 50px; text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-transform: uppercase; font-weight: 500; color: #7f7f7f; letter-spacing: 0.2em; }
+.loader::before, .loader::after { content: ""; display: block; width: 7px; height: 7px; background: #7f7f7f; position: absolute; animation: load .7s infinite alternate ease-in-out; -webkit-animation: load .7s infinite alternate ease-in-out; }
 .loader::before { top: 0; }
 .loader::after { bottom: 0; }
 
-.preload.version2 {
-    background: #8a868c;
-    background: #c3c0c0;
-}
-.preload.version2 .load-wave { position: absolute; width: 0%; height: 10px; top: 50%; left: 0px; animation: wave .7s infinite alternate ease-in-out; }
-/*.preload.version2 .load-wave:before { content: ''; position: absolute; left: 0px; bottom: 0px; height: 8px; width: 100%; background: url(../img/word_wave.png) repeat-x; }
-*/
 @keyframes wave {
     0% {
         width: 0;
@@ -472,10 +466,12 @@ body {
 }
 body.overflow { overflow: hidden; }
 
-input, textarea { font-family: 'Montserrat', sans-serif; }
+input, textarea {
+    font-family: 'Quicksand', sans-serif;
+}
 
 .font-type-1, .questions input, .step-slider-item .title i {
-    font-family: font-family: 'Julius Sans One', sans-serif;    
+    font-family: 'Julius Sans One', sans-serif;    
 }
 
 .font-type-2, .loader, .h13, .title-counter span, .title-second.type-2 .title, .button-type-1, .button-type-2, .button-type-3, .button-type-4, .tag-link-2, .pagination.style-type-2 .swiper-pagination-bullet i, .nav-menu > ul > li a, .header-icon a span, .mobile-footer .copyright, .copyright, .shop-item .price-val, .shop-total .title-numb, .sub-title, .sidebar-item .title a, .label-text, .tab-room a, .amount-wrap input, .amount-wrap .val, .drop-down.type-1, .top-shop-item .title, .page-pagination a, .range-theme-2 .slider-container .back-bar .pointer-label, .date-line, .like-item, .load-more, .search-input .input-text, .list-toggle li a, .post-share .share span, .block-comment .caption, .comment-wrapper .title-comment, .main-title.type-1 .h14, .circle-item .title, .skill-line, .mini-title, .addr-item .addr-list li, .addr-item .link, .number-step span, .error-message, .marker-tooltip h5, .no-faound-title b, .price-item .title, .price-period-check, .price-value, .slider-range.type-2 .amount-start, .amount-wrap, .wide-sub-title, .range-bar-start, .total-price, .back-price-step, .sub-caption, .pricelist ul, .price-val.type-2, .item-type-1, .service-item.type-3, .project-item.type-2, .step-swich-link li .title, .step-slider-item, .single-desc .folow span, .solo-header nav, .solo-button.button-type-2.style-2, .solo-sub-title, .circle-solo-point.point-circle-slider .slide-point span { font-family: 'Montserrat', sans-serif; }

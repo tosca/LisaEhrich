@@ -151,7 +151,6 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="css\style-original.css" />
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -252,7 +251,6 @@
     <Content Include="js\wow.min.js" />
     <Content Include="lisaehrich-logo-01.png" />
     <Content Include="onepage_v6-02.html" />
-    <Content Include="project_v2.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
