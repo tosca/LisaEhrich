@@ -677,7 +677,7 @@ max-height: 100vh;
 .bg, .service-layer { overflow: hidden; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: scroll; -webkit-background-size: cover;  background-size: cover; backface-visibility: hidden; }
 .bg.fix, .fix.service-layer { background-attachment: fixed; }
 
-.vertical-align, .search-panel.popup .close, .amount-wrap .val, .inside-img img, .skill-line { -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); top: 52%; position: absolute; } /*tosca*/
+.vertical-align, .search-panel.popup .close, .amount-wrap .val, .inside-img img, .skill-line { -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); top: 50%; position: absolute; } /*tosca*/
 .vertical-align.full, .search-panel.popup .full.close, .amount-wrap .full.val, .inside-img img.full, .full.skill-line { left: 0px; width: 100%; text-align: center; }
 
 .table-view { display: table; width: 100%; height: 100%; }
@@ -3477,6 +3477,7 @@ body.overflowh { overflow: hidden; }
         .about-layer.bg {
             background-image: url('../img/LE/home-bg.jpg');
         }
+        .full-main-title { top:40% }
 
         .right-navigation .menu-scrol li a {
             font-size: 13px;
@@ -3492,13 +3493,13 @@ body.overflowh { overflow: hidden; }
         /* .wrapper-full-scroll {
         padding-top: 74px;
     }*/
-        .vertical-align {
-            top: 50%;
-        } tosca
+        .home-section .vertical-align {
+            top: 40%;
+        } 
 
         .title-h1 {
-            font-size: 26px;
-            line-height: 36px;
+            font-size: 24px;
+            line-height: 32px;
         }
 
         .word-anime {
