@@ -242,6 +242,13 @@
     <Content Include="img\LE\wall-sculpt-03.jpg" />
     <Content Include="img\LE\wall-sculpt-04.jpg" />
     <Content Include="img\LE\wall-sculpt-05.jpg" />
+    <Content Include="img\single2_slide_1.jpg" />
+    <Content Include="img\single2_slide_2.jpg" />
+    <Content Include="img\single2_slide_3.jpg" />
+    <Content Include="img\single_point_1.png" />
+    <Content Include="img\single_point_2.png" />
+    <Content Include="img\single_point_3.png" />
+    <Content Include="img\single_point_4.png" />
     <Content Include="index.html" />
     <Content Include="js\all.js" />
     <Content Include="js\anchors.nav.js" />
