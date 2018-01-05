@@ -2393,7 +2393,7 @@ nav li { position: relative; }
 .single-desc .folow span { font-size: 12px; font-weight: 700; color: rgba(255, 255, 255, 0.3); letter-spacing: 1.4px; text-transform: uppercase; }
 
 .single2-desc { background: #7f7f7f; max-width: 420px; left: 35px; padding: 20px 30px 55px 80px; margin-top: 45px; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; -ms-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
-.single2-desc .title { font-size: 90px; line-height: 90px; display: block; min-width: 607px; padding-bottom: 40px; }
+.single2-desc .title { padding-top:25px; font-size: 80px; line-height: 80px; display: block; min-width: 607px; padding-bottom: 40px; }
 .single2-desc .simple-text { padding-bottom: 25px; }
 
 .project-author { color: #fff; font-size: 15px; line-height: 18px; display: block; margin-bottom: 50px; }
