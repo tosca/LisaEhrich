@@ -190,17 +190,6 @@
     <Content Include="img\LE\hand-form-ceramics.jpg" />
     <Content Include="img\LE\hand-formed-ceramics.png" />
     <Content Include="img\LE\home-bg.jpg" />
-    <Content Include="img\LE\IMG_3243.JPG" />
-    <Content Include="img\LE\IMG_3250.JPG" />
-    <Content Include="img\LE\IMG_3255.JPG" />
-    <Content Include="img\LE\IMG_3258.JPG" />
-    <Content Include="img\LE\IMG_3260.JPG" />
-    <Content Include="img\LE\IMG_3316.JPG" />
-    <Content Include="img\LE\IMG_3320.JPG" />
-    <Content Include="img\LE\IMG_3322.JPG" />
-    <Content Include="img\LE\IMG_3341.JPG" />
-    <Content Include="img\LE\IMG_3346.JPG" />
-    <Content Include="img\LE\IMG_3349.JPG" />
     <Content Include="img\LE\leaf-04.jpg" />
     <Content Include="img\LE\leaf-05.jpg" />
     <Content Include="img\LE\leaf-12.jpg" />
@@ -218,6 +207,7 @@
     <Content Include="img\LE\leaf-24.jpg" />
     <Content Include="img\LE\leaf-25.jpg" />
     <Content Include="img\LE\leafshelf-sm.jpg" />
+    <Content Include="img\LE\Lisa-portrait-01.jpg" />
     <Content Include="img\LE\LisaEhrich.png" />
     <Content Include="img\LE\master-craft.png" />
     <Content Include="img\LE\mastering-craft.png" />
@@ -298,7 +288,6 @@
     <Content Include="font\fontello.svg" />
     <Content Include="font\stylesheet.css" />
     <Content Include="img\arrow_down.png" />
-    <Content Include="img\author_img.png" />
     <Content Include="img\close.png" />
     <Content Include="img\close_2.png" />
     <Content Include="img\close_index_popup.png" />
@@ -306,7 +295,7 @@
     <Content Include="img\close_item_2.png" />
     <Content Include="img\comment_img.png" />
     <Content Include="img\cursor_item.png" />
-    <Content Include="img\drag.png" />
+    <Content Include="img\LE\drag.png" />
     <Content Include="img\few_step_bg.jpg" />
     <Content Include="img\fullpage_top_slide_img_1.jpg" />
     <Content Include="img\full_about_bg.png" />
@@ -326,7 +315,6 @@
     <Content Include="img\project_1.jpg" />
     <Content Include="img\project_full_1.jpg" />
     <Content Include="img\project_mini_img_1.jpg" />
-    <Content Include="img\project_mini_img_2.jpg" />
     <Content Include="img\project_sm_10.jpg" />
     <Content Include="img\LE\dwbowl-01.jpg" />
     <Content Include="img\LE\sculpt-10.jpg" />
@@ -337,7 +325,6 @@
     <Content Include="img\service_bg.png" />
     <Content Include="img\service_clip.jpg" />
     <Content Include="img\service_image_1.jpg" />
-    <Content Include="img\service_image_2.jpg" />
     <Content Include="img\service_item_1.jpg" />
     <Content Include="img\service_layer.png" />
     <Content Include="img\service_logo.png" />
@@ -369,6 +356,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="single_2.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
