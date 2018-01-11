@@ -186,6 +186,8 @@
     <Content Include="img\LE\fall-3341.jpg" />
     <Content Include="img\LE\fall-3349.jpg" />
     <Content Include="img\LE\fall-home.jpg" />
+    <Content Include="img\LE\fall-wd-3258.jpg" />
+    <Content Include="img\LE\fall-wd-3322.jpg" />
     <Content Include="img\LE\falling-up.jpg" />
     <Content Include="img\LE\hand-form-ceramics.jpg" />
     <Content Include="img\LE\hand-formed-ceramics.png" />
@@ -295,7 +297,7 @@
     <Content Include="img\close_item_2.png" />
     <Content Include="img\comment_img.png" />
     <Content Include="img\cursor_item.png" />
-    <Content Include="img\LE\drag.png" />
+    <Content Include="img\drag.png" />
     <Content Include="img\few_step_bg.jpg" />
     <Content Include="img\fullpage_top_slide_img_1.jpg" />
     <Content Include="img\full_about_bg.png" />
