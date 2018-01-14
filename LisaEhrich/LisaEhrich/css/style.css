@@ -2526,6 +2526,7 @@ nav li { position: relative; }
         cursor: pointer;
         -webkit-transition: all 0.25s ease-out;
         -moz-transition: all 0.25s ease-out;
+ 
         transition: all 0.25s ease-out;
     }
 
@@ -2534,9 +2535,10 @@ nav li { position: relative; }
             color: #fff;
         }
 
+
 .slider-desc-wrapp {
-    position: absolute;
-  /*  top: 40%;*/
+ /*    position: absolute;
+   top: 40%;*/
 }
 
 .close-nav-bar {
@@ -2611,11 +2613,10 @@ nav li { position: relative; }
         position: relative;
         left: 140px;
         left: 50px;
-        top: 30%;
+        top: 50%;
         width: 50px;
         margin-top: -25px;
         z-index: 50;
-        background: #7f7f7f;
         background: rgba(127, 127, 127, 0.70);
     }
 
