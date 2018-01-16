@@ -1967,7 +1967,7 @@ nav li { position: relative; }
     color:#464C6C;
 }
 .service-desc .simple-text { margin-bottom: 40px; }
-.service-desc .simple-text p { font-size: 17px; line-height: 25px; color: #4d4d4e; padding-bottom: 25px; }
+.service-desc .simple-text p { font-size: 17px; line-height: 20px; color: #4d4d4e; padding-bottom: 23px; }
 
 .service-caption { padding: 0px 110px 0px 65px; color: #fff; }
     .service-caption .sub-title {
@@ -2001,7 +2001,7 @@ nav li { position: relative; }
 @media (max-width: 1500px) { .service-caption { padding: 160px 60px 54px 40px; }
 .contact-section .service-caption{ padding: 10px 60px 54px 40px;}
  .service-caption .title { font-size: 50px; }
-.service-desc .simple-text p { font-size: 13px; line-height: 20px; } }
+.service-desc .simple-text p { font-size: 15px; line-height: 22px; font-weight: 500} }
 @media (max-width: 1300px) { .service-caption .title { font-size: 50px; } }
 @media (max-width: 992px) { .main-baner-full.mobile-auto { height: auto; min-height: 600px; padding: 50px 0px 50px; }
   .main-baner-full > .cell-view { display: inline-block; vertical-align: top; width: 100%; }
