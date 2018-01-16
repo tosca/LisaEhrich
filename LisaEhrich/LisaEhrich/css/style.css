@@ -2885,6 +2885,7 @@ nav li { position: relative; }
 
     .single2-desc.vertical-align, .search-panel.popup .single2-desc.close, .amount-wrap .single2-desc.val, .inside-img img.single2-desc, .single2-desc.skill-line {
         padding: 60px 15px 30px 15px;
+        max-width: 60%;
     }
 
     .single-title .title {
@@ -3979,7 +3980,7 @@ body.overflowh { overflow: hidden; }
         }
 
         .header.right-style .burger {
-            right: 20px;
+            right: 5px;
         }
         /* .wrapper-full-scroll {
         padding-top: 74px;
