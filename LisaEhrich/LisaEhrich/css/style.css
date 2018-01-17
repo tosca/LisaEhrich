@@ -2618,7 +2618,8 @@ nav li { position: relative; }
         margin-top: -25px;
         z-index: 50;
         background: rgba(127, 127, 127, 0.70);
-    }
+        background:transparent;
+        }
 
         .close-nav-bar.type-2 i:before {
             -webkit-transform: rotate(45deg);
@@ -2845,10 +2846,9 @@ nav li { position: relative; }
         height: 400px;
     }
 
-    .col-60, .col-40 {
+    .col-60, .col-40, .col-50 {
         width: 100%;
         height: 50%;
-        height: 100%;
     }
 
     .single2-desc .title {
