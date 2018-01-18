@@ -282,7 +282,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="css\fontello.css" />
     <Content Include="css\jquery.fullpage.min.css" />
     <Content Include="css\jquery.range.css" />
     <Content Include="css\style.css" />
