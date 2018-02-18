@@ -2609,6 +2609,7 @@ nav li { position: relative; }
             -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
             bottom: 0px;
+
         }
     .close-nav-bar.type-2 {
         position: relative;
@@ -2619,8 +2620,9 @@ nav li { position: relative; }
         margin-top: -25px;
         z-index: 50;
         background: rgba(127, 127, 127, 0.70);
-        background:transparent;
-        }
+        background: transparent;
+        background: rgba(0,0,0,.2);
+    }
 
         .close-nav-bar.type-2 i:before {
             -webkit-transform: rotate(45deg);
@@ -2722,7 +2724,7 @@ nav li { position: relative; }
     }
 
     .single2-slider {
-        padding: 20px 0px 0px 220px;
+        padding: 0px 0px 0px 220px;
     }
 
     .col {
