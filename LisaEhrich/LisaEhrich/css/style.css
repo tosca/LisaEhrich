@@ -3535,7 +3535,7 @@ body.overflowh { overflow: hidden; }
     position: fixed;
     right: 0px;
     top: 0px;
-    width: 130px;
+    width: 120px;
     height: 100%;
     background: #80a0af;
     z-index: 500;
@@ -3544,13 +3544,16 @@ body.overflowh { overflow: hidden; }
     transition: all 0.35s ease-out;
 }
 .right-navigation .folow { padding-top: 50px; text-align: center; }
-.right-navigation .menu-scrol { position: relative; text-align: center; width: 100%; height: 100%; right: 0px; margin: 0px !important; top: 0px; padding: 60px 3%; }
+.right-navigation .menu-scrol { position: relative; text-align: center; width: 100%; height: 100%; right: 0px; margin: 0px !important; top: 0px; padding: 60px 0.5%; }
 .right-navigation .menu-scrol li { display: block; margin: 0px 13px; width: auto; height: auto; float: left; }
     .right-navigation .menu-scrol li a {
-        font-size: 17px;
+        font-size: 16px;
+        font-weight: 600;
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
         color: rgba(255, 254, 254, 0.7);
+        color: rgba(77, 77, 78, 0.9);
+        color: rgba(92, 92, 92, 0.81);
         position: relative;
         display: block;
     }
@@ -3577,7 +3580,7 @@ body.overflowh { overflow: hidden; }
 
 }
 
-.full-section-wrap { padding-right: 130px; }
+.full-section-wrap { padding-right: 120px; }
 
 .full-section {
     position: relative;
@@ -3701,7 +3704,7 @@ body.overflowh { overflow: hidden; }
             line-height: 58px;
         }
         .right-navigation .menu-scrol {
-            padding: 50px 1%;
+           /* padding: 50px 1%;*/
         }
         .scroll-down-section {
             bottom: 85px;
@@ -3718,7 +3721,7 @@ body.overflowh { overflow: hidden; }
             padding-top: 30px;
         }
         .right-navigation .copy {
-            bottom: 30px;
+            bottom: 20px;
         }
         .full-project-item .image {
             height: 350px;
