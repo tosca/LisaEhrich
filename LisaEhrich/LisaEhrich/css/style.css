@@ -711,6 +711,7 @@ max-height: 100vh;
 .align-parent { display: inline-block; vertical-align: middle; }
 
 .full-h { height: 100%; }
+.full-h {min-height: 100vmin; }
 
 .align-bottom { display: table-row; }
 
@@ -1000,15 +1001,10 @@ nav li { position: relative; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 13. SHOP PAGE */
 /*------------------------------------------------------------------------------------------------------------------------------*/
-.shop-panel { position: fixed; right: 0px; top: 0px; width: 540px; background: #4d4d4e; height: 100%; z-index: 550; -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; transition: all 0.5s; }
 
 .popup.active { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); }
 
 .popup .close { width: 26px; height: 26px; top: 65px; right: 50px; z-index: 5; }
-
-.counter { position: relative; display: inline-block; min-width: 110px; border: 2px solid #fff; height: 40px; border-radius: 20px; text-align: center; color: #fff; padding: 0px 14px; line-height: 36px; font-size: 10px; }
-.counter input { display: inline-block; background: none; border: 0px none; max-width: 70px; text-align: center; color: #fff; line-height: 34px; font-size: 13px; font-weight: 700; }
-
 
 .main-content {
     position: relative;
@@ -1210,24 +1206,7 @@ nav li { position: relative; }
 .sidebar-slider .small-arrow-style .swiper-arrow-right { right: 10px; }
 .sidebar-slider .small-arrow-style .swiper-arrow-left { right: 25px; }
 
-@media (min-width: 992px) { .wh-img:hover .image { box-shadow: 0px 15px 90px rgba(4, 5, 5, 0.75); } }
-@media (max-width: 992px) { .blog-item.left-img .text { padding-left: 30px; }
-  .blog-item.right-img .text { padding-right: 30px; }
-  .blog-item { padding: 30px; } }
-@media (max-width: 768px) { .wh-img .image { position: relative; width: 100%; height: 300px; }
-  .blog-item.left-img .text, .blog-item.right-img .text { width: 100%; padding: 30px; }
-  .wh-img .simple-text { padding-bottom: 40px; }
-  .blog-item, .load-more { margin-bottom: 30px; }
-  .blog-item { padding: 0px; }
-  .blog-item.no-img { padding: 30px; }
-  .blog-item.full-w .text { padding: 20px 30px; } }
-@media (max-width: 480px) { .like-item { padding: 10px 0px; font-size: 11px; }
-  .like-item i { font-size: 16px; }
-  .blog-item.left-img .text, .blog-item.right-img .text, .blog-item.no-img { padding: 20px 15px; }
-  .date-line a { padding-right: 10px; }
-  .date-line { font-size: 11px; }
-  .load-more { font-size: 11px; line-height: 45px; height: 45px; }
-  .blog-item.full-w .text { padding: 20px 15px; } }
+
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 18. BLOG POST */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -1969,6 +1948,9 @@ nav li { position: relative; }
 }
 .service-desc .simple-text { margin-bottom: 40px; }
 .service-desc .simple-text p { font-size: 17px; line-height: 20px; color: #4d4d4e; padding-bottom: 23px; }
+    .service-desc .simple-text img {
+        padding: 30px;     
+    }
 
 .service-caption { padding: 0px 110px 0px 65px; color: #fff; }
     .service-caption .sub-title {
@@ -1985,7 +1967,7 @@ nav li { position: relative; }
 
 .service-caption a {
     font-weight: 500;
-    color: #527383;
+    color: #527383;                          
 }
 .right .service-caption { text-align: right; padding: 0px 65px 0px 110px; }
 
@@ -2000,7 +1982,10 @@ nav li { position: relative; }
   .service-desc .simple-text { margin-bottom: 20px; }
   .right .service-caption { padding: 0px 40px 0px 60px; } }
 @media (max-width: 1500px) { .service-caption { padding: 160px 60px 54px 40px; }
-.contact-section .service-caption{ padding: 10px 60px 54px 40px;}
+    .contact-section .service-caption {
+        padding: 90px 60px 10px 40px;
+    }
+}
  .service-caption .title { font-size: 50px; }
 .service-desc .simple-text p { font-size: 15px; line-height: 22px; font-weight: 500} }
 @media (max-width: 1300px) { .service-caption .title { font-size: 50px; } }
@@ -2020,7 +2005,7 @@ nav li { position: relative; }
         display: inline-block;
         height: auto;
         min-height: 600px;
-        background-color: #b5bc94;  
+        background-color: #80a0af;
     }
   .main-baner-align { display: inline-block; }
   .scrol-section .column-50 { width: 100%; }
