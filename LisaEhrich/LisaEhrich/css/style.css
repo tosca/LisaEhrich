@@ -645,7 +645,9 @@ input, textarea {
     
 max-height: 100vh;      
 }*/
-
+.top-padd{
+    padding-top:30px;
+}
 .content-bg { padding: 160px 0px 180px; position: relative; }
 
 .main-baner-align { padding-top: 90px; position: relative; width: 100%; display: table; min-height:100vmin; height: 100%; }
@@ -997,7 +999,8 @@ nav li { position: relative; }
   .serch-form { max-width: 220px; }
   .button-type-1 { height: 40px; line-height: 36px; padding: 0px 15px; font-size: 11px; }
   .button-type-1 span:before { line-height: 36px; font-size: 11px; }
-  .mobile-auto .main-baner-align { padding: 66px 15px 0px; } }
+  .mobile-auto .main-baner-align { padding: 66px 15px 0px; }
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 13. SHOP PAGE */
 /*------------------------------------------------------------------------------------------------------------------------------*/
@@ -1878,8 +1881,8 @@ nav li { position: relative; }
   .slider-list-gallery { padding-left: 0px; } }
 @media (max-width: 768px) {
     .project-item-2 {
-        width: 150px;
-        height: 150px;
+        width: 210px;
+        height: 210px;
         margin: 30px 10px;
     }
     .slider-list-desc .title {
@@ -1935,6 +1938,7 @@ nav li { position: relative; }
 .scrol-section.first { z-index: 2; }
 .scrol-section.first .service-desc { margin-top: 0px; }
 
+
 .main-content.no-margin { padding: 0px; margin: 0px; border-top-width: 0px; border-bottom-width: 0px; }
 /*.works-section { min-height: 100vh;} tosca*/
 /*.bio-section { min-height:100vh; } tosca*/
@@ -1948,9 +1952,7 @@ nav li { position: relative; }
 }
 .service-desc .simple-text { margin-bottom: 40px; }
 .service-desc .simple-text p { font-size: 17px; line-height: 20px; color: #4d4d4e; padding-bottom: 23px; }
-    .service-desc .simple-text img {
-        padding: 30px;     
-    }
+  
 
 .service-caption { padding: 0px 110px 0px 65px; color: #fff; }
     .service-caption .sub-title {
@@ -1983,7 +1985,7 @@ nav li { position: relative; }
   .right .service-caption { padding: 0px 40px 0px 60px; } }
 @media (max-width: 1500px) { .service-caption { padding: 160px 60px 54px 40px; }
     .contact-section .service-caption {
-        padding: 90px 60px 10px 40px;
+        padding: 30px 60px 10px 40px;
     }
 }
  .service-caption .title { font-size: 50px; }
@@ -2836,7 +2838,8 @@ nav li { position: relative; }
 
     .col-60, .col-40, .col-50 {
         width: 100%;
-        height: 50%;
+        height:50%;
+        
     }
 
     .single2-desc .title {
@@ -3756,7 +3759,7 @@ body.overflowh { overflow: hidden; }
         }
 
         .home-section {
-            min-height: 900px;
+            min-height: 1024px;
             padding: 60px;
         }
 
@@ -3778,11 +3781,11 @@ body.overflowh { overflow: hidden; }
 
         .full-main-title {
             position: absolute;
-            -webkit-transform: translateY(-50%);
-            -moz-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            top: 50%;
+            -webkit-transform: translateY(-45%);
+            -moz-transform: translateY(-45%);
+            -ms-transform: translateY(-45%);
+            transform: translateY(-45%);
+            top: 45%;
             padding: 0px 30px;
         }
 
@@ -3964,6 +3967,7 @@ body.overflowh { overflow: hidden; }
 
         .right-navigation .menu-scrol li a {
             font-size: 13px;
+            line-height: 1.5;
         }
 
         .right-navigation .menu-scrol li {
@@ -4205,7 +4209,6 @@ body.overflowh { overflow: hidden; }
             z-index: 5;
             -webkit-touch-callout: none;
             -webkit-user-select: none;
-            -khtml-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
@@ -4318,7 +4321,6 @@ body.overflowh { overflow: hidden; }
             opacity: 0;
             -webkit-transition: all 0.25s ease-out;
             -moz-transition: all 0.25s ease-out;
-            -ms-transition: all 0.25s ease-out;
             transition: all 0.25s ease-out;
         }
 
