@@ -657,6 +657,7 @@ max-height: 100vh;
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .bg-grey {
     background: #c9d2d9;
+    background: #dbdbdd;
 }
 
 .bg-grey2 { background: #f1f1f1; }
@@ -3560,12 +3561,11 @@ body.overflowh { overflow: hidden; }
     }
 
 .full-section {
-    background-image: -moz-linear-gradient(bottom left, #bbbdbd 20%, #c4cacc 40%, #cad3da 50%, #c9d2d9 100% ); /* Opera */
-    background-image: -o-linear-gradient(bottom left, #bbbdbd 20%, #c4cacc 40%, #cad3da 50%, #c49d2d9 100% ); /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(20, #bbbdbd), color-stop(40, #c4cacc), color-stop(50, #cad3da), color-stop(100, #c9d2d9)); /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(bottom left, #bbbdbd 20%, #c4cacc 30%, #cad3da 40%, #c9d2d9 100% ); /* W3C Markup */
-    background-image: linear-gradient(to top right, #bbbdbd 20%, #c4cacc 40%, #cad3da 50%, #c9d2d9 100% );
-
+    background-image: -moz-linear-gradient(bottom left, #dbdbdd 20%, #c4cacc 40%, #cad3da 50%, #c9d2d9 100% ); /* Opera */
+    background-image: -o-linear-gradient(bottom left, #dbdbdd 20%, #c4cacc 40%, #cad3da 50%, #c49d2d9 100% ); /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(20, #dbdbdd), color-stop(40, #c4cacc), color-stop(50, #cad3da), color-stop(100, #c9d2d9)); /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(bottom left, #dbdbdd 20%, #c4cacc 30%, #cad3da 40%, #c9d2d9 100% ); /* W3C Markup */
+    background-image: linear-gradient(to top right, #dbdbdd 20%, #c4cacc 40%, #cad3da 50%, #c9d2d9 100% );
 }
 
 .full-section-wrap { padding-right: 120px; }
