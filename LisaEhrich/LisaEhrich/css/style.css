@@ -1767,9 +1767,9 @@ nav li { position: relative; }
     position: relative;
     width: 100%;  
     overflow: hidden;
-    padding: 0px 0px 0px;
+    padding: 0px 0px 60px 0px;
 }
-.project-list { height: auto; padding: 40px 0px; overflow: visible; }
+.project-list { height: auto; padding: 90px 0px; overflow: visible; }
 .project-list .swiper-slide { width: auto; height: auto; }
 .project-list .swiper-slide:first-child .bg, .project-list .swiper-slide:first-child .service-layer { transform-origin: left center; -webkit-transform-origin: left center; -moz-transform-origin: left center; -ms-transform-origin: left center; }
 .project-list .swiper-slide:last-child .bg, .project-list .swiper-slide:last-child .service-layer { transform-origin: right center; -webkit-transform-origin: right center; -moz-transform-origin: right center; -ms-transform-origin: right center; }
@@ -1839,15 +1839,31 @@ nav li { position: relative; }
 
 .slider-list-container { position: relative; width: 100%; display: inline-block; }
 
-.slider-list-desc { position: absolute; left: 0px; top: 0px; width: 280px; height: 100%; padding: 20px 20px 0px 0px; background: #eceeeb; z-index: 5; font-size: 0px; }
-.slider-list-desc .title { position: relative; text-align: right; font-size: 35px; line-height: 35px; }
+.slider-list-desc {
+    position: absolute;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 280px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 0px 0px;
+    background: #eceeeb;
+    z-index: 5;
+    font-size: 0px;
+}
+.slider-list-desc .title { position: relative; text-align: center; font-size: 35px; line-height: 35px; }
 .slider-list-desc:before { content: ''; position: absolute; left: 0px; bottom: -100%; width: 100%; height: 100%; background: inherit; }
 
-.slider-list-gallery { position: relative; float: left; width: 100%; padding-left: 300px; background: #eceeeb; }
+.slider-list-gallery { position: relative; float: left; width: 100%; padding-left: 300px; background: #eceeeb;padding-left:0px;margin-bottom: 3px; }
 
-.first-list .slider-list-desc { top: -20px; padding-top: 40px; }
+.first-list .slider-list-desc { top: -20px; padding-top: 40px;
+                                top: auto; padding: 40px 0px 0px 0px;}
 
 @media (min-width: 992px) {
+    .main-list-content {
+        padding: 0px 0px 120px 0px;
+    }
     .project-item-2:hover .layer, .project-item-tall:hover .layer, .project-item-wide:hover .layer {
         opacity: 1;
     }
