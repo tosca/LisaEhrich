@@ -733,7 +733,7 @@ div.no-padding-block { padding-bottom: 0px; }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 6. SLIDER STYLES*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.full-h .swiper-container { height: 100%; }
+.full-h .swiper-container { height: 100vh; }
 
 .swiper-wrapper { cursor: url(../img/drag.png) 16 16, ew-resize !important; }
 
