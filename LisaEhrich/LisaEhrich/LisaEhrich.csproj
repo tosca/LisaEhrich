@@ -262,6 +262,7 @@
     <Content Include="js\map.js" />
     <Content Include="js\wow.min.js" />
     <Content Include="lisaehrich-logo-01.png" />
+    <Content Include="apple-touch-icon-120x120.png" />
     <Content Include="works-test.html" />
     <Content Include="project_v2.html" />
     <Content Include="Scripts\bootstrap.js" />
