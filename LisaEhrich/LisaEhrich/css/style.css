@@ -3737,9 +3737,9 @@ body.overflowh { overflow: hidden; }
             top: 15px;
         }
         .full-about-item p {
-            font-size: 22px;
+            font-size: 20px;
             line-height: 32px;
-            padding-bottom: 16px;
+            padding-bottom: 10px;
         }
         .signature img {
             max-width: 300px;
@@ -4092,7 +4092,7 @@ body.overflowh { overflow: hidden; }
         line-height: 60px;
     }
     #home .full-contact-item .title-h2, .title-h1 {
-        font-size: 42px;
+        font-size: 44px;
         line-height: 54px;
     }
 

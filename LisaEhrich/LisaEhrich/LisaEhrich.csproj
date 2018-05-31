@@ -254,6 +254,8 @@
     <Content Include="img\LE\wall-sculpt-04.jpg" />
     <Content Include="img\LE\wall-sculpt-05.jpg" />
     <Content Include="img\single2_slide_1.jpg" />
+    <Content Include="indexCopy.html" />
+    <Content Include="indexOldcopy.html" />
     <Content Include="index.html" />
     <Content Include="js\all.js" />
     <Content Include="js\anchors.nav.js" />
@@ -317,9 +319,6 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
     <Content Include="single_2.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
