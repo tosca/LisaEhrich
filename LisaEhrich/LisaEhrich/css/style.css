@@ -2000,7 +2000,10 @@ nav li { position: relative; }
   .service-nav { width: 210px; }
   .service-nav li { font-size: 18px; line-height: 46px; }
   .left .service-desc { padding: 130px 180px 95px 40px; }
-  .service-desc .simple-text { margin-bottom: 20px; }
+  .service-desc .simple-text p img{ padding: 15px; }
+    .service-desc .simple-text {
+        margin-bottom: 20px;
+    }
   .right .service-caption { padding: 0px 40px 0px 60px; } }
 @media (max-width: 1500px) { .service-caption { padding: 160px 60px 54px 40px; }
     .contact-section .service-caption {
