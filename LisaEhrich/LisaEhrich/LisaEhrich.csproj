@@ -148,6 +148,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\newstyle.css" />
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -165,12 +166,7 @@
     <Content Include="img\LE\dwbowl-06.jpg" />
     <Content Include="img\LE\dwbowl-07.jpg" />
     <Content Include="img\LE\edteaching.jpg" />
-    <Content Include="img\LE\fall-01.jpg" />
-    <Content Include="img\LE\fall-02.jpg" />
-    <Content Include="img\LE\fall-3230.jpg" />
-    <Content Include="img\LE\fall-home-01.jpg" />
     <Content Include="img\LE\fall-home-02.jpg" />
-    <Content Include="img\LE\fall-home-03.jpg" />
     <Content Include="img\LE\fall-home.jpg" />
     <Content Include="img\LE\fall-install-01.jpg" />
     <Content Include="img\LE\fall-install-02.jpg" />
@@ -178,9 +174,7 @@
     <Content Include="img\LE\fall-install-04.jpg" />
     <Content Include="img\LE\fall-install-05.jpg" />
     <Content Include="img\LE\fall-install-06.jpg" />
-    <Content Include="img\LE\fall-install-07.jpg" />
     <Content Include="img\LE\fall-install-08.jpg" />
-    <Content Include="img\LE\fall-install-09.jpg" />
     <Content Include="img\LE\fall-install-10.jpg" />
     <Content Include="img\LE\falling-up.jpg" />
     <Content Include="img\LE\hand-form-ceramics.jpg" />
@@ -201,6 +195,9 @@
     <Content Include="img\LE\leaf-24.jpg" />
     <Content Include="img\LE\leaf-25.jpg" />
     <Content Include="img\LE\leafshelf-sm.jpg" />
+    <Content Include="img\LE\lifecycle-01.jpg" />
+    <Content Include="img\LE\lifecycle-02.jpg" />
+    <Content Include="img\LE\lifecycle222.png" />
     <Content Include="img\LE\lisa-pose-02.jpg" />
     <Content Include="img\LE\LisaEhrich.png" />
     <Content Include="img\LE\new-ceramic-art.jpg" />
@@ -254,8 +251,6 @@
     <Content Include="apple-touch-icon-120x120.png" />
     <Content Include="works-test.html" />
     <Content Include="project_v2.html" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -285,14 +280,6 @@
     <Content Include="js\swiper.jquery.min.js" />
     <Content Include="js\typed.min.js" />
     <Content Include="css\jquery.fullpage.min.css.map" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="single_2.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -312,6 +299,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -324,7 +312,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
