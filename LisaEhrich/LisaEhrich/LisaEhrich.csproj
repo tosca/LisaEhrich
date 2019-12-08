@@ -148,6 +148,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\jquery.range.css" />
     <Content Include="css\newstyle.css" />
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -249,6 +250,7 @@
     <Content Include="js\all.js" />
     <Content Include="lisaehrich-logo-01.png" />
     <Content Include="apple-touch-icon-120x120.png" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="works-test.html" />
     <Content Include="project_v2.html" />
     <Content Include="ApplicationInsights.config">
@@ -299,7 +301,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
