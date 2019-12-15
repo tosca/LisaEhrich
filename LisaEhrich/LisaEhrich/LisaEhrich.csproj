@@ -149,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\jquery.range.css" />
+    <Content Include="css\newstyle-copy.css" />
     <Content Include="css\newstyle.css" />
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -313,6 +314,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="css\sass\style.scss" />
+    <Content Include="css\sass\_about.scss" />
+    <Content Include="css\sass\_bootstrap.scss" />
+    <Content Include="css\sass\_contact.scss" />
+    <Content Include="css\sass\_fullpage.scss" />
+    <Content Include="css\sass\_index.scss" />
+    <Content Include="css\sass\_main.scss" />
+    <Content Include="css\sass\_mini.scss" />
+    <Content Include="css\sass\_onepage_6.scss" />
+    <Content Include="css\sass\_project.scss" />
+    <Content Include="css\sass\_reset.scss" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -130,9 +130,7 @@ jQuery(function($) { "use strict";
 				direction: directMode,
 				freeMode: freeMode,
                 scrollbar: scrollBar,
-				fade: {
-				    crossFade: false
-				},
+				fade: crossFade,
 				coverflow: {
 					rotate: 70,
 					stretch: 0,
@@ -435,13 +433,13 @@ jQuery(function($) { "use strict";
 		$(this).closest('.radio-wr').find('.radio').removeClass('act');
 		$('.checkbox-form').removeAttr('checked');
 		$(this).addClass('act');
-		$(this).find('.checkbox-form').attr('checked',true)
+        $(this).find('.checkbox-form').attr('checked', true);
     });	
 		
 	$('.tags-link a').on('click', function(){
 	    $('.tags-link a').removeClass('act');
 		$(this).addClass('act');
-		return false
+        return false;
 	});
 	
 	$('.load-more-item').on('click', function(){

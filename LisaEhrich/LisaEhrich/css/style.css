@@ -6,50 +6,12 @@ Last change:16/05/17 [fixed bug, zn]
 Author:Azelab
 
 -------------------------------------------------------------------*/
-/* TABLE OF CONTENTS:
 
-0. RESET
-1. BOOTSTRAP
-2. FONTS
-3. MIXINS
-4. TYPOGRAPHY
-5. HELP CLASSES
-6. SLIDER STYLES
-7. SLIDER NAV BUTTON STYLES
-8. SLIDER PAGINATION STYLES
-9. HEADER
-10. FOOTER
-11. POPUP & PANEL
-12. RESPONSIVE
-13. SHOP PAGE
-14. SHOP PAGE TOP SIDEBAR
-15. BLOG PAGE
-16. BLOG SIDEBAR
-17. BLOG POST
-18. ABOUT PAGE
-19. CONTACT PAGE
-20. PROJECT PAGE
-21. GALLERY
-22. PROJECT LIST SLIDER
-23. PRICE PAGE
-24. REGISTRETION PAGE
-25. SERVICE PAGE
-26. TEAM PAGE
-27. PRODUCT PAGE
-28. SINGLE 1
-29. SINGLE 2
-30. SINGLE 3
-31. Onepage v5
-32. Mini
-33. Solo
-34. Onepage v6
-35. Index (dark)
-*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 0. RESET
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-@import url('css/jquery.range.css');
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 */
 /* HTML5 display-role reset for older browsers */
@@ -1963,11 +1925,14 @@ nav li { position: relative; }
         right: 0;
         top: 0;
     }
-
+.top-baner {
+        height: auto;
+    }
     .top-baner.slider-swiching {
         height: auto;
-        height: 100vh;
+       /* height: 100vh;*/
     }
+    
 
     .sliders-wrapp {
         position: relative;
