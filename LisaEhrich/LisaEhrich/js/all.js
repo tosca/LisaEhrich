@@ -27,7 +27,7 @@
 /* 23 - GOOGLE MAPS  */
 /* 24 - FULL PAGE SCROLL  */
 
-jQuery(function($) { "use strict";
+jQuery(function($) {
           
     /*============================*/
 	/* 01 - VARIABLES */
@@ -108,8 +108,7 @@ jQuery(function($) { "use strict";
 			var scrollVar = parseInt($t.attr('data-scroll'),10);
             var scrollBar = false;
             if ($('.swiper-scrollbar').length){
-                scrollBar = $t.attr('data-bar');
-                
+                scrollBar = $t.attr('data-bar');                
             }
 			swipers['swiper-'+index] = new Swiper('.swiper-'+index,{
 				speed: speedVar,
@@ -138,13 +137,13 @@ jQuery(function($) { "use strict";
 					modifier: 1,
 					slideShadows : false
 				},
-				paginationBulletRender: function (index, className, swiper) {
-				  	if ($('.nubmer-point-style').length){
+				paginationBulletRender: function (index, className) {
+				   if ($('.nubmer-point-style').length){
 				    	return '<span class="' + className + '">' + '<i>' + (index + 1) + '</i>' + '</span>';  
-				  	}else{
+				    }else{
 					  	if ($('.point-styled-text').length){	
 							var pointText = $t.find('.swiper-slide .title').eq(index).attr('data-point-text');
-		                    return '<span class="' + className + '">' + '<i>' + (pointText) + '</i>' + '</span>';
+		                    return '<span class="' + className + '">' + '<i>' + ('pointText') + '</i>' + '</span>';
 					  	}else{
 					    	return '<span class="' + className + '"></span>';
 					  	}
@@ -569,60 +568,14 @@ jQuery(function($) { "use strict";
 			  
 	$(document).on('click', '.close-video', function(){
 		var videoClose = $(this).parent().find('.video-iframe');
-	    $(this).parent().parent().parent().find('.video-item').removeClass('act');
-		videoClose.find('iframe').remove();
+	        $(this).parent().parent().parent().find('.video-item').removeClass('act');
+		    videoClose.find('iframe').remove();
 		return false;
 	});	
 					
 	/*============================*/
 	/* 15 - CONTACT FORM  */
-	/*============================*/				
 	
-	$('.number-total').text($('.questions li').length);
-                    
-	$(document).on('click', '.next-step', function(){
-	    var $this = $(this),
-	    	questform_elem = $(this).closest('.questform'),
-			stepNumb = questform_elem.find('.questions li').length,
-			stepIter = 100/stepNumb,
-			progressLine = questform_elem.find('.progress-line'),
-			activeField = $('.questions li.active'),
-		    activeFieldInput = $('.questions li.active').find('input'),
-			errorMess = questform_elem.find('.error-message'),
-			counter = questform_elem.find('.number-current');
-            
-		    if (activeFieldInput.val()!=='') {
-                if ($('.questions li').last().hasClass('active')) {
-                    $.ajax({type:'POST', url:'email-action.php', data:$('#contact-form').serialize(), success: function(response) {
-                    	if (response == 'success') {
-                    		$('.questform').addClass('last-step');
-                    	}
-					}}); 
-                }
-			    progressLine.animate({width:'+='+stepIter+'%'},300);
-				activeField.addClass('move');
-				setTimeout(function(){
-				   activeField.removeClass('active').next().addClass('active').find('input').focus();
-				},300);
-				errorMess.removeClass('act');
-				counter.text((activeField.index()+1)+1);
-			}else{
-			    errorMess.addClass('act');
-			}
-        if ($('.questions li').last().prev().hasClass('active')) {
-             $('.submit-button').show();
-        }
-		return false;
-	});
-					
-	$('.questions input').keydown(function (e) {
-	  	if (e.keyCode === 13) {
-		  	$('.next-step').click();
-		    return false; 
-	  	}
-	});				
-			
-    /*============================*/
 	/* 16 - ISOTOPE  */
 	/*============================*/					
 					
@@ -753,56 +706,7 @@ jQuery(function($) { "use strict";
 					
 	/*============================*/
 	/* 18 - CALCULATOR  */
-	/*============================*/
-					
-	$('.price-period-check a').on('click', function(){
-	  	$('.price-period-check a').removeClass('active');	
-	    $(this).addClass('active');
-	  	if ($('.year-press').hasClass('active')) {
-	      	$('.price-item').each(function(){
-		     	var $this = $(this);
-			  	$this.addClass('year');
-			  	$this.find('.price-value b').text($this.find('.price-value b').attr('data-year'));
-			  	$this.find('.price-value span').text($this.find('.price-value span').attr('data-year'));
-		  	});
-	  	}else{
-	      	$('.price-item').each(function(){
-			    var $this = $(this);
-				$this.removeClass('year');
-				$this.find('.price-value b').text($this.find('.price-value b').attr('data-mon'));
-				$this.find('.price-value span').text($this.find('.price-value span').attr('data-mon'));
-			});
-		}
-		return false;
-	});
 	
-    var maxVal = $('.range-bar-start').attr('max');
-	$('.select-price').on('click', function(){
-		var thisVal = parseInt($(this).attr('data-val'),10),
-		lineStep = (thisVal*100)/maxVal+'%',
-		$this = $(this);
-		if ($this.hasClass('active')) {
-			 $this.removeClass('active');	
-		}else{
-			 $this.closest('.step-slider').find('.select-price').removeClass('active');	
-			 $this.addClass('active');
-			 $('.line-active').css({'width':lineStep});
-			 $('.range-bar-start').val(thisVal);
-		}      
-    });
-						
-	$('.next-price-step').on('click', function(){
-	    $('.step-slider.active').removeClass('active').next().addClass('active');
-		$('.total-price span').text($('.range-bar-start').val());
-		return false;
-	});	
-					
-	$('.back-price-step').on('click', function(){
-	   	$('.step-slider.active').removeClass('active').prev().addClass('active');
-		return false;
-	});
-									
-	/*==============================*/
 	/* 19 - AJAX LOAD */
 	/*==============================*/		  			  
 
