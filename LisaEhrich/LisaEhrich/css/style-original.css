@@ -1,6 +1,5 @@
 /*------------------------------------------------------------------
     
-Template:Interio
 Version: 1.2.0
 Last change:16/05/17 [fixed bug, zn]
 Author:Azelab
@@ -622,7 +621,7 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 
 .transition-def, .button-type-3 > span, .button-type-3 span:last-child:before, a, .nav-menu > ul > li > a:before, .close img, .close-item img, .nav-page-pagination.fixed-nav li span, .tumbs-item .slide-swich img { transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; -ms-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; }
 
-.bg, .service-layer { overflow: hidden; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: scroll; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; background-size: cover; backface-visibility: hidden; }
+.bg, .service-layer { overflow: hidden; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: scroll; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; backface-visibility: hidden; }
 .bg.fix, .fix.service-layer { background-attachment: fixed; }
 
 .vertical-align, .search-panel.popup .close, .amount-wrap .val, .inside-img img, .skill-line { -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); top: 50%; position: absolute; }
@@ -2136,7 +2135,8 @@ nav li { position: relative; }
   .price-item.year .price-value b { font-size: 50px; line-height: 60px; }
   .price-item.year .price-value { font-size: 20px; }
   .main-baner-align .service-desc .cell-view { display: block; } }
-@media (max-width: 480px) { .service-desc .simple-text p { padding-bottom: 15px; }
+@media (max-width: 480px) { 
+    .service-desc .simple-text p { padding-bottom: 15px; }
   .service-nav li { font-size: 16px; line-height: 36px; }
   .mobile-toggle-slide.service-toggle .slide-lidt-text { font-size: 16px; }
   .service-caption .title { font-size: 35px; }

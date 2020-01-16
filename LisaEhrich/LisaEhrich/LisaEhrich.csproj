@@ -197,6 +197,7 @@
     <Content Include="img\LE\leaf-24.jpg" />
     <Content Include="img\LE\leaf-25.jpg" />
     <Content Include="img\LE\leafshelf-sm.jpg" />
+    <Content Include="img\LE\Life-Cycle222-wide.jpg" />
     <Content Include="img\LE\lifecycle-01.jpg" />
     <Content Include="img\LE\lifecycle-02.jpg" />
     <Content Include="img\LE\lifecycle222.png" />
@@ -313,6 +314,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\_onepage_6.scss" />
     <None Include="packages.config" />
     <Content Include="css\sass\style.scss" />
     <Content Include="css\sass\_about.scss" />
