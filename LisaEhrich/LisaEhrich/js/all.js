@@ -380,7 +380,7 @@ jQuery(function($) {
                     
     /*============================*/
 	/* 08 - FULLPAGE PLUGIN  */
-	/*============================*/
+	/*============================
      
     if ($('.onepage-wrapper').length && $(window).width()>1200){				
         $('.onepage-wrapper').fullpage({
@@ -451,7 +451,7 @@ jQuery(function($) {
         $(this).parent().find('.mini-project-filter').slideToggle(300);     
     });                
                     
-                    
+     */               
 										
     /*==============================*/
 	/* 09 - SLIDER RANGE  */
@@ -481,7 +481,7 @@ jQuery(function($) {
 					
 	/*============================*/
 	/* 10 - WOW ANIMATION */
-	/*============================*/
+	/*============================
 									
 	function Reval(){				
 		window.sr = ScrollReveal();
@@ -496,7 +496,7 @@ jQuery(function($) {
 					
 	if ($('.wow').length){				
         Reval();
-	}				
+	}		*/		
 					
 	/*============================*/
 	/* 11 - TITLE TEXT ANIMATION */
@@ -878,7 +878,7 @@ jQuery(function($) {
               
 	/*============================*/
 	/* 21 - CUSTOME SELECT  */
-	/*============================*/
+	/*============================
 					
 	$('.drop-down-text').on('click', function(){
         if ($(this).parent().hasClass('act')){
@@ -896,7 +896,7 @@ jQuery(function($) {
         $(this).closest('.drop-down').find('.drop-down-text span').text($(this).text());
 		$(this).closest('.drop-down').find('.drop-down-text').removeClass('act');
 		$(this).parent().slideUp(300);
-	});				
+	});		*/		
 		
 	/*============================*/
 	/* 22 - POSTER 3D HOVER  */
