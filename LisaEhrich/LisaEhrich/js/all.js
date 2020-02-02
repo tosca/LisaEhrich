@@ -129,7 +129,7 @@ jQuery(function($) {
 				direction: directMode,
 				freeMode: freeMode,
                 scrollbar: scrollBar,
-				fade: crossFade,
+				//fade: crossFade,
 				coverflow: {
 					rotate: 70,
 					stretch: 0,
@@ -534,7 +534,7 @@ jQuery(function($) {
 									
 	/*============================*/
 	/* 13 - SKILL ANIMATION   */
-	/*============================*/				
+	/*============================				
 					
 	var hasCreatedObjects = false;
 	$(window).scroll(function() {
@@ -552,7 +552,7 @@ jQuery(function($) {
 			    }
 			});
 		}
-	});
+	});*/
 					
 	/*============================*/
 	/* 14 - VIDEO YOUTUBE - VIMEO  */
@@ -900,14 +900,14 @@ jQuery(function($) {
 		
 	/*============================*/
 	/* 22 - POSTER 3D HOVER  */
-	/*============================*
+	/*============================*/
 	
 	if ($(window).width()>1200){				
 		var $poster = $('.poster'),
-		    $shine = $('.shine'),
-		    $layer = $('.layer-bg'),
-		    w = $('.poster').width(), //window width
-		    h = $('.poster').height(); //window height
+            $shine = $('.shine'),
+            $layer = $('.layer-bg'),
+             w = $('.poster').width(), //window width
+             h = $('.poster').height(); //window height
 		$(document).on('mousemove', '.poster', function(e) {
 			var offsetX = 1.2 - e.pageX / w, //cursor position X
 				offsetY = 1.2 - e.pageY / h, //cursor position Y
@@ -918,9 +918,9 @@ jQuery(function($) {
 				offsetPoster = $(this).data('offset'),
 				transformPoster = 'translateY(' + -offsetX * offsetPoster + 'px) rotateX(' + (-offsetY * offsetPoster) + 'deg) rotateY(' + (offsetX * (offsetPoster * 2)) + 'deg)'; //poster transform
 
-		    if (angle < 0) {
+            if (angle < 0) {
 				angle = angle + 360;
-		    }
+            }
 
 			$shine.css('background', 'linear-gradient(' + angle*10 + 'deg, rgba(255,255,255,' + e.pageY / h + ') 0%,rgba(255,255,255,0) 80%)');
 
@@ -931,13 +931,13 @@ jQuery(function($) {
 		});
 					
 		$(document).on('mouseleave', '.poster', function(e) {
-		    $(this).css('transform', 'translateY(0) rotateX(0) rotateY(0)'); 
+             $(this).css('transform', 'translateY(0) rotateX(0) rotateY(0)'); 
 		});	
 	}
                     
      /*============================*/
         /* 23 - GOOGLE MAPS  */
-      /*============================*
+      /*============================*/
 
      var marker = [], infowindow = [], map, image = $('.map-wrapper').attr('data-marker');
 
