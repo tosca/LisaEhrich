@@ -157,10 +157,15 @@
     <Content Include="img\LE\about-bg-01.jpg" />
     <Content Include="img\LE\bio-exhibit.jpg" />
     <Content Include="img\LE\bio-studio.jpg" />
+    <Content Include="img\LE\black-cloud-01.jpg" />
+    <Content Include="img\LE\black-cloud-02.jpg" />
+    <Content Include="img\LE\black-cloud.jpg" />
     <Content Include="img\LE\ceramics-art.jpg" />
     <Content Include="img\LE\ceramics-master.jpg" />
     <Content Include="img\LE\ceramics-urban.jpg" />
     <Content Include="img\LE\circleleaves.jpg" />
+    <Content Include="img\LE\drawing-nature-01.jpg" />
+    <Content Include="img\LE\drawnature-detail2.jpg" />
     <Content Include="img\LE\dwbowl-02.jpg" />
     <Content Include="img\LE\dwbowl-03.jpg" />
     <Content Include="img\LE\dwbowl-04.jpg" />
@@ -235,6 +240,8 @@
     <Content Include="img\LE\sculpture-07.jpg" />
     <Content Include="img\LE\sculpture-08.jpg" />
     <Content Include="img\LE\sculpture-09.jpg" />
+    <Content Include="img\LE\season-change-01.jpg" />
+    <Content Include="img\LE\season-change-02.jpg" />
     <Content Include="img\LE\signature-sm.png" />
     <Content Include="img\LE\signature.png" />
     <Content Include="img\LE\rocks-03.jpg" />
