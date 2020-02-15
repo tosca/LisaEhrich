@@ -283,8 +283,8 @@ jQuery(function($) {
         }
         if ($(window).width()>1024){
             if($('.wrapper-full-scroll').length){
-                $('body').addClass('overflowh');
-                $('.full-scroll-section').height(fullPageHeight);
+               $('body').addClass('overflowh');
+               $('.full-scroll-section').height(fullPageHeight);
             }
         }
         $('.onepage-box .add-nav-link').click();
