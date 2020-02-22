@@ -3676,7 +3676,8 @@ body.overflowh { overflow: hidden; }
   .full-contact-item p { font-size: 20px; line-height: 32px; }
   .contact-footer-link { bottom: 30px; } }
 @media (max-width: 1200px) { .full-about-item { padding: 0 30px; } }
-@media (max-width: 1024px) { .full-section { opacity: 1; visibility: visible; }
+@media (max-width: 1024px) { 
+	.full-section { opacity: 1; visibility: visible; }
   .full-project-item { opacity: 1; }
   .word-anime:before { width: 100%; }
   .home-section { min-height: 570px; }
