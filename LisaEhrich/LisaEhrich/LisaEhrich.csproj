@@ -150,7 +150,6 @@
   <ItemGroup>
     <Content Include="css\jquery.range.css" />
     <Content Include="css\newstyle-copy.css" />
-    <Content Include="css\newstyle.css" />
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -207,6 +206,7 @@
     <Content Include="img\LE\lifecycle-01.jpg" />
     <Content Include="img\LE\lifecycle-02.jpg" />
     <Content Include="img\LE\lisa-pose-02.jpg" />
+    <Content Include="img\LE\lisaehrich-logo-new.png" />
     <Content Include="img\LE\LisaEhrich.png" />
     <Content Include="img\LE\new-ceramic-art.jpg" />
     <Content Include="img\LE\new-ceramic-art.png" />
@@ -265,7 +265,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="css\jquery.fullpage.min.css" />
-    <Content Include="css\old-style.css" />
     <Content Include="css\swiper.min.css" />
     <Content Include="img\arrow_down.png" />
     <Content Include="img\close.png" />
