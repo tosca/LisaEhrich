@@ -3661,7 +3661,8 @@ body.overflowh { overflow: hidden; }
 .all-project-title .title-h1 { padding-bottom: 30px; text-align: center; }
 .all-project-title .project-author { backface-visibility: hidden; }
 
-@media (max-width: 1400px) { .title-h1 { font-size: 50px; line-height: 56px; }
+@media (max-width: 1400px) { 
+	.title-h1 { font-size: 45px; line-height: 50px; }
   .right-navigation .menu-scrol { padding: 60px 10%; }
   .scroll-down-section { bottom: 85px; left: -8px; }
   .full-main-title { padding: 0px 60px; }

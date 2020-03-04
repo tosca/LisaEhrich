@@ -322,7 +322,7 @@ jQuery(function($) {
             var scroll_fade_elem = $('.scroll-fade');
             scroll_fade_elem.css('top', -(scrolled * 0.0315) + 'rem');
             scroll_fade_elem.parent().find('.fade-elem').css('top',-(scrolled*-0.005)+'rem');
-            scroll_fade_elem.parent().find('.fade-elem').css('opacity', 1 - (scrolled * .00275));
+            scroll_fade_elem.parent().find('.fade-elem').css('opacity', 1 -(scrolled * .00275));
         } 
 	}
 									
