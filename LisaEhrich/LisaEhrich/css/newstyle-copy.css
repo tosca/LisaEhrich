@@ -470,45 +470,29 @@ nav li { position: relative; }
 .title-h1 { font-size: 56px; line-height: 70px; text-align: left; color: #fff; letter-spacing: 1.2px; }
 .scroll-down-section { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-size: 14px; line-height: 14px; color: rgba(255, 255, 255, 0.5); width: auto; position: absolute; left: 40px; bottom: 130px; cursor: pointer; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .scroll-down-section:hover { color: #fff; }
-/*.open-all-project { position: absolute; width: 60px; height: 60px; text-align: center; line-height: 60px; font-size: 20px; color: rgba(255, 255, 255, 0.5); left: 50%; margin-left: -30px; top: 50px; cursor: pointer; z-index: 120; }
-.open-all-project.act i:before { content: '\e800'; }
-.full-project-item { position: relative; display: inline-block; width: 100%; opacity: 0; -webkit-transition: all 0.85s ease-in 0.5s; -moz-transition: all 0.85s ease-in 0.5s; transition: all 0.85s ease-in 0.5s; }
-.full-project-item .image { width: 80%; height: auto; margin-top: 30px; position: relative; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
-.full-project-item .title { left: 45%; text-align: left; width: 60%; height: 100%; top: 73%; position: absolute; }
-.full-project-item .title .title-h1 { display: block; padding-bottom: 18px; font-size: 37px; line-height: 38px; }
-.full-project-item .sub-title { font-size: 26px; }
-.full-project-item.right-style .image { float: right; }
-.full-project-item.right-style .title { left: 0; }
-.full-project-item.right-style .title .title-h1 { margin-left: 0px; }
-.full-project-item.right-style .project-author { float: right; padding-right: 40%; }
-.full-project-item .project-author { padding-left: 30px; }
-.project-author { font-size: 18px; }
-*/
-
 /* ----- [ Exhibit-section ] -----*/
 /*.exhibit-layer .bg { opacity: 0.2; background-size: cover; left: 0px; bottom: 0px; background-position: 50% 50%; padding: 100px 20px 120px 0px; }
 */
-.exhibit-container { position: relative; width: 100%; overflow: hidden; padding: 40px 0px; margin: 4.5% 0px; background-color: #171c1e; }
-.exhibit-wrap { position: relative; display: inline-block; width: 100%; }
-.exhibit-item { position: relative; } 
+.exhibit-container { position: relative; width: 100%; height: auto; padding: 0px; overflow-y: visible;	background-color: #171c1e; }
+.exhibit-wrap { position: relative; display: inline-block; width: 100%; padding-bottom: 40px; max-height: 100vh !important; }
+.exhibit-item { position: absolute; right: 0px; z-index: 50; } 
 .title-exhibit { color: #fff; position: absolute; }
 .title-exhibit .title { font-size: 34px; line-height: 50px; display: block; text-align: right; }
 .exhibit-item .title-exhibit { background: rgba(127, 127, 127, 0.40); max-width: 800px; padding: 16px; top: -4%; right: 1%; z-index: 50; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
 .exhibit-item .title-exhibit .sub-title, .exhibit-item .title-exhibit .artist { display: block; text-align: right; }
 .exhibit-item .sub-title { font-size: 24px; padding-bottom: 7px; }
-.property { text-align: center; margin: 0px 1% 1% 1%; font-size: 44px; }
+.property { text-align: right; margin-bottom: 1%; font-size: 44px; }
 .margin-60 { margin: 60px 0px; }
 .artist { font-size: 16px; line-height: 24px; }
 .exhibit-showcase { position: relative; display: block; margin: 0 20px; padding-top: 60px; text-align: center; }
 /*.exhibit-showcase .col-50, .exhibit-showcase .col-40, .exhibit-showcase .col-60, .exhibit-showcase .col-30 { text-align: center; }
-
-.exhibit-showcase .exhibit-image { height: auto; max-height: 100vh !important; overflow: visible; }
-*/ 	.exhibit-showcase .exhibit-image { position: relative; display: block; background-size: 100% 100%; }
+*/ .exhibit-showcase .exhibit-image { height: auto; max-height: 100vh !important; overflow: visible; }
+/*	.exhibit-showcase .exhibit-image { position: relative; display: block; background-size: 100% 100%; }
 	.exhibit-size { display: block; font-size: 18px; text-align: right; }
-/*----- [end- Exhibit Section] ------*/
+----- [end- Exhibit Section] ------*/
 .home-layer.bg { opacity: 0.7; left: 0px; bottom: 0px; background-position: 50% 50%; }
 .about-layer.bg, .bio-layer.bg { opacity: 0.5; background-size: cover; left: 0px; bottom: 0px; background-position: 50% 50%; }
-.full-about-item { position: absolute; width: 100%; display: block; margin: 0 auto; padding: 0px 40px; }
+.full-about-item { position: absolute; width: 100%; display: block; margin: 0 auto; padding: 0px; }
 .full-about-item p { font-size: 30px; line-height: 44px; color: #423c3c; padding: 30px; font-family: 'Quicksand', sans-serif; }
 .signature { position: relative; float: right; }
 .signature img { margin-bottom: 25px; }
@@ -577,7 +561,7 @@ nav li { position: relative; }
 		.transform-wrap { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
 		.nav-menu { display: table; width: 100%; height: 100%; }
 		.logo-mobile { display: block; margin-bottom: 75px; padding-left: 20px; }
-		.top-baner.slider-swiching { height: 100vh; max-height: 1080px;}
+		.top-baner.slider-swiching, .top-baner.exhibit-container { height: 100vh; max-height: 1080px;}
 		.close-nav-bar.type-2 { top: 90px; margin-left: 20px; }
 		.single2-point { top: 75px; }
 		.single2-slider { padding: 0px 0px 0px 0px; }
@@ -591,12 +575,6 @@ nav li { position: relative; }
 		.scroll-down-section { display: none; }
 		.open-all-project { display: none; }
 		.main-baner-align .cell-view { display: block; width: 100%; }
-		/*.exhibit-item { opacity: 1; }
-			.exhibit-item.left-style .image { margin-top: 4%; }
-			.exhibit-item.left-style .exhibit-showcase { padding-top: 10px; }
-			.exhibit-item.right-style .project-author { margin-right: 15px; }
-			.exhibit-item .project-author { padding-left: 15px; }
-		*/
 		.property { font-size: 50px; line-height: 50px; } 
 		.service-desc .simple-text img { max-height: 330px; }
 	}
@@ -610,16 +588,17 @@ nav li { position: relative; }
 		.single2-desc .title { min-width: 100%; }
 		.single2-desc .project-author { padding-bottom: 30px; }
 		.exhibit-item .title .title-h1 { margin-left: 0px; margin-top: -150px; text-align: center; font-size: 30px; line-height: 30px; }
-		.exhibit-item .title-exhibit {  position: absolute; right: 0px; text-align: center; display: inline-block; padding-bottom: 15px; -webkit-transform: translateY(0%); -moz-transform: translateY(0%); -ms-transform: translateY(0%); transform: translateY(0%);  }
+		.exhibit-item .title-exhibit {  position: relative; right: 0px; text-align: center; display: inline-block; padding-bottom: 15px; -webkit-transform: translateY(0%); -moz-transform: translateY(0%); -ms-transform: translateY(0%); transform: translateY(0%);  }
 		.project-author { font-size: 14px; margin-bottom: 0px; }
 		.exhibit-item .project-author { padding-left: 0px; }
 		.exhibit-item.right-style .project-author { padding: 0px; margin: 0px; float: none; }
 		.title-exhibit .sub-title { font-size: 14px; line-height: 14px; }
 		.exhibit-showcase .col-50, .exhibit-showcase .col-40, .exhibit-showcase .col-60 { width: 100%; }
 		.col-60, .col-50, .col-40, .col-30 { width: 100%; }
+		.exhibit-showcase .exhibit-image.wide { height: 250px; }
 		.exhibit-showcase .exhibit-image { position: relative; display: block; width: 300px; height: 450px; margin: 20% 0px 0px 0px ; }
-			.exhibit-showcase .exhibit-image .begin { height: 250px; }
-			.property { font-size: 30px; line-height: 40px; }
+		
+		.property { font-size: 30px; line-height: 40px; }
 	}
 	/*Small devices (landscape phones, 576px and narrower)*/
 	@media (max-width: 576px) {
@@ -662,4 +641,4 @@ nav li { position: relative; }
 
 	::-webkit-scrollbar { -webkit-appearance: none; width: 8px; -webkit-overflow-scrolling: touch; }
 
-	::-webkit-scrollbar-thumb { border-radius: 4px; background-color: rgba(0,0,0,.3); -webkit-box-shadow: 0 0 1px rgba(255,255,255,.6); }
+	::-webkit-scrollbar-thumb { border-radius: 4px; background-color: rgba(0,0,0,.3); -webkit-box-shadow: 0 0 1px rgba(255,255,255,.6); }}
