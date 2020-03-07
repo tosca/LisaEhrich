@@ -107,11 +107,11 @@ input, textarea { font-family: 'Quicksand', sans-serif; }
 .align-bottom { display: table-row; }
 .vertical-wrap { font-size: 0px; }
 .vertical-wrap > div[class*="col"] { display: inline-block; vertical-align: middle; position: relative; float: none; }
-.wr-last-child > div:last-child { padding-bottom: 0px; margin-bottom: 0px; }
+/*.wr-last-child > div:last-child { padding-bottom: 0px; margin-bottom: 0px; }
 .resp-img { width: 100%; height: auto; display: block; }
 div.no-padding-block { padding-bottom: 0px; }
 .sub-title-black { font-size: 12px; text-transform: uppercase; letter-spacing: 1.4px; line-height: 16px; }
-
+*/
 /************************/
 /* 6. SLIDER STYLES*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -394,7 +394,7 @@ nav li { position: relative; }
 	.col-50 { width: 50%; }
 	.col-40 { width: 40%; }
 	.col-30 { width: 33.33333333333334%; }
-	.single-slide { position: relative; width: 100%; height: 100%; max-height:900px; }
+	.single-slide { position: relative; width: 100%; height: 100%; max-height:800px; }
 	.single2-slider { padding: 0px 0px 0px 220px; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 	.single-desc { z-index: 5; color: #fff; position: absolute; }
 		.single-desc .folow span { font-size: 12px; font-weight: 700; color: rgba(255, 255, 255, 0.3); letter-spacing: 1.4px; text-transform: uppercase; }
@@ -471,25 +471,20 @@ nav li { position: relative; }
 .scroll-down-section { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-size: 14px; line-height: 14px; color: rgba(255, 255, 255, 0.5); width: auto; position: absolute; left: 40px; bottom: 130px; cursor: pointer; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .scroll-down-section:hover { color: #fff; }
 /* ----- [ Exhibit-section ] -----*/
-/*.exhibit-layer .bg { opacity: 0.2; background-size: cover; left: 0px; bottom: 0px; background-position: 50% 50%; padding: 100px 20px 120px 0px; }
-*/
-.exhibit-container { position: relative; width: 100%; height: auto; padding: 0px; overflow-y: visible;	background-color: #171c1e; }
-.exhibit-wrap { position: relative; display: inline-block; width: 100%; padding-bottom: 40px; max-height: 100vh !important; }
-.exhibit-item { position: absolute; right: 0px; z-index: 50; } 
-.title-exhibit { color: #fff; position: absolute; }
-.title-exhibit .title { font-size: 34px; line-height: 50px; display: block; text-align: right; }
-.exhibit-item .title-exhibit { background: rgba(127, 127, 127, 0.40); max-width: 800px; padding: 16px; top: -4%; right: 1%; z-index: 50; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
-.exhibit-item .title-exhibit .sub-title, .exhibit-item .title-exhibit .artist { display: block; text-align: right; }
-.exhibit-item .sub-title { font-size: 24px; padding-bottom: 7px; }
+.exhibit-container { position: relative; width: 100%; height: auto; padding: 0px; overflow-y: visible; }
+.exhibit-wrap { position: relative; display: inline-block; width: 100%; margin-bottom: 80px; background-color: #171c1e;}
+.exhibit-desc { background: rgba(127, 127, 127, 0.40); max-width: 800px; padding: 16px; top: 0px; right: 1%; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; } .exhibit-desc .artist { display: block; text-align: right; }
+.exhibit-desc .title { font-size: 24px; line-height: 24px; display: block; text-align: right; }
+.exhibit-desc .sub-title { font-size: 18px; text-align: right; padding-bottom: 7px; }
 .property { text-align: right; margin-bottom: 1%; font-size: 44px; }
 .margin-60 { margin: 60px 0px; }
 .artist { font-size: 16px; line-height: 24px; }
-.exhibit-showcase { position: relative; display: block; margin: 0 20px; padding-top: 60px; text-align: center; }
-/*.exhibit-showcase .col-50, .exhibit-showcase .col-40, .exhibit-showcase .col-60, .exhibit-showcase .col-30 { text-align: center; }
-*/ .exhibit-showcase .exhibit-image { height: auto; max-height: 100vh !important; overflow: visible; }
-/*	.exhibit-showcase .exhibit-image { position: relative; display: block; background-size: 100% 100%; }
-	.exhibit-size { display: block; font-size: 18px; text-align: right; }
------ [end- Exhibit Section] ------*/
+.exhibit-showcase { position: relative; display: block; margin: 0; padding-top: 60px; text-align: left; }
+.exhibit-image.wide { position: relative; max-width: 90%; height: 400px; }
+.exhibit-image { position: relative; height: 400px; }
+.exhibit-image .col { padding: 15px; }
+.exhibit-size { display: block; font-size: 18px; text-align: right; }
+/*----- [end- Exhibit Section] ------*/
 .home-layer.bg { opacity: 0.7; left: 0px; bottom: 0px; background-position: 50% 50%; }
 .about-layer.bg, .bio-layer.bg { opacity: 0.5; background-size: cover; left: 0px; bottom: 0px; background-position: 50% 50%; }
 .full-about-item { position: absolute; width: 100%; display: block; margin: 0 auto; padding: 0px; }
@@ -498,7 +493,8 @@ nav li { position: relative; }
 .signature img { margin-bottom: 25px; }
 .signature span { display: block; font-size: 16px; line-height: 16px; text-transform: uppercase; color: #fffefe; }
 .contact-item { position: relative; text-align: center; }
-.contact-item .title-h2 { font-size: 20px; line-height: 34px; color: #fffefe; }
+.contact-item .title-h2 { font-size: 24px; line-height: 34px; color: #fffefe; }
+.contact-form-wrap { text-align: center; padding: 5px 5px 5px 5px ;             }
 .full-section.active { opacity: 1; visibility: visible; }
 .photo-size img{ text-align: center; width: 30%; height: 30%; }	
 	/****************************************/
@@ -595,9 +591,9 @@ nav li { position: relative; }
 		.title-exhibit .sub-title { font-size: 14px; line-height: 14px; }
 		.exhibit-showcase .col-50, .exhibit-showcase .col-40, .exhibit-showcase .col-60 { width: 100%; }
 		.col-60, .col-50, .col-40, .col-30 { width: 100%; }
-		.exhibit-showcase .exhibit-image.wide { height: 250px; }
-		.exhibit-showcase .exhibit-image { position: relative; display: block; width: 300px; height: 450px; margin: 20% 0px 0px 0px ; }
-		
+		.exhibit-image.wide { width: 90%; height: 400px; }
+	/*	.exhibit-showcase .exhibit-image { position: relative; display: block; width: 300px; height: 450px; margin: 20% 0px 0px 0px ; }
+		*/
 		.property { font-size: 30px; line-height: 40px; }
 	}
 	/*Small devices (landscape phones, 576px and narrower)*/
