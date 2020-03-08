@@ -13,12 +13,7 @@ b { font-weight: 700; }
 .container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; }
 .container-fluid { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; }
 .row { margin-left: -15px; margin-right: -15px; }
-/*.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 { float: left; }
-.col-xs-12 { width: 100%; }
-.col-xs-11 { width: 91.66666667%; }
-.col-xs-10 { width: 83.33333333%; }
-*/.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after { content: " "; display: table; }
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after { content: " "; display: table; }
 .clearfix:after, .container:after, .container-fluid:after, .row:after { clear: both; }
 .center-block { display: block; margin-left: auto; margin-right: auto; }
 .pull-right { float: right !important; }
@@ -78,14 +73,12 @@ input, textarea { font-family: 'Quicksand', sans-serif; }
 .top-padd{ padding-top:30px; }
 .content-bg { padding: 160px 0px 180px; position: relative; }
 .main-baner-align { padding-top: 0px; position: relative; width: 100%; display: table; min-height:100vmin; height: 100%; }
-
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 5. HELP CLASSES*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .bg-grey { background: #dbdbdd; }
 .bg-grey2 { background: #f1f1f1; }
 .bg-turquois { background: #80a0af; }
-
 .pos-absol, .bg, .service-layer, .layer-bg-1, .layer-bg-2, .layer-bg-3, .layer-bg-6, .layer-bg-7, .nav-menu > ul > li > a:before { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; }
 .transition-def, .button-type-3 > span, .button-type-3 span:last-child:before, a, .nav-menu > ul > li > a:before, .close img, .close-item img, .nav-page-pagination.fixed-nav li span, .tumbs-item .slide-swich img { transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; }
 .bg, .service-layer { overflow: hidden; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: scroll; background-size: cover; backface-visibility: hidden; }
@@ -107,11 +100,6 @@ input, textarea { font-family: 'Quicksand', sans-serif; }
 .align-bottom { display: table-row; }
 .vertical-wrap { font-size: 0px; }
 .vertical-wrap > div[class*="col"] { display: inline-block; vertical-align: middle; position: relative; float: none; }
-/*.wr-last-child > div:last-child { padding-bottom: 0px; margin-bottom: 0px; }
-.resp-img { width: 100%; height: auto; display: block; }
-div.no-padding-block { padding-bottom: 0px; }
-.sub-title-black { font-size: 12px; text-transform: uppercase; letter-spacing: 1.4px; line-height: 16px; }
-*/
 /************************/
 /* 6. SLIDER STYLES*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -124,7 +112,7 @@ div.no-padding-block { padding-bottom: 0px; }
 .swiper-pagination-bullet-active { background: #fff; }
 .pagination.hidden { display: none; }
 .style-type-1 i { display: none; }
-/*.sliders-wrapp { height: 100%; }*/
+.sliders-wrapp { height: 100%; }
 /*-------------------------------------*/
 /* 9. HEADER*/
 /*------------------------------------*/
@@ -193,28 +181,9 @@ nav li { position: relative; }
 /*------------------------------------*/
 .full-scroll-section { position: relative; width: 100%; }
 .wrapper-full-scroll { -webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; transition: all 1s ease-out; padding-top: 90px; }
-/*.full-height-baner { position: relative; width: 100%; height: 100vmin; min-height: 800px; z-index: -1; }
-.full-height-baner.section-scroll { min-height: 100%; }
-.full-height-baner.over { overflow: hidden; z-index: 1; }*/
 .scroll-fade.padd { left: 90px; right: 90px; width: auto; }
 .over-wrap-hidden { height: 100vmin; position: relative; width: 100%; }
-	/***************************/
-	/* 21. GALLERY =  EXHIBITS do not use it is Project_2**/
-	/*************************
-.mobile-toggle-slide { text-align: center; position: relative; margin: 0 auto; width: 100%; }
-.slide-lidt-text { position: relative; width: 100%; display: none; padding: 0px 20px; height: 50px; border: 2px solid #d2d2d3; line-height: 46px; margin: 0 auto 30px; cursor: pointer; }
-.slide-lidt-text i { position: absolute; right: 20px; top: 0px; }
-.gallery-slide-1 { padding-top: 50px; }
-.gallery-slide-1 .swiper-slide { width: auto; }
-.gallery-slide { text-align: center; }
-.gallery-slide .text { max-width: 570px; display: block; margin: 50px auto 80px; padding: 0px 15px; opacity: 0; -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; transition: all 0.25s ease-out; }
-.gallery-slide .title { padding-bottom: 10px; color: #4d4d4e; display: block; }
-.gallery-slide .image img { max-width: 100%; }
-.gallery-title { text-align: center; padding-top: 60px; position: relative; width: 100%; }
-.gallery-title i { font-size: 30px; line-height: 55px; display: inline-block; vertical-align: bottom; }
-.swiper-slide-active .gallery-slide .text { opacity: 1; }
-*/
-	
+
 @media (max-width: 1200px) {
 .project-title { left: 30px; top: 30px; right: 30px; }
 .project-title .title, .project-title.sm .title, .project-title.lg .title { font-size: 30px; line-height: 40px; }
@@ -410,7 +379,6 @@ nav li { position: relative; }
 			.single2-point li:hover:before, .single2-point li.active:before { opacity: 1; }
 	.main-content.open-panel .single2-slider { padding-left: 0px; }
 	.main-content.open-panel .single2-desc { left: -800px; }
-
 /****************************************/
 /*  30. SINGLE _3 INSTALLATION */
 /**************************************/
@@ -458,21 +426,18 @@ nav li { position: relative; }
 .full-section-wrap { padding-right: 120px; }
 .full-section { position: relative; width: 100%; opacity: 0; visibility: hidden; -webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; transition: all 1s ease-out; }
 .pub-caption { font-family: 'Quicksand', sans-serif; padding: 0px 0px 0px 0px; line-height: 22px; }
-
 /*.full-section {-webkit-overflow-scrolling: touch; -ms-overflow-style: none; }*/
 @media (max-width: 1400px) {
 	.full-section-wrap { padding-right: 120px; }
 	.wrapper-full-scroll { padding-top: 66px; }
 }
 .full-section-wrap.wrapper-full-scroll { padding-top: 0px; }
-/*.full-section-wrap.wrapper-full-scroll { padding-top: 0px; height: 700px; height: 100vmin; min-height: 650px; }
-*/
 .title-h1 { font-size: 56px; line-height: 70px; text-align: left; color: #fff; letter-spacing: 1.2px; }
 .scroll-down-section { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-size: 14px; line-height: 14px; color: rgba(255, 255, 255, 0.5); width: auto; position: absolute; left: 40px; bottom: 130px; cursor: pointer; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .scroll-down-section:hover { color: #fff; }
 /* ----- [ Exhibit-section ] -----*/
 .exhibit-container { position: relative; width: 100%; height: auto; padding: 0px; overflow-y: visible; }
-.exhibit-wrap { position: relative; display: inline-block; width: 100%; margin-bottom: 80px; background-color: #171c1e;}
+.exhibit-wrap { position: relative; display: inline-block; width: 100%; margin-bottom: 50px; background-color: #171c1e;}
 .exhibit-desc { background: rgba(127, 127, 127, 0.40); max-width: 800px; padding: 16px; top: 0px; right: 1%; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; } .exhibit-desc .artist { display: block; text-align: right; }
 .exhibit-desc .title { font-size: 24px; line-height: 24px; display: block; text-align: right; }
 .exhibit-desc .sub-title { font-size: 18px; text-align: right; padding-bottom: 7px; }
@@ -480,9 +445,9 @@ nav li { position: relative; }
 .margin-60 { margin: 60px 0px; }
 .artist { font-size: 16px; line-height: 24px; }
 .exhibit-showcase { position: relative; display: block; margin: 0; padding-top: 60px; text-align: left; }
-.exhibit-image.wide { position: relative; max-width: 90%; height: 400px; }
+.exhibit-image.wide { position: relative; max-width: 100%; height: 700px; }
 .exhibit-image { position: relative; height: 400px; }
-.exhibit-image .col { padding: 15px; }
+/*.exhibit-image .col { padding: 15px; }*/
 .exhibit-size { display: block; font-size: 18px; text-align: right; }
 /*----- [end- Exhibit Section] ------*/
 .home-layer.bg { opacity: 0.7; left: 0px; bottom: 0px; background-position: 50% 50%; }
@@ -493,8 +458,8 @@ nav li { position: relative; }
 .signature img { margin-bottom: 25px; }
 .signature span { display: block; font-size: 16px; line-height: 16px; text-transform: uppercase; color: #fffefe; }
 .contact-item { position: relative; text-align: center; }
-.contact-item .title-h2 { font-size: 24px; line-height: 34px; color: #fffefe; }
-.contact-form-wrap { text-align: center; padding: 5px 5px 5px 5px ;             }
+	.contact-item .title-h2 { font-size: 24px; line-height: 38px; color: #cad3da; }
+contact-form-wrap { text-align: center; padding: 5px 5px 5px 5px ; }
 .full-section.active { opacity: 1; visibility: visible; }
 .photo-size img{ text-align: center; width: 30%; height: 30%; }	
 	/****************************************/
@@ -530,14 +495,14 @@ nav li { position: relative; }
 		.about-section { min-height: 1024px; padding: 0px; }
 		.full-main-title { position: absolute; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); top: 50%; padding: 0px 15px; }
 		.title-h1 { font-size: 44px; line-height: 54px; }
-		.scroll-down-section { display: none; }
+		/*.scroll-down-section { display: none; }*/
 		.open-all-project { display: none; }
 		.exhibit-item { opacity: 1; }
 		/*	.exhibit-item.right-style .project-author { margin-right: 15px; }
 			.exhibit-item .project-author { padding-left: 15px; }
 		*/
 		full-about-item { padding: 100px 30px; -webkit-transform: translate(0%, 0%); -moz-transform: translate(0%, 0%); -ms-transform: translate(0%, 0%); transform: translate(0%, 0%); top: 0px; position: relative; }
-		.contact-item { display: inline-block; padding: 50px 30px; width: 100%; }
+		/*.contact-item { display: inline-block; padding: 30px 10px; }*/
 	}
 	/* Medium devices (tablets, less than 992px)*/
 	@media (max-width: 992px) {
@@ -561,7 +526,7 @@ nav li { position: relative; }
 		.close-nav-bar.type-2 { top: 90px; margin-left: 20px; }
 		.single2-point { top: 75px; }
 		.single2-slider { padding: 0px 0px 0px 0px; }
-		.col { padding: 15px; }
+		/*.col { padding: 15px; }*/
 		.row.row-lg { margin-left: 0px; margin-right: 0px; }
 		.single2-desc.vertical-align { top: 66px; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); margin-top: 0px; padding: 60px 30px 30px 30px; }
 		.single2-desc .title { font-size: 50px; line-height: 50px; display: block; padding-bottom: 20px; }
@@ -591,7 +556,8 @@ nav li { position: relative; }
 		.title-exhibit .sub-title { font-size: 14px; line-height: 14px; }
 		.exhibit-showcase .col-50, .exhibit-showcase .col-40, .exhibit-showcase .col-60 { width: 100%; }
 		.col-60, .col-50, .col-40, .col-30 { width: 100%; }
-		.exhibit-image.wide { width: 90%; height: 400px; }
+		.service-desc .col-50 { width: 50%; }
+		.exhibit-image.wide { max-width: 100%; height: 400px; }
 	/*	.exhibit-showcase .exhibit-image { position: relative; display: block; width: 300px; height: 450px; margin: 20% 0px 0px 0px ; }
 		*/
 		.property { font-size: 30px; line-height: 40px; }
