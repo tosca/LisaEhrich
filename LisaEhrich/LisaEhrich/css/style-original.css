@@ -1,6 +1,5 @@
 /*------------------------------------------------------------------
-    
-Template:Interio
+   
 Version: 1.2.0
 Last change:16/05/17 [fixed bug, zn]
 Author:Azelab
@@ -622,7 +621,7 @@ input, textarea { font-family: 'Montserrat', sans-serif; }
 
 .transition-def, .button-type-3 > span, .button-type-3 span:last-child:before, a, .nav-menu > ul > li > a:before, .close img, .close-item img, .nav-page-pagination.fixed-nav li span, .tumbs-item .slide-swich img { transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; -ms-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; }
 
-.bg, .service-layer { overflow: hidden; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: scroll; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; background-size: cover; backface-visibility: hidden; }
+.bg, .service-layer { overflow: hidden; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: scroll; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; backface-visibility: hidden; }
 .bg.fix, .fix.service-layer { background-attachment: fixed; }
 
 .vertical-align, .search-panel.popup .close, .amount-wrap .val, .inside-img img, .skill-line { -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); top: 50%; position: absolute; }
@@ -1922,7 +1921,8 @@ nav li { position: relative; }
 .project-item-2 .layer { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; display: block; z-index: 5; opacity: 0; background: rgba(77, 77, 78, 0.7); backface-visibility: hidden; }
 .project-item-2 .bg, .project-item-2 .service-layer { -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -ms-transition: all 0.25s ease-out; transition: all 0.25s ease-out; }
 .project-item-2 .main-img { max-width: 100%; height: auto; }
-
+.project-image-bg { position: relative; padding: 100px 0px; }
+.product-words { text-align: center; color: white; }
 .slider-list-container { position: relative; width: 100%; display: inline-block; }
 
 .slider-list-desc { position: absolute; left: 0px; top: 0px; width: 300px; height: 100%; padding: 20px 20px 0px 0px; background: #eceeeb; z-index: 5; font-size: 0px; }
@@ -2136,7 +2136,8 @@ nav li { position: relative; }
   .price-item.year .price-value b { font-size: 50px; line-height: 60px; }
   .price-item.year .price-value { font-size: 20px; }
   .main-baner-align .service-desc .cell-view { display: block; } }
-@media (max-width: 480px) { .service-desc .simple-text p { padding-bottom: 15px; }
+@media (max-width: 480px) { 
+    .service-desc .simple-text p { padding-bottom: 15px; }
   .service-nav li { font-size: 16px; line-height: 36px; }
   .mobile-toggle-slide.service-toggle .slide-lidt-text { font-size: 16px; }
   .service-caption .title { font-size: 35px; }
@@ -2594,6 +2595,7 @@ nav li { position: relative; }
   .row.row-lg { margin-left: 0px; margin-right: 0px; }
   .single2-desc { padding: 30px; }
   .single2-desc.vertical-align, .search-panel.popup .single2-desc.close, .amount-wrap .single2-desc.val, .inside-img img.single2-desc, .single2-desc.skill-line { top: 66px; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); margin-top: 0px; padding: 60px 30px 30px 30px; } }
+
 @media (max-width: 768px) { .singl3-desc .title, .single2-desc .title { font-size: 30px; line-height: 40px; }
   .singl3-desc .simple-text p, .single2-desc .simple-text p { font-size: 12px; line-height: 20px; }
   .singl3-desc, .single2-desc { padding: 30px 15px; }
@@ -3659,7 +3661,8 @@ body.overflowh { overflow: hidden; }
 .all-project-title .title-h1 { padding-bottom: 30px; text-align: center; }
 .all-project-title .project-author { backface-visibility: hidden; }
 
-@media (max-width: 1400px) { .title-h1 { font-size: 50px; line-height: 56px; }
+@media (max-width: 1400px) { 
+	.title-h1 { font-size: 45px; line-height: 50px; }
   .right-navigation .menu-scrol { padding: 60px 10%; }
   .scroll-down-section { bottom: 85px; left: -8px; }
   .full-main-title { padding: 0px 60px; }
@@ -3674,7 +3677,8 @@ body.overflowh { overflow: hidden; }
   .full-contact-item p { font-size: 20px; line-height: 32px; }
   .contact-footer-link { bottom: 30px; } }
 @media (max-width: 1200px) { .full-about-item { padding: 0 30px; } }
-@media (max-width: 1024px) { .full-section { opacity: 1; visibility: visible; }
+@media (max-width: 1024px) { 
+	.full-section { opacity: 1; visibility: visible; }
   .full-project-item { opacity: 1; }
   .word-anime:before { width: 100%; }
   .home-section { min-height: 570px; }
