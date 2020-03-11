@@ -173,17 +173,14 @@
     <Content Include="img\LE\dwbowl-07.jpg" />
     <Content Include="img\LE\edteaching.jpg" />
     <Content Include="img\LE\fall-home-02.jpg" />
-    <Content Include="img\LE\fall-home.jpg" />
     <Content Include="img\LE\fall-install-01.jpg" />
     <Content Include="img\LE\fall-install-02.jpg" />
     <Content Include="img\LE\fall-install-03.jpg" />
     <Content Include="img\LE\fall-install-04.jpg" />
-    <Content Include="img\LE\fall-install-05.jpg" />
     <Content Include="img\LE\fall-install-06.jpg" />
     <Content Include="img\LE\fall-install-07.jpg" />
     <Content Include="img\LE\fall-install-08.jpg" />
     <Content Include="img\LE\fall-install-10.jpg" />
-    <Content Include="img\LE\falling-up.jpg" />
     <Content Include="img\LE\hand-form-ceramics.jpg" />
     <Content Include="img\LE\leaf-04.jpg" />
     <Content Include="img\LE\leaf-05.jpg" />
@@ -285,7 +282,6 @@
     <Content Include="js\jquery.mousewheel.min.js" />
     <Content Include="js\scrollreveal.min.js" />
     <Content Include="js\swiper.jquery.min.js" />
-    <Content Include="js\typed.min.js" />
     <Content Include="css\jquery.fullpage.min.css.map" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
