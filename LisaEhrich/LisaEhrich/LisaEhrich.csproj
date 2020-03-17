@@ -158,6 +158,9 @@
     <Content Include="img\LE\bio-studio.jpg" />
     <Content Include="img\LE\black-cloud-01.jpg" />
     <Content Include="img\LE\black-cloud-02.jpg" />
+    <Content Include="img\LE\black-cloud-10.jpg" />
+    <Content Include="img\LE\black-cloud-11.jpg" />
+    <Content Include="img\LE\black-cloud-12.jpg" />
     <Content Include="img\LE\black-cloud.jpg" />
     <Content Include="img\LE\ceramics-art.jpg" />
     <Content Include="img\LE\ceramics-master.jpg" />
