@@ -458,11 +458,12 @@ body.overflowh { overflow: hidden; }
 .signature { position: relative; float: right; padding: 30px 50px 0px 0px; }
 .signature img { margin-bottom: 25px; }
 .signature span { display: block; font-size: 16px; line-height: 16px; text-transform: uppercase; color: #fffefe; }
-.contact-item { position: relative; text-align: center; }
+.contact-item { position: relative; text-align: center; padding-top: 20px;}
 	.contact-item .title-h2 { font-size: 20px; line-height: 34px; color: #080e13; }
-contact-form-wrap { text-align: center; padding: 5px 5px 5px 5px ; }
+	.contact-item a { color: #bf360c; font-weight: 700; }
+.contact-form-wrap { text-align: center; padding: 5px 5px 5px 5px ; }
 .full-section.active { opacity: 1; visibility: visible; }
-.photo-size img{ text-align: center; width: 30%; height: 30%; }	
+.photo-size img{ text-align: center; width: 60%; height: auto; }	
 	/****************************************/
 	/*             MEDIA                   */
 	/***************************************/
