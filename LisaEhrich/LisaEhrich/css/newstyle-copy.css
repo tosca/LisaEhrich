@@ -357,7 +357,7 @@ nav li { position: relative; }
 /*--------------------------------------*/
 	.swiper-container .single2-slider { height: 100vh; }
 	.row.row-lg { margin-left: -25px; margin-right: -25px; height: 100%; }
-	.col { position: relative; padding: 0px 25px 50px; max-height: 1080px; height: 100%; float: left; }
+	.col { position: relative; padding: 0px 25px 70px; max-height: 1080px; height: 100%; float: left; }
 	.col-100 { width: 100%; }
 	.col-60 { width: 60%; }
 	.col-50 { width: 50%; }
@@ -438,17 +438,19 @@ body.overflowh { overflow: hidden; }
 .scroll-down-section { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-size: 14px; line-height: 14px; color: rgba(255, 255, 255, 0.5); width: auto; position: absolute; left: 40px; bottom: 130px; cursor: pointer; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .scroll-down-section:hover { color: #fff; }
 /* ----- [ Exhibit-section ] -----*/
-.exhibit-container { position: relative; width: 100%; height: auto; padding: 0px; overflow-y: visible; }
-.exhibit-wrap { position: relative; display: inline-block; width: 100%; margin-bottom: 1px; background-color: #171c1e;}
-.exhibit-desc { background: rgba(127, 127, 127, 0.40); max-width: 800px; padding: 16px; top: 1%; right: 1%; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; } .exhibit-desc .artist { display: block; text-align: right; }
+.exhibit-container { position: relative; width: 100%; height: 100%; padding: 0px; overflow-y: visible; }
+.exhibit-wrap { position: relative; display: inline-block; width: 100%; padding-bottom: 50px; margin-bottom: 1px; background-color: #171c1e;}
+.exhibit-desc { background: rgba(127, 127, 127, 0.40); max-width: 800px; padding: 14px; top: 1%; right: 2%; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; } .exhibit-desc .artist { display: block; text-align: right; }
 .exhibit-desc .title { font-size: 24px; line-height: 24px; display: block; text-align: right; }
 .exhibit-desc .sub-title { font-size: 18px; text-align: right; padding-bottom: 7px; }
 .property { text-align: right; margin-bottom: 1%; font-size: 44px; }
 .margin-60 { margin: 60px 0px; }
 .artist { font-size: 16px; line-height: 24px; }
-.exhibit-showcase { position: relative; margin: 0; padding: 0; text-align: left; }
-.exhibit-image.wide .bg { width: 100%; height: 700px; max-height: 1080px; background-size: contain; }
-.exhibit-image .bg { position: relative; display: inline-block; width: 100%; height: 750px; max-height: 1080px; background-size: contain; }
+.exhibit-showcase { position: relative; margin: 0; padding-top: 95px; text-align: left; }
+.exhibit-image.wide { width: 100%; height: 700px; background-size: contain; }
+.exhibit-image.one-third { width: 100%; height: 400px; background-size: contain; }
+
+.exhibit-image { position: relative; display: inline-block; width: 100%; height: 750px; max-height: 1080px; background-size: contain; }
 .exhibit-size { display: block; font-size: 18px; text-align: right; }
 /*----- [end- Exhibit Section] ------*/
 .home-layer.bg { opacity: 0.7; left: 0px; bottom: 0px; background-size: cover; background-position: 50% 50%; }
@@ -497,9 +499,10 @@ body.overflowh { overflow: hidden; }
 		.about-section { min-height: 1024px; padding: 0px; }
 		.full-main-title { position: absolute; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); padding: 0px 30px; }
 		.title-h1 { font-size: 34px; line-height: 44px; }
-		/*.scroll-down-section { display: none; }*/
+		.scroll-down-section { display: none; }
 		.open-all-project { display: none; }
 		.exhibit-item { opacity: 1; }
+		.exhibit-image .one-third { height: 300px; }
 		/*	.exhibit-item.right-style .project-author { margin-right: 15px; }
 			.exhibit-item .project-author { padding-left: 15px; }
 		*/
@@ -540,6 +543,9 @@ body.overflowh { overflow: hidden; }
 		.main-baner-align .cell-view { display: block; width: 100%; }
 		.property { font-size: 50px; line-height: 50px; } 
 		.service-desc .simple-text img { max-height: 330px; }
+		.exhibit-image .wide { max-width: 100%; height: 600px; }
+		.exhibit-image { height: 700px; }
+		
 	}
 
 	/* Small devices (landscape phones, less than 768px)*/
@@ -560,7 +566,9 @@ body.overflowh { overflow: hidden; }
 		.col-60, .col-50, .col-40, .col-30 { width: 100%; }*/
 		.service-desc .col-50 { width: 50%; }
 		.exhibit-image.wide { max-width: 100%; height: 400px; }
-	/*	.exhibit-showcase .exhibit-image { position: relative; display: block; width: 300px; height: 450px; margin: 20% 0px 0px 0px ; }
+		.exhibit-image { height: 500px; } 
+		
+		/*	.exhibit-showcase .exhibit-image { position: relative; display: block; width: 300px; height: 450px; margin: 20% 0px 0px 0px ; }
 		*/
 		.property { font-size: 30px; line-height: 40px; }
 	}
@@ -577,6 +585,7 @@ body.overflowh { overflow: hidden; }
 		.col { padding: 6px; }
 		.close-nav-bar.type-2 { top: 80px; margin: 0px; }
 		.single2-desc, .single2-desc.close, .inside-img img.single2-desc { padding: 0px 15px; max-width: 70%; }
+		.single2-slider { height: 550px; }
 		.single-title .title { font-size: 20px; line-height: 24px; }
 		.simple-text.sm p { font-size: 13px; line-height: 18px; }
 		.single-title .simple-text { padding-bottom: 20px; }
@@ -586,18 +595,20 @@ body.overflowh { overflow: hidden; }
 		.full-project-item { padding-bottom: 50px; }
 		.full-about-item { padding: 0px 20px;  }
 			.full-about-item p { font-size: 16px; line-height: 20px;}
+		.exhibit-showcase .exhibit-image { position: relative; display: block; margin: 1% 0px; }
+		.exhibit-image{ height: 350px;}
+			.exhibit-image.one-third { height: 300px; }
 		.exhibit-image.wide { height: 250px; }
-		.col-50 .exhibit-image, .col-40 .exhibit-image { height: 250px; }
+		.col-50 .exhibit-image, .col-40 .exhibit-image { height: 350px; }
 		.col-60 .exhibit-image { height: 200px; }
 		.col-30 .exhibit-image { height: 170px; }
-		/*.exhibit-showcase .exhibit-image { position: relative; display: block; width: 330px; height: 250px; margin: 3% 0px; }
-*/
+		
 	@media (max-width: 480px) {
 		.right-navigation .menu-scrol { padding: 18px 40px 18px 10px; }
 			.right-navigation .menu-scrol li { margin: 0px 5px; }
 				.right-navigation .menu-scrol li a { font-size: 14px; line-height: 20px; }
 		.title-h1 { font-size: 28px; line-height: 36px; }
-		.single2-slider { height: 650px; }
+		
 		.service-desc .simple-text p { padding-bottom: 15px; }
 		.service-nav li { font-size: 16px; line-height: 36px; }
 		.mobile-toggle-slide.service-toggle .slide-lidt-text { font-size: 16px; }
