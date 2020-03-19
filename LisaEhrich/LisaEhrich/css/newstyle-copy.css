@@ -357,7 +357,7 @@ nav li { position: relative; }
 /*--------------------------------------*/
 	.swiper-container .single2-slider { height: 100vh; }
 	.row.row-lg { margin-left: -25px; margin-right: -25px; height: 100%; }
-	.col { position: relative; padding: 0px 25px 70px; max-height: 1080px; height: 100%; float: left; }
+	.col { position: relative; padding: 0px 25px 60px; max-height: 1080px; height: 100%; float: left; }
 	.col-100 { width: 100%; }
 	.col-60 { width: 60%; }
 	.col-50 { width: 50%; }
@@ -434,7 +434,7 @@ body.overflowh { overflow: hidden; }
 	.wrapper-full-scroll { padding-top: 66px; }
 }
 .full-section-wrap.wrapper-full-scroll { padding-top: 0px; }
-.title-h1 { font-size: 56px; line-height: 70px; text-align: left; color: #fff; letter-spacing: 1.2px; }
+.title-h1 { font-size: 46px; line-height: 54px; text-align: left; color: #fff; letter-spacing: 1.2px; }
 .scroll-down-section { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-size: 14px; line-height: 14px; color: rgba(255, 255, 255, 0.5); width: auto; position: absolute; left: 40px; bottom: 130px; cursor: pointer; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 .scroll-down-section:hover { color: #fff; }
 /* ----- [ Exhibit-section ] -----*/
@@ -447,13 +447,12 @@ body.overflowh { overflow: hidden; }
 .margin-60 { margin: 60px 0px; }
 .artist { font-size: 16px; line-height: 24px; }
 .exhibit-showcase { position: relative; margin: 0; padding-top: 95px; text-align: left; }
-.exhibit-image.wide { width: 100%; height: 700px; background-size: contain; }
-.exhibit-image.one-third { width: 100%; height: 400px; background-size: contain; }
-
-.exhibit-image { position: relative; display: inline-block; width: 100%; height: 750px; max-height: 1080px; background-size: contain; }
+.exhibit-image.wide { width: 80%; height: 800px; }
+.exhibit-image.one-third {height: 600px; }
+.exhibit-image { position: relative; display: inline-block; width: 80%; height: 800px; max-height: 1080px; }
 .exhibit-size { display: block; font-size: 18px; text-align: right; }
 /*----- [end- Exhibit Section] ------*/
-.home-layer.bg { opacity: 0.7; left: 0px; bottom: 0px; background-size: cover; background-position: 50% 50%; }
+.home-layer.bg { opacity: 0.7; left: 0px; bottom: 0px; }
 .about-layer.bg, .bio-layer.bg { opacity: 0.6; background-size: cover; left: 0px; bottom: 0px; background-position: 50% 50%; }
 .full-about-item { position: absolute; width: 100%; display: block; margin: 0 auto; padding: 0px 60px 0px 120px; }
 .full-about-item p { font-size: 24px; line-height: 30px; color: #423c3c; padding: 10px 50px; font-family: 'Quicksand', sans-serif; }
@@ -495,10 +494,8 @@ body.overflowh { overflow: hidden; }
 	/* Medium landscape devices (tablets, less than 1024px)*/
 	@media (max-width: 1024px) {
 		.full-section { opacity: 1; visibility: visible; min-height: 100vh; }
-		.home-section { min-height: 1024px; }
 		.about-section { min-height: 1024px; padding: 0px; }
-		.full-main-title { position: absolute; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); padding: 0px 30px; }
-		.title-h1 { font-size: 34px; line-height: 44px; }
+		.full-main-title { position: absolute; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); padding: 0px 40px; }	
 		.scroll-down-section { display: none; }
 		.open-all-project { display: none; }
 		.exhibit-item { opacity: 1; }
@@ -580,6 +577,8 @@ body.overflowh { overflow: hidden; }
 		.header.right-style .burger { right: 5px; }
 		.burger i { display: block; }
 		.burger.active { -webkit-transform: translateX(235px) translateY(0%); -moz-transform: translateX(235px) translateY(0%); -ms-transform: translateX(235px) translateY(0%); transform: translateX(235px) translateY(0%); }
+		.full-main-title { padding: 70px 30px 0px 30px; }
+		.title-h1 { font-size: 26px; line-height: 34px; }
 		.artist { font-size: 15px; line-height: 18px; letter-spacing: inherit; }
 		.project-image-bg { padding: 50px 0 20px; }
 		.col { padding: 6px; }
@@ -607,7 +606,6 @@ body.overflowh { overflow: hidden; }
 		.right-navigation .menu-scrol { padding: 18px 40px 18px 10px; }
 			.right-navigation .menu-scrol li { margin: 0px 5px; }
 				.right-navigation .menu-scrol li a { font-size: 14px; line-height: 20px; }
-		.title-h1 { font-size: 28px; line-height: 36px; }
 		
 		.service-desc .simple-text p { padding-bottom: 15px; }
 		.service-nav li { font-size: 16px; line-height: 36px; }
