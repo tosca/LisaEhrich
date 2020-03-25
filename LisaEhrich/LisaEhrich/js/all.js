@@ -38,8 +38,8 @@ jQuery(function($) {
 	function pageCalculations(){
 		winW = $(window).width();
 		winH = $(window).height();
-        offsetScroll = ($('.single-title').innerHeight()-$('header').height()) + 'px';
-        fullPageHeight = parseInt((winH - $('.header').height()),10);        
+        offsetScroll = $('.single-title').innerHeight()-$('header').height() + 'px';
+        fullPageHeight = parseInt(winH - $('.header').height()),10;        
 	}
 	pageCalculations();
 					
@@ -158,7 +158,7 @@ jQuery(function($) {
                                 slider_swiching.find('.slide-swich').eq(activeIndex).addClass('active');
                         }
 					if($t.closest('.single2-slider').length){
-                        $('.main-content').addClass('open-panel');
+                        $('.exhibit-wrap').addClass('open-panel');
                         $('.close-nav-bar').addClass('active');
 					}  	
 				}
