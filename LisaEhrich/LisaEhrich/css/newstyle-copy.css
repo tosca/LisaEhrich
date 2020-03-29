@@ -342,7 +342,7 @@ nav li { position: relative; }
 	.single2-slider { padding: 0px 0px 0px 120px; -webkit-transition: all 0.35s ease-out; -moz-transition: all 0.35s ease-out; transition: all 0.35s ease-out; }
 	/*.single-desc { z-index: 5; color: #fff; position: absolute; }
 		.single-desc .folow span { font-size: 12px; font-weight: 700; color: rgba(255, 255, 255, 0.3); letter-spacing: 1.4px; text-transform: uppercase; }
-	*/.single2-desc { background: rgba(127, 127, 127, 0.40); padding: 30px; width:40%; color: #fff; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
+	*/.single2-desc { background: rgba(127, 127, 127, 0.40); padding: 30px; width:45%; color: #fff; -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
 		.single2-desc .title { font-size: 60px; line-height: 60px; display: block; min-width: 607px; padding-bottom: 20px; }
 		.single2-desc .simple-text { padding-bottom: 25px; }
 	.project-author { color: #fff; font-size: 16px; line-height: 20px; display: block; margin-bottom: 20px; }
@@ -423,7 +423,8 @@ full-section {-webkit-overflow-scrolling: touch; -ms-overflow-style: none; }
 .margin-60 { margin: 60px 0px; }
 .artist { font-size: 16px; line-height: 24px; }
 .exhibit-showcase { position: relative; margin-top: -20%; text-align: right; }
-.exhibit-image, .exhibit-image-wide { position: relative; display: inline-block; width: 80%; }
+.exhibit-image img, .exhibit-image-wide img { position: relative; display: inline-block; width: 90%; text-align: right; }
+
 .exhibit-size { display: block; font-size: 18px; text-align: left; }
 .home-layer.bg { opacity: 0.7; left: 0px; bottom: 0px; }
 .about-layer.bg, .bio-layer.bg { opacity: 0.6; background-size: cover; left: 0px; bottom: 0px; background-position: 50% 50%; }
@@ -540,7 +541,7 @@ full-section {-webkit-overflow-scrolling: touch; -ms-overflow-style: none; }
 		.artist { font-size: 15px; line-height: 18px; letter-spacing: inherit; }
 		.col { padding: 6px; }
 		.close-nav-bar.type-2 { top: 80px; margin: 0px; }
-		.single2-desc, .single2-desc.close { padding: 13px; max-width: 80%; }
+		.single2-desc, .single2-desc.close { padding: 13px; width: 80%; }
 		.single2-slider { height: 550px; }
 		.single-title .title { font-size: 20px; line-height: 24px; }
 		.simple-text.sm p { font-size: 13px; line-height: 18px; }
