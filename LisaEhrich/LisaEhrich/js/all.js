@@ -158,7 +158,7 @@ jQuery(function($) {
                                 slider_swiching.find('.slide-swich').eq(activeIndex).addClass('active');
                         }
 					if($t.closest('.single2-slider').length){
-                        $('.exhibit-wrap').addClass('open-panel');
+                        $('.main-content').addClass('open-panel');
                         $('.close-nav-bar').addClass('active');
 					}  	
 				}
@@ -348,7 +348,7 @@ jQuery(function($) {
 	
     /*============================*/
 	/* 07 - POPUPS */
-	/*============================*/
+	/*============================
 					
     $('.open-panel').on('click', function(){
         var relPopup = $(this).attr('data-rel');
@@ -376,7 +376,7 @@ jQuery(function($) {
          $('body, html').removeClass('full-h');
         },510);
 	});
-		
+	*/	
                     
     /*============================*/
 	/* 08 - FULLPAGE PLUGIN  */
@@ -878,7 +878,7 @@ jQuery(function($) {
               
 	/*============================*/
 	/* 21 - CUSTOME SELECT  */
-	/*============================*/
+	/*============================
 					
 	$('.drop-down-text').on('click', function(){
         if ($(this).parent().hasClass('act')){
@@ -897,10 +897,10 @@ jQuery(function($) {
 		$(this).closest('.drop-down').find('.drop-down-text').removeClass('act');
 		$(this).parent().slideUp(300);
 	});				
-		
+	*/	
 	/*============================*/
 	/* 22 - POSTER 3D HOVER  */
-	/*============================*/
+	/*============================
 	
 	if ($(window).width()>1200){				
 		var $poster = $('.poster'),
@@ -934,10 +934,10 @@ jQuery(function($) {
              $(this).css('transform', 'translateY(0) rotateX(0) rotateY(0)'); 
 		});	
 	}
-                    
+     */               
      /*============================*/
         /* 23 - GOOGLE MAPS  */
-      /*============================*/
+      /*============================
 
      var marker = [], infowindow = [], map, image = $('.map-wrapper').attr('data-marker');
 
@@ -1011,7 +1011,7 @@ jQuery(function($) {
 			addMarker(mark_locat,mark_name,mark_str);	
 		});
 	 }
-               
+      */         
     /*============================*/
     /* 24 - FULL PAGE SCROLL  */
     /*============================*/
